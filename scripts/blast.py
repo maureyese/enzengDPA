@@ -331,6 +331,7 @@ def convert_blast_xml_to_pd(
 
 def export_blast_results_to_fasta(
         rid:str,
+        query_id:str,
         df: pd.DataFrame,
         export_folder:str = "files/"
 ) -> None:
@@ -344,7 +345,7 @@ def export_blast_results_to_fasta(
         with open(output_filename, 'w') as fasta_file:
             # Get the template sequence
             template = df['Query_seq'].iloc(0)
-            fasta_file.write(f">{rid}\n")
+            fasta_file.write(f">{query_id}\n")
             fasta_file.write(f"{template}\n")
 
             for index, row in df.iterrows():
@@ -363,6 +364,10 @@ def export_blast_results_to_fasta(
         print(f"Error: Missing required column in DataFrame: {e}")
     except Exception as e:
         print(f"Error exporting BLAST results: {e}")
+
+# ------------------------
+# Testing functions
+# ------------------------
 
 if __name__ == "__main__":
     sequence_id = "msslkgkrigfgltgshctyeavfpqievlvnegaevrpvvtfnvkstntrfgegaewvkkieeltgyeaidsivkaeplgpklpldcmviapltgnsmsklanamtdspvlmaakatirnnrpvvlgistndalglngtnlmrlmstkniffipfgqddpfkkpnsmvakmdllpqtiekalmhqqlqpilvenyqgnd"
@@ -383,8 +388,8 @@ if __name__ == "__main__":
     # Try getting XML results from RID
     rid, xml_results = get_blast_results(rid=rid)
     # Convert results to DataFrame
-    blast_df = convert_blast_xml_to_pd(xml_results=xml_results, rid=rid)
+    blast_df = convert_blast_xml_to_pd(xml_results=xml_results, rid=rid, export=True)
     # Export BLAST results as FASTA file
-    #export_blast_results_to_fasta(blast_df)
+    #export_blast_results_to_fasta(rid=rid, query_id="SPY12701.1", df=blast_df)
 
 # END

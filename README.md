@@ -15,16 +15,16 @@ We worked using VS Code, along with the WSL extension (Ubuntu 22.04) as our deve
 ```mermaid
 graph TD
 
-A[Basic information from DPA synthase] --> B[Separate sequences by subunits (A & B)]
-B --> C[Retrieve similar sequences using BLAST (100 per subunit)]
-C --> D[Multiple Sequence Alignment (MSA) for A and B]
-D --> E[Identify Conserved Residues & Functional Domains (Clustal-O & InterProScan)]
+A[Basic information from DPA synthase] --> B[Separate sequences by subunits A & B]
+B --> C[Retrieve similar sequences using BLAST 100 per subunit]
+C --> D[Multiple Sequence Alignment MSA for A and B]
+D --> E[Identify Conserved Residues & Functional Domains using Clustal-O & InterProScan]
 E --> F[Predict A-B Complex Structure using AlphaFold and Rosetta]
 F --> G[Prepare DPA/Substrate Ligand Structure]
-G --> H[Targeted Protein-Ligand Docking (e.g., Vina/DiffDock)]
+G --> H[Targeted Protein-Ligand Docking using Autodock Vina and DiffDock]
 F --> H
 H --> I[Analyze Docking Poses & Conserved Residues in Binding Site]
-I --> J{Final Mutagenesis Target List (Conserved, Proximal, Catalytically Relevant)}
+I --> J{Final Mutagenesis Target List, Conserved, Proximal, Catalytically Relevant}
 ```
 
 ## Activity 1: Identify available functional and annotated metadata
@@ -53,7 +53,12 @@ We accessed to NCBI and identified template sequences of subunit A (GenBank: SPY
 
 ## Activity 3: Multiple Sequence Alignment (MSA) and InterProScan
 
-A MSA was performed separately for each subunit by aligning the _B. subtilis_ template sequence with the respective 100 homologous sequences retrieved via BLAST. This analysis aims to identify potential conserved regions and functionally critical residues.
+A MSA through Clustal-Omega was performed separately for each subunit by aligning the _B. subtilis_ template sequence with the respective 100 homologous sequences retrieved via BLAST.This analysis aims to identify potential conserved regions and functionally critical residues. We installed Clustal-Omega using the following commands:
+
+```shell
+sudo apt-get update
+sudo apt-get install clustalo
+```
 
 TODO: Add image
 
