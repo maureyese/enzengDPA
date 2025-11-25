@@ -27,6 +27,15 @@ H --> I[Analyze Docking Poses & Conserved Residues in Binding Site]
 I --> J{Final Mutagenesis Target List, Conserved, Proximal, Catalytically Relevant}
 ```
 
+1. Retrieve similar sequences using BLAST (100 per subunit)
+2. Multiple Sequence Alignment MSA for A and B
+3. Identify Conserved Residues & Functional Domains using Clustal-O & InterProScan
+4. Predict A-B Complex Structure using AlphaFold and Rosetta
+5. Prepare DPA/Substrate Ligand Structure
+6. Targeted Protein-Ligand Docking using Autodock Vina and DiffDock
+7. Analyze Docking Poses & Conserved Residues in Binding Site
+8. Final Mutagenesis Target List (Conserved, Proximal, Catalytically Relevant)
+
 ## Activity 1: Identify available functional and annotated metadata
 
 We accessed to enzymatic-related databases to retrieve all available information regarding DPA synthase (IUBMB, Rhea, BRENDA, UniProt, PDB). We first identified general metadata of the enzyme for later search:

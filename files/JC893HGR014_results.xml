@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_cluster_seq</BlastOutput_db>
+  <BlastOutput_query-ID>SPY12701.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>dipicolinate synthase subunit A [Bacillus subtilis]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>SPY12701.1</Iteration_query-ID>
+  <Iteration_query-def>dipicolinate synthase subunit A [Bacillus subtilis]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_333517570.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. 0102A]</Hit_def>
+  <Hit_accession>WP_333517570</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.882</Hsp_bit-score>
+      <Hsp_score>1522</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>295</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLKIAVIGGDARQLEIIRKLTEQEADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSVILPVSATTGEGVVSTVFSNEEVVLKQEHLDKTPAHCVIFSGISNAYLENIAAQANRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEYVKDIDICINTIPSMILNQKVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAELQAEEGK</Hsp_hseq>
+      <Hsp_midline>MLTGLKIAVIGGDARQLEIIRKLTEQ+ADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDS+ILPVSATTGEGVVSTVFSNEEVVLKQ+H+D+TPAHCVIFSGISNAYLENIAAQA RKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKE+VKDIDICINTIPSMILNQ VLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE+QAEEGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_277780810.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus atrophaeus]</Hit_def>
+  <Hit_accession>WP_277780810</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQ</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAIIGGDARQLEIIRKLTEQQANIYLVGFDQLDHGFTGAVKCKIDEIAFQQIDSIILPVSATTGEGVVATVFSNEEVVLKQEHLEQTPAHCVIYSGISNTYLEKIATEAKRKLVKLFERDDIAIFNSIPTVEGTIMMAIQHTDYTIHGSRVAVLGLGRTGMTIARTFAALGAKVKVGARSSAHLARISEMGLAPFQIDELTENVKDIDICINTVPSMILNQAVLSRMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLSELQ</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQQA+IYLVGFDQLDHGFTGAVKC IDEI FQQIDSIILPVSATTGEGVV+TVFSNEEVVLKQ+H+++TPAHCVI+SGISN YLE IA +AKRKLVKLFERDDIAI+NSIPTVEGTIM+AIQHTDYTIHGS+VAVLGLGRTGMTIARTFAALGA VKVGARSSAHLARI+EMGL PF  DEL E+VKDIDICINT+PSMILNQ VLS MTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL+E+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_264254933.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_264254933</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.168</Hsp_bit-score>
+      <Hsp_score>1354</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAIIGGDARQLEIIRKLTEQHADIYLAGFDQLDDGFTGTVKCKIDEIPFQKIDSIILPVSATTGEGVVSTVFSNEEVVLKQSYLERTPEHCVIYSGISNAYLEGIASEAGRKLVKLFERDDIAIFNSIPTVEGTIMMAIQHTDYTIHGSNVAVLGMGRTGMTIARTFAALGAKVKVGARSSAHLARISEMGLSPFQLEELTDHVNDIDICINTVPSSILNQSVLSRMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQIIANVLSKLLADLK-KEGK</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQ ADIYL GFDQLD GFTG VKC IDEIPFQ+IDSIILPVSATTGEGVVSTVFSNEEVVLKQ +++RTP HCVI+SGISNAYLE IA++A RKLVKLFERDDIAI+NSIPTVEGTIM+AIQHTDYTIHGS VAVLG+GRTGMTIARTFAALGA VKVGARSSAHLARI+EMGL PF  +EL +HV DIDICINT+PS ILNQ+VLS MTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQI+ANVLSKLLA+++ +EGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_243940340.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Bacillus]</Hit_def>
+  <Hit_accession>WP_243940340</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>6.02692e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAIIGGDARQLEIIRKLTEQDAKVFLIGFDQLDHGFTGATKLKLNELDFGTIDSIILPVSGTSMEGTVATVFSNEKVVLKQEHLEKTPPHCTIYSGISNQYLDGMAKGANRRLVKLFERDDIAIYNSIPTVEGAIMMAIQHTDFTIHGSNVMVLGLGRTGMSISRTFSALGARVKVGARDSAHLARIMEMGLTPFHTNELAEHVENIDICINTIPSLILDKHVLSRMTPRTLILDLATRPGGTDFDFAEKQGIKALLAPGLPGIVAPKTAGQIIANVLCNLLTELTTDR</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQ A ++L+GFDQLDHGFTGA K  ++E+ F  IDSIILPVS T+ EG V+TVFSNE+VVLKQ+H+++TP HC I+SGISN YL+ +A  A R+LVKLFERDDIAIYNSIPTVEG IM+AIQHTD+TIHGS V VLGLGRTGM+I+RTF+ALGA VKVGAR SAHLARI EMGL PFHT+EL EHV++IDICINTIPS+IL++ VLS MTP+TLILDLA+RPGGTDF +AEKQGIKALLAPGLPGIVAPKTAGQI+ANVL  LL E+  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_048354663.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus glycinifermentans]</Hit_def>
+  <Hit_accession>WP_048354663</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>1.2029e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAIIGGDARQLEIIRKLTEQDAQVFLVGFDQLDHGFTGATKLKLSELDFGAVDSIVLPVSGTSADGAVATVFSNEEVVLKQEHLEKTKPHCTIYSGISNDYLEGIAKGSNRRLIKLFERDDIAIYNSIPTVEGAIMMAIQHTDYTIHGSNVMVLGLGRTGMSISRAFSALGARVKVGARASAHLARIMEMGLTPFHIHELGEHVEDTDICINTIPSLILDHAVLSRMTPRTLILDLATRPGGTDFEFAEKQGIKALLAPGLPGIVAPKTAGQIIANVLCNLLS</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQ A ++LVGFDQLDHGFTGA K  + E+ F  +DSI+LPVS T+ +G V+TVFSNEEVVLKQ+H+++T  HC I+SGISN YLE IA  + R+L+KLFERDDIAIYNSIPTVEG IM+AIQHTDYTIHGS V VLGLGRTGM+I+R F+ALGA VKVGAR+SAHLARI EMGL PFH  EL EHV+D DICINTIPS+IL+  VLS MTP+TLILDLA+RPGGTDF++AEKQGIKALLAPGLPGIVAPKTAGQI+ANVL  LL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_172294939.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. WMMC1349]</Hit_def>
+  <Hit_accession>WP_172294939</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>9.20118e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIALIGGDARQLEIIRKLTEQEAKVFLVGFDQLDHGFTGATKCKLNELDFGVIDSIILPVSGTAADGSVATVFSNEKVILTQHDVEKTKPNCTIYSGISNDYLDGIAKGANRSLIKLMERDDIAIYNSIPTVEGTIMMAIQHTDYTIHGSNIMVLGLGRTGMSISRAFSALGAHVKVGARDSAHLARITEMGLTPFHISQLGEHVENTDICINTIPSLILNRTVLSRMTPRTLILDLATRPGGTDFDYAEKQGIKALLAPGLPGIVAPKTAGQIIANVLCHLLSQ</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQ+A ++LVGFDQLDHGFTGA KC ++E+ F  IDSIILPVS T  +G V+TVFSNE+V+L Q  +++T  +C I+SGISN YL+ IA  A R L+KL ERDDIAIYNSIPTVEGTIM+AIQHTDYTIHGS + VLGLGRTGM+I+R F+ALGA+VKVGAR SAHLARITEMGL PFH  +L EHV++ DICINTIPS+ILN+TVLS MTP+TLILDLA+RPGGTDF YAEKQGIKALLAPGLPGIVAPKTAGQI+ANVL  LL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ASB89561.1|</Hit_id>
+  <Hit_def>Dipicolinate synthase subunit [Bacillus sonorensis]</Hit_def>
+  <Hit_accession>ASB89561</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>1.63584e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAIIGGDARQLEIIRKLTEQEANVFLVGFDQLDHGFTGATKLKLSELDFGAVDSIVLPVSGTSAEGAVATVFSNEEVVLKQKHLEKTKPQCTIYTGISNDYLEGMAKGAGRRLVKLFERDDIAIYNSIPTVEGAIMMAIQHTDYTIHGSNVMVLGLGRTGMSISRAFSALGARVKVGARDSAHLARIMEMGLTPFHINELGEHVEDTDICINTIPSLILDHNVLSRMTPRALILDLATRPGGTDFGFAEKQGIKALLAPGLPGIVAPKTAGQIIANVLCKLL</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLEIIRKLTEQ+A+++LVGFDQLDHGFTGA K  + E+ F  +DSI+LPVS T+ EG V+TVFSNEEVVLKQ H+++T   C I++GISN YLE +A  A R+LVKLFERDDIAIYNSIPTVEG IM+AIQHTDYTIHGS V VLGLGRTGM+I+R F+ALGA VKVGAR SAHLARI EMGL PFH +EL EHV+D DICINTIPS+IL+  VLS MTP+ LILDLA+RPGGTDF +AEKQGIKALLAPGLPGIVAPKTAGQI+ANVL KLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_144521465.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus pumilus]</Hit_def>
+  <Hit_accession>WP_144521465</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>4.62827e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MMSGLTVAVIGGDARQLEIIRKLSQQHAKVFLVGFDQLDHGFIGAEKLKMSELPFEQVDSMILPVSGATDEGVVATVFSNEQVLLEATYLERTPAHCTLYSGISNTYLDNLAKQVNRKLVKLFERDDIAIYNSIPTVEGIIMMAIQQTDYTIHGSRVAVLGLGRTGLTIARTFRALGADVKVGAADTAHLARAFEMGLDPFSMDQLKEEVTDVDIVINTIPSLVLDSSVIVSMTPKTLILDIASRPGGTDFDFAQKHGVKALLAPGLPGIVAPKTAGQIIAKVLSGLLCELAEEK</Hsp_hseq>
+      <Hsp_midline>M++GL +AVIGGDARQLEIIRKL++Q A ++LVGFDQLDHGF GA K  + E+PF+Q+DS+ILPVS  T EGVV+TVFSNE+V+L+  +++RTPAHC ++SGISN YL+N+A Q  RKLVKLFERDDIAIYNSIPTVEG IM+AIQ TDYTIHGS+VAVLGLGRTG+TIARTF ALGA+VKVGA  +AHLAR  EMGL PF  D+LKE V D+DI INTIPS++L+ +V+ SMTPKTLILD+ASRPGGTDF +A+K G+KALLAPGLPGIVAPKTAGQI+A VLS LL E+  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_427301760.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. NPDC077027]</Hit_def>
+  <Hit_accession>WP_427301760</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.284</Hsp_bit-score>
+      <Hsp_score>1157</Hsp_score>
+      <Hsp_evalue>3.98061e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLSGLTIAVIGGDARQLEIIRKLSEQHAKVFLVGFDQLDHGFIGAEKLKMSEVAFEEVDSIILPVSATTDEGVVATVFSNEKVVLDPKYLERTPTNCILYSGISNPYLDNLSKKVNRKLVKLFERDDIAIYNSIPTVEGIIMMAIQQTDYTIHGSRVMVLGLGRTGLTIARTFSALGAKVKVGAEDTAHLARIFEMGLQPFSVEQLKDEVREIDIVINTIPSMVLNSSVIVHMTPKTLILDIASRPGGTDFDFAQKHGVKALLAPGLPGIVAPKTAGQIIAKVLSGLLSELAEEKRR</Hsp_hseq>
+      <Hsp_midline>ML+GL IAVIGGDARQLEIIRKL+EQ A ++LVGFDQLDHGF GA K  + E+ F+++DSIILPVSATT EGVV+TVFSNE+VVL   +++RTP +C+++SGISN YL+N++ +  RKLVKLFERDDIAIYNSIPTVEG IM+AIQ TDYTIHGS+V VLGLGRTG+TIARTF+ALGA VKVGA  +AHLARI EMGL PF  ++LK+ V++IDI INTIPSM+LN +V+  MTPKTLILD+ASRPGGTDF +A+K G+KALLAPGLPGIVAPKTAGQI+A VLS LL+E+  E+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_072580000.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus weihaiensis]</Hit_def>
+  <Hit_accession>WP_072580000</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.07973e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLTELDAKLSLVGFDQLDHGFTGATKVNIDEVQFEEVDSIILPIPGTDQEGTVDTVFSNIEVKLTEDLLMRTPDHCVIFSGITNDYLNNLVQNTNRKLIQLFNRDDVAIYNSIPTVEGTIMMVIQHTDITIHGSNVAVLGLGRVGMSVARTFASLGAKVKVGARDSAHLARITEMGLTPFHLSELEQESKDVDVCINTIPHLIVTSKVISNMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLEEVK-NEGK</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLTE  A + LVGFDQLDHGFTGA K NIDE+ F+++DSIILP+  T  EG V TVFSN EV L +D + RTP HCVIFSGI+N YL N+     RKL++LF RDD+AIYNSIPTVEGTIM+ IQHTD TIHGS VAVLGLGR GM++ARTFA+LGA VKVGAR SAHLARITEMGL PFH  EL++  KD+D+CINTIP +I+   V+S+M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL E++  EGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_119707586.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Robertmurraya sp.]</Hit_def>
+  <Hit_accession>WP_119707586</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>2.1636e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIVRKLTELDAKLSLIGFEQLDHAFTGAVKEKMDEVVFSDIDAIILPVAGTNMEGQVETIFSNEKVVLTAEHLEQTPEHCTIYSGISNAYLNKITGDSKRRLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSTIMVLGLGRVGMSVARTFSALGAKVKVGARKGEHIARITEMALTPFHLDELSQQVKDVDICINTIPDLVVTASVISRMPTHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLLDDMQSRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEI+RKLTE  A + L+GF+QLDH FTGAVK  +DE+ F  ID+IILPV+ T  EG V T+FSNE+VVL  +H+++TP HC I+SGISNAYL  I   +KR+LVKLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ARTF+ALGA VKVGAR   H+ARITEM L PFH DEL + VKD+DICINTIP +++  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL  ++Q+ +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_216773202.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus halosaccharovorans]</Hit_def>
+  <Hit_accession>WP_216773202</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>1.18846e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDTKLFLIGFDQLDHGFTGATKVKMDEVPFQEIDAIILPIPGTNQEGIVETVFSNEEVILTEELINQTPSHCTIYSGISNSYLDNLVQSTNKKLVQLFKRDDVAIYNSIPTVEGTLMMVIQHTDITIHGSSVSVLGLGRVGMSVARTFSALGAKVKVGARDTADLARITEMGLEPFHIDHLEDKVTDIDVCINTIPALIVTAKVISNMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLNELKID</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE    ++L+GFDQLDHGFTGA K  +DE+PFQ+ID+IILP+  T  EG+V TVFSNEEV+L ++ I++TP+HC I+SGISN+YL+N+     +KLV+LF+RDD+AIYNSIPTVEGT+M+ IQHTD TIHGS V+VLGLGR GM++ARTF+ALGA VKVGAR +A LARITEMGL PFH D L++ V DID+CINTIP++I+   V+S+M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL E++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_231309483.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus sp. B2-18]</Hit_def>
+  <Hit_accession>WP_231309483</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>2.67272e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDAKLLLIGFDQLDHGFTGATKVKIDEVQFNEIDAIILPIPGTNHEGVVDTVFSNEEVILSEELLEQTPSHCTIYSGISNSYLDNLVSATNRKLIQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSTIAVLGLGRVGMSVARTFNSLGAKVKVGARDTADLARITEMGLTPFHIDDIQREVKDIDVCINTIPSLLVTAKVISNMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKSAGQIVANVLSQLLGDLKID</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE  A + L+GFDQLDHGFTGA K  IDE+ F +ID+IILP+  T  EGVV TVFSNEEV+L ++ +++TP+HC I+SGISN+YL+N+ +   RKL++LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS +AVLGLGR GM++ARTF +LGA VKVGAR +A LARITEMGL PFH D+++  VKDID+CINTIPS+++   V+S+M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPK+AGQI+ANVLS+LL +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_053602850.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Bacillus]</Hit_def>
+  <Hit_accession>WP_053602850</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>4.30238e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLKVAIIGGDARQLEVIRKLTEQNASVYLIGFDQLDHGFTGATKVKINELKFGEMDCLILPVSATSLEGVVATVFSNEEVVLTKEMLDKTPPHCVVYSGISNNYLNTLTQSANRKLVQLFERDDVAIYNSIPTVEGILMMAIQHTDYTIHGSRVMVLGLGRIGMSIARTFSAIGAKVSVAANESAQLARITEMGLTPVHIKVLKDFIEPVDICINTIPAKVLDQKVLLRMTPKTLIIDVASQPGGTDFDFAEKQGIKALMAPGLPGIVAPKTAGKIIANVLSMLISGSIAE</Hsp_hseq>
+      <Hsp_midline>MLTGLK+A+IGGDARQLE+IRKLTEQ A +YL+GFDQLDHGFTGA K  I+E+ F ++D +ILPVSAT+ EGVV+TVFSNEEVVL ++ +D+TP HCV++SGISN YL  +   A RKLV+LFERDD+AIYNSIPTVEG +M+AIQHTDYTIHGS+V VLGLGR GM+IARTF+A+GA V V A  SA LARITEMGL P H   LK+ ++ +DICINTIP+ +L+Q VL  MTPKTLI+D+AS+PGGTDF +AEKQGIKAL+APGLPGIVAPKTAG+I+ANVLS L++   AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_003350139.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus methanolicus]</Hit_def>
+  <Hit_accession>WP_003350139</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>2.36288e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEG</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAIIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAIKEKMDEVDFSNIDSVILPVPGTSLEGQVETIFSNEKVFLTKENISKTPEHCTIYSGISNSYLNDITKQANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVAVLGLGRVGMSVARTFHVLGAKVKVGARRSEHIARITEMGLTPFHINEIQQAVKDIDICINTIPHLVVNASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANILAQLLKNDLQKRKG</Hsp_hseq>
+      <Hsp_midline>MLTG++IA+IGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA+K  +DE+ F  IDS+ILPV  T+ EG V T+FSNE+V L +++I +TP HC I+SGISN+YL +I  QA R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+VAVLGLGR GM++ARTF  LGA VKVGAR S H+ARITEMGL PFH +E+++ VKDIDICINTIP +++N +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILAN+L++LL  ++Q  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MGM9928810.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>MGM9928810</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>3.14123e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEVIRKLTEEDAKLSLIGFEQLDHAFSGAYKEKINEMDFSEIDAIILPVSATSLEGKVETIFSNERVVLTKELLSKTPPHCIVYSGISNAYLDDIVKQANRKLVKLFERDDVAIYNSIPTVEGTIMMAIQNTDFTIHGSNVAVLGLGRTGMSVARIFHLLGAKVKVGARKSAHLARITEMGMQPFHLDQLEQEVKNVDICINTVPFPIITAKVIAGMPPQTLILDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGRILSKVLSQLLHE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+IRKLTE+ A + L+GF+QLDH F+GA K  I+E+ F +ID+IILPVSAT+ EG V T+FSNE VVL ++ + +TP HC+++SGISNAYL++I  QA RKLVKLFERDD+AIYNSIPTVEGTIM+AIQ+TD+TIHGS VAVLGLGRTGM++AR F  LGA VKVGAR SAHLARITEMG+ PFH D+L++ VK++DICINT+P  I+   V++ M P+TLILDLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+IL+ VLS+LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_230495662.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Pseudoneobacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_230495662</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>5.45967e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLVGFEQLDHAFTGAVKEKVDEVDFSHVDSIILPVPGTNLEGHVETIFSNEKVVLIEEMLMKTPAHCTIYSGISNAYLTGITKKANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSRVTVLGLGRVGMSVARTFQALGAKVKVGARKSEHLARISEMALVPFHLNNLEAEVKDVDILINTIPTVIVNATVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLEDDLLSRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + LVGF+QLDH FTGAVK  +DE+ F  +DSIILPV  T  EG V T+FSNE+VVL ++ + +TPAHC I+SGISNAYL  I  +A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V VLGLGR GM++ARTF ALGA VKVGAR S HLARI+EM LVPFH + L+  VKD+DI INTIP++I+N TV+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL  ++ + +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_299090169.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [uncultured Metabacillus sp.]</Hit_def>
+  <Hit_accession>WP_299090169</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>6.22645e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEG</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDAKLFLIGFDQLDHGFTGATKAKIDEVIFKEIDAIILPIPGTNQEGIIETVFSNEEVKLTEDLVLQTPPHCVIYSGITNSYLDKLVQTTNRKLIQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSKIAVLGLGRVGMSVARTFSALGANVKVGARDTAHLARITEMGLTPFSLEHLKNEVKDIDVCINTIPHLIITAQVISSMPAHTLIVDLASKSGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIIANVLTQLLNDLLEGKG</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE  A ++L+GFDQLDHGFTGA K  IDE+ F++ID+IILP+  T  EG++ TVFSNEEV L +D + +TP HCVI+SGI+N+YL+ +     RKL++LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS++AVLGLGR GM++ARTF+ALGANVKVGAR +AHLARITEMGL PF  + LK  VKDID+CINTIP +I+   V+SSM   TLI+DLAS+ GGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL ++   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_377926974.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus salitolerans]</Hit_def>
+  <Hit_accession>WP_377926974</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>4.02942e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLHIAIIGGDARQLEVIRKLTDLDAKLSLIGFDQLDHGFTGASKEQLDEVDFSNVDSIILPVAGTNNEGEVDTIFSNEKVVLTEELLSNTPEHCVIYSGISNHYLDNLAEKIKRRLVKLFERDDVAIYNSIPTVEGTIMMVIQHTEFTIHNSNVAVLGMGRVGLSVARTFAALGANVKVGARKSEHIARIFEMGMKPFHLSHLESEIQDVDVCINTIPHHIVTASVISRMLPHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLSKLLRE</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLE+IRKLT+  A + L+GFDQLDHGFTGA K  +DE+ F  +DSIILPV+ T  EG V T+FSNE+VVL ++ +  TP HCVI+SGISN YL+N+A + KR+LVKLFERDD+AIYNSIPTVEGTIM+ IQHT++TIH S VAVLG+GR G+++ARTFAALGANVKVGAR S H+ARI EMG+ PFH   L+  ++D+D+CINTIP  I+  +V+S M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLSKLL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_050614827.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus testis]</Hit_def>
+  <Hit_accession>WP_050614827</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>4.59528e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAIIGGDARQLEVIKKLTEQDAKLSLAGFGQLDHAFSGAVKEKMDEIDFSEIDSIILPVSGTNTEGKVEAIFSNEDIMLTHDHLAATPAHCTVYSGISNAYLNEITKHSNRRLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVMVLGLGRTGMSVARTFRALGADVRVGVRKTEHIARITEMGMKPFHLDELVGKVKDIDICINTIPVAIVTAKVIASMPAHTLILDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIMAGVLTQLLQEDLEKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IA+IGGDARQLE+I+KLTEQ A + L GF QLDH F+GAVK  +DEI F +IDSIILPVS T  EG V  +FSNE+++L  DH+  TPAHC ++SGISNAYL  I   + R+LVKLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V VLGLGRTGM++ARTF ALGA+V+VG R + H+ARITEMG+ PFH DEL   VKDIDICINTIP  I+   V++SM   TLILDLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+A VL++LL E ++  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_307339820.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus malikii]</Hit_def>
+  <Hit_accession>WP_307339820</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>6.74165e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEI</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDAKLFLIGFDQLDHGFTGANKVKIDEIQFEELDAIILPIPGTNQEGLVDTVFSNEKIKLTEQQLKKTPSHCVVYSGISNSYLNTIIESSNRKLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSKVAVLGLGRVGMSVARAFSALGADVKVGARDSAHLARVTEMGLHPFPLEQLKDEVMDIDVCINTIPHQIITASVLSRMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKSAGQIIANVLSQLLNEL</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE  A ++L+GFDQLDHGFTGA K  IDEI F+++D+IILP+  T  EG+V TVFSNE++ L +  + +TP+HCV++SGISN+YL  I   + RKLV+LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS+VAVLGLGR GM++AR F+ALGA+VKVGAR SAHLAR+TEMGL PF  ++LK+ V DID+CINTIP  I+  +VLS M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPK+AGQI+ANVLS+LL E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_409974838.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. Bva_UNVM-123]</Hit_def>
+  <Hit_accession>WP_409974838</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.43681e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGVQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDYAFTGAVKEKIDEVEFENKDALILPVPGTSLDGQIETIFSNEKVFLRKEMLLETPAHCTIYSGITNSYLDSITKQTNRNLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDITIHGSTVTILGLGRVGMSVARTFAALGAKVKVGARRSEHLARITEMGLIPFHLDQLENEIKDADICINTIPSLIVTASVISKMPISTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQILANVLSQLIKENTKSERGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLD+ FTGAVK  IDE+ F+  D++ILPV  T+ +G + T+FSNE+V L+++ +  TPAHC I+SGI+N+YL++I  Q  R LVKLFERDD+AIYNSIPTVEGTIM+AIQHTD TIHGS V +LGLGR GM++ARTFAALGA VKVGAR S HLARITEMGL+PFH D+L+  +KD DICINTIPS+I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQILANVLS+L+ E  ++E GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_243289827.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. FJAT-47783]</Hit_def>
+  <Hit_accession>WP_243289827</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.64812e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLSIAVIGGDARQLEVIRKLVELDGKLYLVGFDQLDHGFTGATKANLDEVPFHEIDAIILPVPGTTIDGHVDTVFSNEEIVLSEDLIAQTPEHCSIFSGISNDYLDELVKKTKRSLTQLFDRDDIAIYNSIPTVEGTIMMVIQHTDFTIHNSNVAVLGLGRVGMSVARAFNNLGAHVKVGARKSKDLARITEMGLKPFHLNQLANEVKEVDVCINTIPHLIVTAQVISQMPPHTLIIDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGQILANVLAQLLSE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKL E    +YLVGFDQLDHGFTGA K N+DE+PF +ID+IILPV  TT +G V TVFSNEE+VL +D I +TP HC IFSGISN YL+ +  + KR L +LF+RDDIAIYNSIPTVEGTIM+ IQHTD+TIH S VAVLGLGR GM++AR F  LGA+VKVGAR S  LARITEMGL PFH ++L   VK++D+CINTIP +I+   V+S M P TLI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQILANVL++LL+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|MGM0873719.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillota bacterium]</Hit_def>
+  <Hit_accession>MGM0873719</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.99943e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDAKLFLIGFDQLDHGFTGATKVKIEDVQFEEIDAIILPIPGTNPEGLVDTVFSNEEVKLTEDLLIKTPPHCVIYSGISNSYLDNIVQSTNRNLIQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSKIAVLGLGRVGMSVARTFAALGAKVKVGARDTAHLARITEMGLTPFSLENIQDEVEEIDVCINTIPHLIITAKVISNMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLNELLIE</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE  A ++L+GFDQLDHGFTGA K  I+++ F++ID+IILP+  T  EG+V TVFSNEEV L +D + +TP HCVI+SGISN+YL+NI     R L++LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS++AVLGLGR GM++ARTFAALGA VKVGAR +AHLARITEMGL PF  + +++ V++ID+CINTIP +I+   V+S+M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL E+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_151572105.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus mesophilum]</Hit_def>
+  <Hit_accession>WP_151572105</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.17587e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAAKEKIDEVDFSHIDHIILPVAGTSLEGKVETIFSNEKVYLNQEILDQTPSHCTIYSGISNDYLTEITDKANRKLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSEITVLGLGRTGMSTARTFQALGAKVKVGARQSAHIARITEMGMTPFHMDDIEKAVANTDICINTIPHLVLTASVISKLPVHTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQILANVLTQLIGE</Hsp_hseq>
+      <Hsp_midline>MLTGL+IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  IDE+ F  ID IILPV+ T+ EG V T+FSNE+V L Q+ +D+TP+HC I+SGISN YL  I  +A RKLVKLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS++ VLGLGRTGM+ ARTF ALGA VKVGAR SAH+ARITEMG+ PFH D++++ V + DICINTIP ++L  +V+S +   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQILANVL++L+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_095298137.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Metabacillus]</Hit_def>
+  <Hit_accession>WP_095298137</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.44645e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVFGGDARQLEVIRKLTELDAKLYLIGFDQLDHGFTGANKVKIDEVQFQELDAIILPIPGTDLNGMIYTVFSNEEIKLTEDLLKNTPSHCVVYSGISNSYLDNMVQSSNRKLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSTIAVLGLGRVGMSVARALSALGAKVKVGARDLAHLARITEMGLTPFSLENIQDEVKDIDVCINTIPHMIITEKVLSNMPAHTLIVDLASKPGGTDFRFAEKRGIKALLAPSLPGIVAPKTAGQIIANVLTQLLSELLIE</Hsp_hseq>
+      <Hsp_midline>MLTGL +AV GGDARQLE+IRKLTE  A +YL+GFDQLDHGFTGA K  IDE+ FQ++D+IILP+  T   G++ TVFSNEE+ L +D +  TP+HCV++SGISN+YL+N+   + RKLV+LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS +AVLGLGR GM++AR  +ALGA VKVGAR  AHLARITEMGL PF  + +++ VKDID+CINTIP MI+ + VLS+M   TLI+DLAS+PGGTDF++AEK+GIKALLAP LPGIVAPKTAGQI+ANVL++LL+E+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_240251679.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Fredinandcohnia quinoae]</Hit_def>
+  <Hit_accession>WP_240251679</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>8.07412e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEI--QAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAIIGGDARQLEVIRKLVELDSRISLIGFDQLDHGFTGASKERMDEIDFSDIDAMILPVSGTNSEGEVETIFSNETVILTKEIISETPEHCIVFSGISNDYLNQIVSGSNRKLIQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHDSKVVVLGLGRVGMSVARSFSALGAHVKVGARKSEHIARITEMGLTPFHLAELEHHVKDIDVCINTIPHLVVNASIISKMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIIANVLSQLLRELVQQREEKK</Hsp_hseq>
+      <Hsp_midline>MLT + IA+IGGDARQLE+IRKL E  + I L+GFDQLDHGFTGA K  +DEI F  ID++ILPVS T  EG V T+FSNE V+L ++ I  TP HC++FSGISN YL  I + + RKL++LFERDD+AIYNSIPTVEGTIM+ IQHTD TIH S+V VLGLGR GM++AR+F+ALGA+VKVGAR S H+ARITEMGL PFH  EL+ HVKDID+CINTIP +++N +++S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS+LL E+  Q EE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_210363969.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. REN3]</Hit_def>
+  <Hit_accession>WP_210363969</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.56186e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGASKEKIDEMDFTIQDALILPVPGTSLEGQIETIFSNEKVVLIKEMLEKTPEHCTVYSGISNSYLNGITKQANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSRIAVLGLGRVGMSVARIFHALGAKVKVGARKSEHLARITEMALVPFYLSDLEKEVADIDICINTIPNLIVNASVISRMPPHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLSQLLAD</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  IDE+ F   D++ILPV  T+ EG + T+FSNE+VVL ++ +++TP HC ++SGISN+YL  I  QA R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS++AVLGLGR GM++AR F ALGA VKVGAR S HLARITEM LVPF+  +L++ V DIDICINTIP++I+N +V+S M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVLS+LLA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_146946653.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus litoralis]</Hit_def>
+  <Hit_accession>WP_146946653</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.61402e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQ</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLTELEAKLSLIGFDQLDHGFTGATKVKIEDVQFEEIDAIILPIPGTDKEGIIDTVFSNIEIKFSEDLLKRTPDHCVIYSGITNDYLNSLVENTNRKLIQLFKRDDVAIYNSIPTVEGTIMMVIQHTDITIHGSNIAVLGLGRVGMSVARTFAALGANVKVGARDTAHLARISEMGLTPFQLNDIEDHVSEIDVCINTIPHLVVTSSVISNMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLEEVK</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLTE +A + L+GFDQLDHGFTGA K  I+++ F++ID+IILP+  T  EG++ TVFSN E+   +D + RTP HCVI+SGI+N YL ++     RKL++LF+RDD+AIYNSIPTVEGTIM+ IQHTD TIHGS +AVLGLGR GM++ARTFAALGANVKVGAR +AHLARI+EMGL PF  +++++HV +ID+CINTIP +++  +V+S+M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>tpg|HEY2420981.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Neobacillus sp.]</Hit_def>
+  <Hit_accession>HEY2420981</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>2.26637e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDARLSLIGFEQLDHAFTGAIKEKLDEVDFSNMDTLILPVPGTNLEGMVETIFSNERVILTGDMVMKTPEHCTIYSGISNSYLNGITKQAQRTLVQLFDRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSSIMVLGLGRVGMSVARTFAALGANVKVGARKSEHLARITEMGLEPFHFNELAEVVKDVDIVINTVPYPIVSATVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLLQDDFRKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA+K  +DE+ F  +D++ILPV  T  EG+V T+FSNE V+L  D + +TP HC I+SGISN+YL  I  QA+R LV+LF+RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ARTFAALGANVKVGAR S HLARITEMGL PFH +EL E VKD+DI INT+P  I++ TV+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++LL  + +  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_154305771.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus lacus]</Hit_def>
+  <Hit_accession>WP_154305771</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>6.03825e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLTEMDAKLLLIGFDQLDHGFTGATKALMDEVEFEEIDAIILPVPGTTQDGHIETIFSNEEVILTEESISRTPEHCIVYSGISNAYLNNVIEKTNRSLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSNVAVLGLGRVGMSVARTFAALGANVKVGSRSSADLARAAEMALTPFPLKDLETEVRTVDVCINTIPYPVVTPKVLSKMPVHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLSQLIAE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLTE  A + L+GFDQLDHGFTGA K  +DE+ F++ID+IILPV  TT +G + T+FSNEEV+L ++ I RTP HC+++SGISNAYL N+  +  R LV+LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS VAVLGLGR GM++ARTFAALGANVKVG+RSSA LAR  EM L PF   +L+  V+ +D+CINTIP  ++   VLS M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS+L+AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|MGM9924081.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>MGM9924081</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>6.34368e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLQIAIIGGDARQLEVIRKLTEQDAKLSLIGFEQLDHAFSGAVKEKMDEMDFSVIDAIILPVSATNSEGKVETIFSNENVVLTSDILDKTPRHCTIYSGISNVYLDSITKKANRKLVQLFQRDDVAIYNSIPTVEGTLMMAIQHTDFTIHGSNVVVLGLGRTGMSVARAFHALGAKVKVGARKSEHIARITEMGLQPFHLNRLEEAVRDADLCINTIPIRIITAKVIAGMPAHTLILDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKSAGGIMANVLIQLLQE-DTEKGK</Hsp_hseq>
+      <Hsp_midline>MLTGL+IA+IGGDARQLE+IRKLTEQ A + L+GF+QLDH F+GAVK  +DE+ F  ID+IILPVSAT  EG V T+FSNE VVL  D +D+TP HC I+SGISN YL++I  +A RKLV+LF+RDD+AIYNSIPTVEGT+M+AIQHTD+TIHGS V VLGLGRTGM++AR F ALGA VKVGAR S H+ARITEMGL PFH + L+E V+D D+CINTIP  I+   V++ M   TLILDLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPK+AG I+ANVL +LL E   E+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_389357073.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Cytobacillus spartinae]</Hit_def>
+  <Hit_accession>WP_389357073</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>6.55553e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLVGFEQLDHAFSGATKEKIDEVDFANLDVIILPVPGTNLEGQIETIFSNEKVFLLEEMLMKTPDHCTVYSGITNSYLTGITKQANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVSVLGLGRVGMSVARIFDALGANVKVGARKSEHLARITEMGLEPFHLNDLEDEVNDVDIVINTIPHLIVNASVISRMPPHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLKDDLQKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + LVGF+QLDH F+GA K  IDE+ F  +D IILPV  T  EG + T+FSNE+V L ++ + +TP HC ++SGI+N+YL  I  QA R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V+VLGLGR GM++AR F ALGANVKVGAR S HLARITEMGL PFH ++L++ V D+DI INTIP +I+N +V+S M P TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL  ++Q  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_193536574.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Litchfieldia luteola]</Hit_def>
+  <Hit_accession>WP_193536574</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>7.91754e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMHIAVIGGDARQLEVIRKLLELDAKISLIGFDQLDHGFTGASKEQIDEVDFSDINAMILPVPGTNGEGQVETIFSNEKVILTEEIIAKTPEDCVIFSGISNSYLDSIVSKNNRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHNSKVVVLGLGRVGMSVARTFSALGAKVKVGARKSEHIARITEMGLEPFHLDDLSEIVSDADVCINTIPHLIVTASVISKMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLSQILLEHHKREEK</Hsp_hseq>
+      <Hsp_midline>MLTG+ IAVIGGDARQLE+IRKL E  A I L+GFDQLDHGFTGA K  IDE+ F  I+++ILPV  T GEG V T+FSNE+V+L ++ I +TP  CVIFSGISN+YL++I ++  RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHTD TIH S+V VLGLGR GM++ARTF+ALGA VKVGAR S H+ARITEMGL PFH D+L E V D D+CINTIP +I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS++L E    E K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_111643774.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Paranoxybacillus vitaminiphilus]</Hit_def>
+  <Hit_accession>WP_111643774</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>1.23032e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA</Hsp_qseq>
+      <Hsp_hseq>MLTGMHVAIIGGDARQLEVIRKLTELDAKLSLIGFDQLDHGFTGAAKVQIDEVDFSELDAIILPVPGTNLEGQVDTVFSNEKVFLTEEMLLKTPKHCTIYSGISNSYLEKLMKAANRKHVQLFERDDVAIYNSIPTVEGTLMIVIQHTDFTIHGSRVAVLGLGRVGMSVARAFAALGANVKVGARRSEHIARITEMGLYPFHLNDLEKEAADIDICINTIPHMVVTASVISKMPAHTLIVDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQIVANVLAQLLS</Hsp_hseq>
+      <Hsp_midline>MLTG+ +A+IGGDARQLE+IRKLTE  A + L+GFDQLDHGFTGA K  IDE+ F ++D+IILPV  T  EG V TVFSNE+V L ++ + +TP HC I+SGISN+YLE +   A RK V+LFERDD+AIYNSIPTVEGT+M+ IQHTD+TIHGS+VAVLGLGR GM++AR FAALGANVKVGAR S H+ARITEMGL PFH ++L++   DIDICINTIP M++  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQI+ANVL++LL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_412887553.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. 1P06AnD]</Hit_def>
+  <Hit_accession>WP_412887553</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>1.57411e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAIIGGDARQLEVIKKLIEQDAKVSLIGFEQLDHAFSGATKEKIDEIDFSEIDGIILPVSATNAEGKVETIFSNENVILKAEHLKKSTNHCVVYSGISNEYLDGITKEAGRKLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVMVLGFGRTGMSVSRTFQALGADVQVGVRKSEHIARITEMGMKPFLLGNLADRVKDIDICINTIPVPIVSARVIASMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGRILANVLNQLLQEDVQKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IA+IGGDARQLE+I+KL EQ A + L+GF+QLDH F+GA K  IDEI F +ID IILPVSAT  EG V T+FSNE V+LK +H+ ++  HCV++SGISN YL+ I  +A RKLVKLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V VLG GRTGM+++RTF ALGA+V+VG R S H+ARITEMG+ PF    L + VKDIDICINTIP  I++  V++SM   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVL++LL E +Q  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_307151263.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Anoxybacillus andreesenii]</Hit_def>
+  <Hit_accession>WP_307151263</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>2.69903e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEG</Hsp_qseq>
+      <Hsp_hseq>MLTGLHLAVIGGDARQLEIVRRLTELDAKLSLIGFEQLDHAFTGAIKEKVSEVDFATIDAIILPVAGTGLDGQVDTIFSNEKVFLTEDILLNTPAHCTVYSGISNSYLDEITRNADRRLVQLFQRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVLVLGLGRVGMSVARTFDSLGAHVKVGARKTEHIARITEMSLTPFHLKNLKEHVKDVDICINTIPHLIVTASVISRMPPHTLIIDLASKPGGTDFRYAEKRGIKALLAPSLPGIVAPKTAGQILANVLSRVLKEDLQSRKG</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLEI+R+LTE  A + L+GF+QLDH FTGA+K  + E+ F  ID+IILPV+ T  +G V T+FSNE+V L +D +  TPAHC ++SGISN+YL+ I   A R+LV+LF+RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V VLGLGR GM++ARTF +LGA+VKVGAR + H+ARITEM L PFH   LKEHVKD+DICINTIP +I+  +V+S M P TLI+DLAS+PGGTDF+YAEK+GIKALLAP LPGIVAPKTAGQILANVLS++L E +Q+ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_375840627.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Cytobacillus sp. Hz8]</Hit_def>
+  <Hit_accession>WP_375840627</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>2.97058e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDSKLSLIGFEQLDHAFSGAIKEKLDEVDFSNIDSIILPVPGTSLDGQIETIFSNEKVYLSEEVLMKTPPHCTIYSGITNSYLNAITKKANRRLVQLFSRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKTIVLGLGRVGMSVARTFASLGARVQVGARKSEHIARITEMGLTPFHINDLAQHVRDVDICINTIPHLVVSASVISRMPSHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLQDDFQSRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  + + L+GF+QLDH F+GA+K  +DE+ F  IDSIILPV  T+ +G + T+FSNE+V L ++ + +TP HC I+SGI+N+YL  I  +A R+LV+LF RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+  VLGLGR GM++ARTFA+LGA V+VGAR S H+ARITEMGL PFH ++L +HV+D+DICINTIP ++++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL  + Q+ +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_191155747.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus arenae]</Hit_def>
+  <Hit_accession>WP_191155747</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>3.32339e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTGLTIAVIGGDARQLEVIRKMTELDSKLFLVGFDQLDHGFTGATKGKIDEISFNEVDAIILPVPGTTIDGHVDSVFSNEEIVLTEEMINKTPEHCTIYSGISNSYLDGIVQKANRKLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDFTIHSSEVAVLGLGRVGMSVARTFSSLGANVKVGARKTAHLARIAEMGLKPFHLENIEKEISASDIVINTIPHLILTAKVISTLPSHSLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLSQLL</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRK+TE  + ++LVGFDQLDHGFTGA K  IDEI F ++D+IILPV  TT +G V +VFSNEE+VL ++ I++TP HC I+SGISN+YL+ I  +A RKLV+LFERDD+AIYNSIPTVEGTIM+ IQHTD+TIH S+VAVLGLGR GM++ARTF++LGANVKVGAR +AHLARI EMGL PFH + +++ +   DI INTIP +IL   V+S++   +LI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVLS+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_224137916.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Metabacillus]</Hit_def>
+  <Hit_accession>WP_224137916</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.172</Hsp_bit-score>
+      <Hsp_score>1097</Hsp_score>
+      <Hsp_evalue>6.05243e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNVAVIGGDARQLEVIRKLTELDAKLFLVGFDQLDHGFTGAIKVKLDEIQFEEIDVIILPIPGTNPAGIIETVFSNEEVKLTDALLTSTPPHCVIYSGITNPYLDKIVESTHRKLVLLFERDDVAIYNSIPTVEGTIMMAIQHTDTTIHGSSIAVLGLGRVGMSVARTFAALGAQVKVGARKTADLARITEMGLTPFSLENIHEEIRDVDICINTVPHLIVTSKVIANMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIIANVLSQLLTELKID</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLE+IRKLTE  A ++LVGFDQLDHGFTGA+K  +DEI F++ID IILP+  T   G++ TVFSNEEV L    +  TP HCVI+SGI+N YL+ I     RKLV LFERDD+AIYNSIPTVEGTIM+AIQHTD TIHGS +AVLGLGR GM++ARTFAALGA VKVGAR +A LARITEMGL PF  + + E ++D+DICINT+P +I+   V+++M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS+LL E++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_110112784.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. CGMCC 1.16541]</Hit_def>
+  <Hit_accession>WP_110112784</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>9.77171e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTDLHIAVIGGDARQLEVIRKLIELDAKISLIGFDQLDHGFTGATKYHIDELSFKDVDAIILPVAGTNHEGQVDTIFSNEKVYLKEEVVKQTPSHCTIYSGISNDYLNQLTKSTKRKLVQLFERDDIAIYNSIPTVEGTIMLVIQHTDFTIHGSRIAVLGLGRVGMSVARSFAALGGKVKVGARKSEHLARISEMGLKPFHLSNLAEEVSDVDICINTIPYPILSANVLSKVPSHCLIIDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGQIVANVLTKLLSDDLAQR</Hsp_hseq>
+      <Hsp_midline>MLT L IAVIGGDARQLE+IRKL E  A I L+GFDQLDHGFTGA K +IDE+ F+ +D+IILPV+ T  EG V T+FSNE+V LK++ + +TP+HC I+SGISN YL  +    KRKLV+LFERDDIAIYNSIPTVEGTIML IQHTD+TIHGS++AVLGLGR GM++AR+FAALG  VKVGAR S HLARI+EMGL PFH   L E V D+DICINTIP  IL+  VLS +    LI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQI+ANVL+KLL++  A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_077211572.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Robertmurraya dakarensis]</Hit_def>
+  <Hit_accession>WP_077211572</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.402</Hsp_bit-score>
+      <Hsp_score>1095</Hsp_score>
+      <Hsp_evalue>1.37583e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAVKEKLDEVDFTNIDAIILPVPGTNLEGQVETIFSNEKVYLYEETLMQTPPHCTVYSGISNSYLNGITKKANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNIIVLGLGRVGMSVARTLDALGANVKVGARKSEHIARITEMGLAPFQLNELENCVKDVDICINTIPHLIVTASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSRVLKDDLEQRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGAVK  +DE+ F  ID+IILPV  T  EG V T+FSNE+V L ++ + +TP HC ++SGISN+YL  I  +A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ART  ALGANVKVGAR S H+ARITEMGL PF  +EL+  VKD+DICINTIP +I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS++L  +++  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_283864498.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Neobacillus sp. DY30]</Hit_def>
+  <Hit_accession>WP_283864498</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>2.01833e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDARLSLIGFEQLDHAFTGAVKEKLDEVDFSNMDAIILPVPGTNLEGHVETIFSNEKVILTAEMLMKTPDHCTVYSGISNAYLNGITKEAKRQLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNITVLGLGRCGMSVARTFHALGAKVKVGARKSEHLARITEMGLTPFHLNDLEKEVKDTDILINTIPLLIVSASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLLQD</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGAVK  +DE+ F  +D+IILPV  T  EG V T+FSNE+V+L  + + +TP HC ++SGISNAYL  I  +AKR+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ARTF ALGA VKVGAR S HLARITEMGL PFH ++L++ VKD DI INTIP +I++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_377876270.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. CGMCC 1.16607]</Hit_def>
+  <Hit_accession>WP_377876270</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.58223e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLVGFEQLDHAFTGAIKEKMNEVDFKEMDAIILPVPGTDLDGHVETIFSNEKVMLTEDILSKTPANCTIYTGISNSYLSGITSKTKRTLIKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHSSKVTVLGLGRVGMSVARTFHALGAHIKVGARKSEHLARITEMALEPFHLDNLESEVRDVDILINTIPHMIVNAKVISKMPSHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLHD</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + LVGF+QLDH FTGA+K  ++E+ F+++D+IILPV  T  +G V T+FSNE+V+L +D + +TPA+C I++GISN+YL  I ++ KR L+KLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIH S+V VLGLGR GM++ARTF ALGA++KVGAR S HLARITEM L PFH D L+  V+D+DI INTIP MI+N  V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_233811178.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Cytobacillus spongiae]</Hit_def>
+  <Hit_accession>WP_233811178</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.80313e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMHIAVIGGDARQLEIIRKLTELDAKLSLVGFEQLDHAFTGAVKEKIDEVDFSNMDAIILPVPGTNLDGQIDTIFSNERVFLLEEMLNKTPSHCTVYSGITNNYLNSITKKANRKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKLVVLGLGRVGMSVARTFQSLGAKVKVGARKSEHIARITEMGLEPFHLTDLEQAVYDVDICINTIPHQIVNASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLKD</Hsp_hseq>
+      <Hsp_midline>MLTG+ IAVIGGDARQLEIIRKLTE  A + LVGF+QLDH FTGAVK  IDE+ F  +D+IILPV  T  +G + T+FSNE V L ++ +++TP+HC ++SGI+N YL +I  +A RKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS++ VLGLGR GM++ARTF +LGA VKVGAR S H+ARITEMGL PFH  +L++ V D+DICINTIP  I+N +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_066419598.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Sutcliffiella]</Hit_def>
+  <Hit_accession>WP_066419598</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.88888e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLHIAVIGGDARQLEVIRKLIELDAKLSLIGFDQLDHGFTGASKEQMDEVDFSTVDSIVIPVSGTNLQGQVETIFSNEKILLTEDILKKTPEHCVVYSGISNSYLDSIVSSTNRKLVKLFERDDVAIYNAIPTVEGTIMMVIQHTDITIHNANIAVLGLGRVGMTVARTFAALGAKVRVGARRTEHIARIFDMGLTPFHLSELKNNVTDIDVCINTIPHPILSANVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIIANVLSQLLGE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKL E  A + L+GFDQLDHGFTGA K  +DE+ F  +DSI++PVS T  +G V T+FSNE+++L +D + +TP HCV++SGISN+YL++I +   RKLVKLFERDD+AIYN+IPTVEGTIM+ IQHTD TIH + +AVLGLGR GMT+ARTFAALGA V+VGAR + H+ARI +MGL PFH  ELK +V DID+CINTIP  IL+  V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS+LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_114743628.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Falsibacillus pallidus]</Hit_def>
+  <Hit_accession>WP_114743628</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>4.66415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQITVIGGDARQLEIIRRLTELDAKISLIGFEQLDHAFTGAVKEKLDEVDFSVMDAIILPVPGTNGEGKVETIFSNENVLLTEDILMKTPAHCTVYSGISNPYLDGITTKTNRRLVQLFERDDVAIYNSIPTVEGTMMMAIQHTDFTIHGSKVAVLGLGRVGMSVARAFAHLGAKVKVGARKSEHIARITEMGLTPFHLNDLPKEVSDVDICINTIPYPIVTANVISKMPSQTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILAGVLAQLLEE</Hsp_hseq>
+      <Hsp_midline>MLTG++I VIGGDARQLEIIR+LTE  A I L+GF+QLDH FTGAVK  +DE+ F  +D+IILPV  T GEG V T+FSNE V+L +D + +TPAHC ++SGISN YL+ I  +  R+LV+LFERDD+AIYNSIPTVEGT+M+AIQHTD+TIHGS+VAVLGLGR GM++AR FA LGA VKVGAR S H+ARITEMGL PFH ++L + V D+DICINTIP  I+   V+S M  +TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILA VL++LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MFX3624670.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Ectobacillus sp.]</Hit_def>
+  <Hit_accession>MFX3624670</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.0203e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVIGGDARQLEVIRKLIELDAKLSLVGFDQLDHGFTGASKEQIHELNFSSLDAVILPVAGTNAEGEIDTIFSNEKVVLTQEQINQTPSHFTIYSGISNAYLDHIAASSNRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTDYTIHGSKVAVLGFGRTGMSVARAFQALGAKVKVGARRSEHLARITEMTFTPFHLKNLESEVYDADIVINTVPHMIVTASVISKMPAHTLIVDLASKPGGTDFRYAEKRGIKAFLAPGLPGIVAPKTAGQILANVLTNLLTE</Hsp_hseq>
+      <Hsp_midline>MLT + IAVIGGDARQLE+IRKL E  A + LVGFDQLDHGFTGA K  I E+ F  +D++ILPV+ T  EG + T+FSNE+VVL Q+ I++TP+H  I+SGISNAYL++IAA + RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHTDYTIHGS+VAVLG GRTGM++AR F ALGA VKVGAR S HLARITEM   PFH   L+  V D DI INT+P MI+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKA LAPGLPGIVAPKTAGQILANVL+ LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_132948191.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Thermolongibacillus altinsuensis]</Hit_def>
+  <Hit_accession>WP_132948191</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.25624e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMHVAVIGGDARQLEVIRKLTELDVKLSLIGFDQLDHGFTGASKVKIDEVDFSDVDAIVLPVHGTNMEGEINTIFSNEKVVLTEPLLRQTPNHCTVYSGISNDYLDGLITITGRKHVQLFERDDVAIYNSIPTVEGTIMMVIQHTDFTIHGSRVAVLGLGRVGMSVARTFASLGARVKVGARRSEHIARITEMGLEPFHLNDLENNVKDIDVCINTIPHMIVTASVISKMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLSQLLSD</Hsp_hseq>
+      <Hsp_midline>MLTG+ +AVIGGDARQLE+IRKLTE    + L+GFDQLDHGFTGA K  IDE+ F  +D+I+LPV  T  EG ++T+FSNE+VVL +  + +TP HC ++SGISN YL+ +     RK V+LFERDD+AIYNSIPTVEGTIM+ IQHTD+TIHGS+VAVLGLGR GM++ARTFA+LGA VKVGAR S H+ARITEMGL PFH ++L+ +VKDID+CINTIP MI+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVLS+LL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_382347529.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Lederbergia graminis]</Hit_def>
+  <Hit_accession>WP_382347529</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.32692e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMHIAVIGGDARQLEIIKKLTELDAKLYLIGFEQLAQPFSGAYKEKIEDVDFSQLDCIILPVPGTNLEGEVDTIFSSDKVVLTEEILNKTPSYCTIYSGISNSYLDEIVNQSKRKLVQLFQRDDVAIYNSIPTVEGTIMMAIQNTDITIHQSKVAILGFGRTGMSVARTFSLLGAKVKVGARSSAHLARITEMALTPFHLENLKDEVSDLDICINTIPHLVLNAGVLAKMPPNTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLIAE</Hsp_hseq>
+      <Hsp_midline>MLTG+ IAVIGGDARQLEII+KLTE  A +YL+GF+QL   F+GA K  I+++ F Q+D IILPV  T  EG V T+FS+++VVL ++ +++TP++C I+SGISN+YL+ I  Q+KRKLV+LF+RDD+AIYNSIPTVEGTIM+AIQ+TD TIH S+VA+LG GRTGM++ARTF+ LGA VKVGARSSAHLARITEM L PFH + LK+ V D+DICINTIP ++LN  VL+ M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++L+AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_166024011.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Neobacillus terrae]</Hit_def>
+  <Hit_accession>WP_166024011</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.40159e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKISLVGFEQLDHAFTGAVKEKIDEVDFSNMDAILLPVPGTNLEGQVETIFSNEKVYFTEEILQKTPAHCTVYSGITNSYLNGIISKTKRELVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVAVLGLGRVGMSVARTFHALGAKVKVGARKSEHIARITEMGVEPFHLSEIEKEVRDTDILINTIPYLIVSASVLSKLPVHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLL</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A I LVGF+QLDH FTGAVK  IDE+ F  +D+I+LPV  T  EG V T+FSNE+V   ++ + +TPAHC ++SGI+N+YL  I ++ KR+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS VAVLGLGR GM++ARTF ALGA VKVGAR S H+ARITEMG+ PFH  E+++ V+D DI INTIP +I++ +VLS +   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_138125759.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Exobacillus caeni]</Hit_def>
+  <Hit_accession>WP_138125759</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.57247e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGQQVAIVGGDARQLEIIRKLTELDATVFLIGFDQLDHGFTGATKCSLEEVKLDQLDALVLPVSGTSLNGEVETIFSNEKVVLKEEHLQQTPSHCTVFSGISNDYLNQITNDTSRKLVKLFERDDVAIYNSIPTVEGTVMMVIQHTDITIHQSNVAVLGLGRVGMSVARTFDALGANVAVGARRPEHLARITEMGLKPFYLSELENKVSTLDVCINTIPAPIVTAQVISKMPAHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIIAKVLAQLLLE-NAKNGK</Hsp_hseq>
+      <Hsp_midline>MLTG ++A++GGDARQLEIIRKLTE  A ++L+GFDQLDHGFTGA KC+++E+   Q+D+++LPVS T+  G V T+FSNE+VVLK++H+ +TP+HC +FSGISN YL  I     RKLVKLFERDD+AIYNSIPTVEGT+M+ IQHTD TIH S VAVLGLGR GM++ARTF ALGANV VGAR   HLARITEMGL PF+  EL+  V  +D+CINTIP+ I+   V+S M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+A VL++LL E  A+ GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_275643846.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Cytobacillus sp. S13-E01]</Hit_def>
+  <Hit_accession>WP_275643846</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.10762e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMHIAIIGGDARQLEVIRKLIELDAKISLIGFDQLDHGFTGASKEQMDEIDFTDIDAIILPVSGTNSEGQVETIFSNEKVILTEDIILKTPDHCVIFSGISNSYLDNITVN--RELVKLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHNSNVLVLGLGRVGMSVARTFNALGAHVKVGARRSEHIARITEMGLQPFHLDDLKRQVSDVDVCINTIPHLIVKAGVISKMPAHALIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKIVANVLSQILID</Hsp_hseq>
+      <Hsp_midline>MLTG+ IA+IGGDARQLE+IRKL E  A I L+GFDQLDHGFTGA K  +DEI F  ID+IILPVS T  EG V T+FSNE+V+L +D I +TP HCVIFSGISN+YL+NI     R+LVKLFERDD+AIYNSIPTVEGTIM+ IQHTD TIH S V VLGLGR GM++ARTF ALGA+VKVGAR S H+ARITEMGL PFH D+LK  V D+D+CINTIP +I+   V+S M    LI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+I+ANVLS++L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_042348850.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus massiliigorillae]</Hit_def>
+  <Hit_accession>WP_042348850</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.12473e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEVIRKLTESDAKLSLVGFEQLDHAFSGAVKEKIDEMDFSEIDAVILPVPGTNPEGKIETIFSNETVVLTSNILAKTPPHCKVYSGISNSYLDSIMKKVNRELIQLFQRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVAVLGLGRTGMSVARTFQALGAKVKVGARKSEHIARITEMGLQPFHLSQLEEVVKDVDLCINTIPIQIVTAKVIAGMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGRILANVLIQLLQE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+IRKLTE  A + LVGF+QLDH F+GAVK  IDE+ F +ID++ILPV  T  EG + T+FSNE VVL  + + +TP HC ++SGISN+YL++I  +  R+L++LF+RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS VAVLGLGRTGM++ARTF ALGA VKVGAR S H+ARITEMGL PFH  +L+E VKD+D+CINTIP  I+   V++ M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVL +LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_133311027.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Bacillaceae]</Hit_def>
+  <Hit_accession>WP_133311027</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.42305e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLTELDAKLFLVGFDQLDHGFTGAAKLKLAEVQFEEIDVIILPVPGTNLEGHVDTIFSNEEVVLTEEIIARTPPHCIIYSGISNPYLDGIIDGTNRELVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSRIAVLGLGRVGMSVARTFSALGAKVKVGARKSSHIARIIEMGLESFQLEDLEKEVSQIDICINTIPYHIVTAKVISKMPAHTLIIDLASKPGGTDFKYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLAALLTE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLTE  A ++LVGFDQLDHGFTGA K  + E+ F++ID IILPV  T  EG V T+FSNEEVVL ++ I RTP HC+I+SGISN YL+ I     R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS++AVLGLGR GM++ARTF+ALGA VKVGAR S+H+ARI EMGL  F  ++L++ V  IDICINTIP  I+   V+S M   TLI+DLAS+PGGTDFKYAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL+ LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_243386920.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Aeribacillus kexueae]</Hit_def>
+  <Hit_accession>WP_243386920</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.47005e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLVELDGKLYLVGFDQLDHGFTGAIKSKLEEVPFHEIDTIILPVPGTALDGHIDTVFSNEEIVLTEELLEQTPDHCQIYSGISNDYLNQLVLKTNRKLTQLFERDDIAIYNSIPTVEGTIMMVIQHTDFTIHGSNIMVLGLGRVGMSVARTFSHLGAHVRVGARKSKDLARITEMGLKPFHLNELEDEVSDVDVVLNTIPYPIVNAKAISKMPSHTLIVDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGQILANVLAQLLFE-QLEDGK</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKL E    +YLVGFDQLDHGFTGA+K  ++E+PF +ID+IILPV  T  +G + TVFSNEE+VL ++ +++TP HC I+SGISN YL  +  +  RKL +LFERDDIAIYNSIPTVEGTIM+ IQHTD+TIHGS + VLGLGR GM++ARTF+ LGA+V+VGAR S  LARITEMGL PFH +EL++ V D+D+ +NTIP  I+N   +S M   TLI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQILANVL++LL E Q E+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_108669643.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus acanthi]</Hit_def>
+  <Hit_accession>WP_108669643</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.935</Hsp_bit-score>
+      <Hsp_score>1086</Hsp_score>
+      <Hsp_evalue>3.51581e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEVVKKLTELDAKLWLIGFEQLDHAFSGAVKEKIEDVDFSEIDGIILPVPGTNTEGKVETIFSGENVYLTEEILASTPAHCTVYSGISNKYLDSITTNTNRKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVSVLGLGRVGMSVARTFHALGAKVTVGARKSEHLARITEMGLEPFHLDDLSESIKDTDICINTIPYQIVTAAVIAKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLSQLLQEDLKQRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+++KLTE  A ++L+GF+QLDH F+GAVK  I+++ F +ID IILPV  T  EG V T+FS E V L ++ +  TPAHC ++SGISN YL++I     RKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V+VLGLGR GM++ARTF ALGA V VGAR S HLARITEMGL PFH D+L E +KD DICINTIP  I+   V++ M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVLS+LL E ++  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_377889194.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Alkalihalobacillus sp. R86527]</Hit_def>
+  <Hit_accession>WP_377889194</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>4.42461e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTNQHIAVIGGDARQLEIIRKLTEMNADLYLIGFDQLDHGFTGATKCSVNEVDLTKLDAIVLPVAGTNMEGEVDSIFSNEKVILTAEHLSKTPSHCTVYSGISNSHLEEMATKASRKLVKLFERDDIAIYNSIPTVEGTIMMVIQHTDITIHQSNIAVLGLGRVGMSVARSFDALGANISVGARKPEHIARITEMGLKPFHLSTLATEVANLDVCINTVPAQIVTSEVISKMPSHTLIIDLASKPGGTDFRFAEKRGIKALLAPGLPGIVAPKTAGKIIAGVLTQLLIE-QLKEGE</Hsp_hseq>
+      <Hsp_midline>MLT   IAVIGGDARQLEIIRKLTE  AD+YL+GFDQLDHGFTGA KC+++E+   ++D+I+LPV+ T  EG V ++FSNE+V+L  +H+ +TP+HC ++SGISN++LE +A +A RKLVKLFERDDIAIYNSIPTVEGTIM+ IQHTD TIH S +AVLGLGR GM++AR+F ALGAN+ VGAR   H+ARITEMGL PFH   L   V ++D+CINT+P+ I+   V+S M   TLI+DLAS+PGGTDF++AEK+GIKALLAPGLPGIVAPKTAG+I+A VL++LL E Q +EG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_374721837.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus tepidiphilus]</Hit_def>
+  <Hit_accession>WP_374721837</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>6.49069e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEVIRKLTEQDAKLWLIGFEQLDHAFSGAVKEKMEDVDFSEIDAIILPVPGTNLKGEVETIFSNEIVFITEELLAKTPPNCTIYSGISNAYLNGITKKTNRKLIQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSKVVVLGLGRVGMSVARTFQALGAKVKVGARRSEHMARITEMALHPFHLDQLKDEIKDADICINTIPVEVVTASVIAQMPSHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLSQLLTDELNKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+IRKLTEQ A ++L+GF+QLDH F+GAVK  ++++ F +ID+IILPV  T  +G V T+FSNE V + ++ + +TP +C I+SGISNAYL  I  +  RKL++LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS+V VLGLGR GM++ARTF ALGA VKVGAR S H+ARITEM L PFH D+LK+ +KD DICINTIP  ++  +V++ M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVLS+LL  E+   +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_163176577.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus mesophilus]</Hit_def>
+  <Hit_accession>WP_163176577</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>8.99031e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLHIAVIGGDARQLEVIRKLTDLDAKLSLIGFDQLDHGFTGASKEQIDEVDFTEIDAIILPVAGTNSEGEVDTIFSNEKVVLTNELMSKTPEHCTIYSGISNNYLDGLVDSTNRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTEMTIHSSNVVVLGMGRVGLSVARSFAALGANVRVGARKSEHLARIFEMGMKPFQLSDLEQEVQDIDVCINTVPHQIVTASVISKMPPHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLKE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLT+  A + L+GFDQLDHGFTGA K  IDE+ F +ID+IILPV+ T  EG V T+FSNE+VVL  + + +TP HC I+SGISN YL+ +     RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHT+ TIH S V VLG+GR G+++AR+FAALGANV+VGAR S HLARI EMG+ PF   +L++ V+DID+CINT+P  I+  +V+S M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_257990655.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus infantis]</Hit_def>
+  <Hit_accession>WP_257990655</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>1.10361e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVMGGDARQLEIISKLTELDAKTLLIGFEQLDHAFTGASKEKVDEVDFSALDAIILPVPGTNLEGQVETIFSNEKVFLTEDMIAQTQPHCTIYSGITNSYLDSITSQNDRRLVQLFERDDIAIYNSIPTVEGTIMMAIQHTDFTIHGSNVVVLGMGRVGMSVARTFHSLGAKVKVGARRSEHIARITEMGLTPFHLDDIQSFVKDTDICINTIPHLIVSASVISKMPVHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLLADDFQNKRGQ</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEII KLTE  A   L+GF+QLDH FTGA K  +DE+ F  +D+IILPV  T  EG V T+FSNE+V L +D I +T  HC I+SGI+N+YL++I +Q  R+LV+LFERDDIAIYNSIPTVEGTIM+AIQHTD+TIHGS V VLG+GR GM++ARTF +LGA VKVGAR S H+ARITEMGL PFH D+++  VKD DICINTIP +I++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++LLA + Q + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_257580113.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Lederbergia panacisoli]</Hit_def>
+  <Hit_accession>WP_257580113</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.71515e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVLGGDARQLEIIRKLTELDAKLYLIGFEQLAQSFTGAVKEKMKDVDFSILDAVILPVPGTNLEGEIETIFSSEKVVLTEQILNKTPSYCKIYSGISNSYLDQISNLSKRTLVQLFERDDVAIYNSIPTVEGTIMMAIQNTDITIHQSSIAVLGLGRVGMSVARTFALLGAKVKVGARKSAHLARITEMGMKPFHFNDLKNEVKDLDICINTVPNMILNAGVIANMPPNTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLAD</Hsp_hseq>
+      <Hsp_midline>MLT + IAV+GGDARQLEIIRKLTE  A +YL+GF+QL   FTGAVK  + ++ F  +D++ILPV  T  EG + T+FS+E+VVL +  +++TP++C I+SGISN+YL+ I+  +KR LV+LFERDD+AIYNSIPTVEGTIM+AIQ+TD TIH S +AVLGLGR GM++ARTFA LGA VKVGAR SAHLARITEMG+ PFH ++LK  VKD+DICINT+P+MILN  V+++M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LLA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_209093163.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. 165]</Hit_def>
+  <Hit_accession>WP_209093163</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.624</Hsp_bit-score>
+      <Hsp_score>1080</Hsp_score>
+      <Hsp_evalue>2.36232e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVIGGDARQLEVIRKLTELDAKLSLVGFDLLDHGFTGASKEQIDELDFNGLDAIILPVAGTNMEGQVDTIFSNEKVVLTQEQIERTPNHFTIYSGISNAYLDTLASSTNRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTDYTIHGSSIAVLGFGRTGMSVARAFQALGAKVKVGARRSEHLARITEMTFSPFHLSDLEKEIQDVDICINTIPHPVVTAAVIAKMPAHTLIIDLASKPGGTDFRYAEKRGVKAFLAPGLPGIVAPKTAGKILANVLSALLIE</Hsp_hseq>
+      <Hsp_midline>MLT + IAVIGGDARQLE+IRKLTE  A + LVGFD LDHGFTGA K  IDE+ F  +D+IILPV+ T  EG V T+FSNE+VVL Q+ I+RTP H  I+SGISNAYL+ +A+   RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHTDYTIHGS +AVLG GRTGM++AR F ALGA VKVGAR S HLARITEM   PFH  +L++ ++D+DICINTIP  ++   V++ M   TLI+DLAS+PGGTDF+YAEK+G+KA LAPGLPGIVAPKTAG+ILANVLS LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_206888380.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. NTK071]</Hit_def>
+  <Hit_accession>WP_206888380</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.624</Hsp_bit-score>
+      <Hsp_score>1080</Hsp_score>
+      <Hsp_evalue>2.87688e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTNQHIAIIGGDARQLEIIRKLTELNADLYLIGFDQLDHGFTGATKCTMDEVKLSTLNAIILPVGGTTLEGEVDTIFSNEKVILTADQLKQTPSHCTIYSGISNSCLNQMVSEASRTLVCLFERDDVAIYNSIPTVEGTVMMVIQHTDITIHQSNIAVLGLGRVGMSVARTFAALGANVSVGARKPEHIARITEMGLKPFHLSDLVHNVSNLDVCINTIPAQIVTSQVIAKMPSHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKIIANVLTQLLIE-QSQKGK</Hsp_hseq>
+      <Hsp_midline>MLT   IA+IGGDARQLEIIRKLTE  AD+YL+GFDQLDHGFTGA KC +DE+    +++IILPV  TT EG V T+FSNE+V+L  D + +TP+HC I+SGISN+ L  + ++A R LV LFERDD+AIYNSIPTVEGT+M+ IQHTD TIH S +AVLGLGR GM++ARTFAALGANV VGAR   H+ARITEMGL PFH  +L  +V ++D+CINTIP+ I+   V++ M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+I+ANVL++LL E Q+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_090829995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [unclassified Bacillus (in: firmicutes)]</Hit_def>
+  <Hit_accession>WP_090829995</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>4.36108e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVVGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGATKEKVDEVDFSVMDAVILPVPGTNLEGQVETIFSNERVFLTEEMLMQTPAHCTIYSGISNAYLTGITSQVNRNLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSHITILGLGRVGMSVARTFHALGAKVKVGARRSEHIARISEMAVQPFHLDQIQNEVKDTDILINTIPYLIVDASVISKMPTHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLQE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  +DE+ F  +D++ILPV  T  EG V T+FSNE V L ++ + +TPAHC I+SGISNAYL  I +Q  R LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + +LGLGR GM++ARTF ALGA VKVGAR S H+ARI+EM + PFH D+++  VKD DI INTIP +I++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_159862710.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [unclassified Cytobacillus]</Hit_def>
+  <Hit_accession>WP_159862710</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>4.50669e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEG</Hsp_qseq>
+      <Hsp_hseq>MLTGTQIAVIGGDARQLEIIRKLTELDAKLALIGFEQLDHAFSGAVKEKIDEVDFSNIDAIILPVPGTGLEGQIDTIFSNEKVIFEEEILSQTPPHCTVYSGITNSYLTGITKSADRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNIAVIGLGRVGMSVARTFHALGAKVKVGARKSEHIARITEMGLTPFNLKEIEDAVKDVDICINTAPHLVVTASVISKMPTHTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQILANVLSQLIKEDLQKRKG</Hsp_hseq>
+      <Hsp_midline>MLTG +IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH F+GAVK  IDE+ F  ID+IILPV  T  EG + T+FSNE+V+ +++ + +TP HC ++SGI+N+YL  I   A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS +AV+GLGR GM++ARTF ALGA VKVGAR S H+ARITEMGL PF+  E+++ VKD+DICINT P +++  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQILANVLS+L+ E +Q  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_309534688.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Fredinandcohnia sp. QZ13]</Hit_def>
+  <Hit_accession>WP_309534688</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>6.24235e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANV</Hsp_qseq>
+      <Hsp_hseq>MLTDMHVAIIGGDARQLEVIRKLIELDARLSLIGFDQLDHGFTGASKERLDEIDFTDIDAIILPVSGTNSEGEVETIFSNETVVLTEEILSQTPKHCVVFSGISNSYLDGITNATNRKLVRLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHNSNVAVLGLGRVGMSVARSFAALGAHVKVGARKTEHIARITEMGLTPFHLSNLAEEVKDIDVCINTVPKLIVTASVISKMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANV</Hsp_hseq>
+      <Hsp_midline>MLT + +A+IGGDARQLE+IRKL E  A + L+GFDQLDHGFTGA K  +DEI F  ID+IILPVS T  EG V T+FSNE VVL ++ + +TP HCV+FSGISN+YL+ I     RKLV+LFERDD+AIYNSIPTVEGTIM+ IQHTD TIH S VAVLGLGR GM++AR+FAALGA+VKVGAR + H+ARITEMGL PFH   L E VKDID+CINT+P +I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_126864514.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus cavernae]</Hit_def>
+  <Hit_accession>WP_126864514</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>6.9069e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEVIRKFTELDAKLSLVGFEQLDHSFTGAVKEKLEELNLSEIDTIILPVSGTNSEGKVETIFSNEEVYLTKEILSKTPPHCTIYSGISNDYLNEIIEKTNRRLVLLFERDDVAIYNSIPTVEGTIMMAIQNTDFTIHGSKVAVIGFGRTGMSVARTFQALGANVKAGARKSEDLARITEMAMTPFHLNELAQAVRDVDICINTVPVQIVTASVLANMPVHTLLIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLIREDMKKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+IRK TE  A + LVGF+QLDH FTGAVK  ++E+   +ID+IILPVS T  EG V T+FSNEEV L ++ + +TP HC I+SGISN YL  I  +  R+LV LFERDD+AIYNSIPTVEGTIM+AIQ+TD+TIHGS+VAV+G GRTGM++ARTF ALGANVK GAR S  LARITEM + PFH +EL + V+D+DICINT+P  I+  +VL++M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++L+ E ++  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|MDP4164816.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillota bacterium]</Hit_def>
+  <Hit_accession>MDP4164816</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>7.02456e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDARISLIGFEQLDHAFSGALKEKINEVNFSAMDAILLPVPGTNLEGQVETIFSNEKVYFTEELLLQTPEHCVIYSGISNPYLTGITTNAKRKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTLHGSRIAVLGLGRVGMSVARTFHALGAKVSVGARKTEHLARITEMGVDPFHLNDLEREVRDTDILINTIPYLIVTASVLSKMPAHSLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLQEEQSK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A I L+GF+QLDH F+GA+K  I+E+ F  +D+I+LPV  T  EG V T+FSNE+V   ++ + +TP HCVI+SGISN YL  I   AKRKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+T+HGS++AVLGLGR GM++ARTF ALGA V VGAR + HLARITEMG+ PFH ++L+  V+D DI INTIP +I+  +VLS M   +L++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL E Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_435561794.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Neobacillus sp. LXY-4]</Hit_def>
+  <Hit_accession>WP_435561794</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>8.41131e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGLQIAVMGGDARQLEIIRKLTEMDAKLSLVGFEQLDHAFTGAIKEKIEDLDFSLVDAIILPVPGTSLEGKVETIFSNEKVVLTEEMISNTPSHCTIYSGISNNYLTGITKKANRRLVLLFERDDVAIYNSIPTVEGTIMLAIQHTDFTIHGSNIVVLGLGRVGMSVARTFHALGAKVKVGARRSEHIARITEMGLTPFLLNDLEQSVKDTDICINTIPYPIVTASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKSAGQILANVLTQLLKDDLMKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTGL+IAV+GGDARQLEIIRKLTE  A + LVGF+QLDH FTGA+K  I+++ F  +D+IILPV  T+ EG V T+FSNE+VVL ++ I  TP+HC I+SGISN YL  I  +A R+LV LFERDD+AIYNSIPTVEGTIMLAIQHTD+TIHGS + VLGLGR GM++ARTF ALGA VKVGAR S H+ARITEMGL PF  ++L++ VKD DICINTIP  I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPK+AGQILANVL++LL  ++   +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_169095889.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. DNRA2]</Hit_def>
+  <Hit_accession>WP_169095889</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>8.41131e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLQIAVIGGDARQLEIIRKLTEMDAKLSLIGFEQLDHAFTGAVKEKIDDLDFSTMDALILPVPGTTLEGHIETIFSNEKVVLNEAMLAQTPEHCIVYSGISNAYLNGIIKSTNRRLVQLFERDDVAIYNSIPTVEGTIMLAIQHTDFTIHGSSIVVLGLGRVGMSVARTFHALGAKVKVGARRSEHIARITEMGLTPFVLKDIHQFVKDTDICINTIPHQIVTASVIANMPAHTLILDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGQILANVLTQLLKD</Hsp_hseq>
+      <Hsp_midline>MLTGL+IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGAVK  ID++ F  +D++ILPV  TT EG + T+FSNE+VVL +  + +TP HC+++SGISNAYL  I     R+LV+LFERDD+AIYNSIPTVEGTIMLAIQHTD+TIHGS + VLGLGR GM++ARTF ALGA VKVGAR S H+ARITEMGL PF   ++ + VKD DICINTIP  I+  +V+++M   TLILDLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQILANVL++LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_379967347.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Ectobacillus sp. sgz5001026]</Hit_def>
+  <Hit_accession>WP_379967347</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>8.55229e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVIGGDARQLEVIRKLIELDAKVSLVGFDQLDHGFTGATKEQIDELQFSRLDAVILPVAGTNDMGQIETIFSNEKVVLTKEHISKTPPHFTIYSGISNAYLHDIATVCNRSLIKLFERDDVAIYNSIPTVEGTIMMVIQHTDYTIHGSKVAVLGFGRTGMSVARAFQALGAKVKAGARRSEHLARITEMSFDPFHLKDLHEIVEDIDIVINTVPHLIVTNSVIARMPTNTLIIDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGKILANVLTGLLAEVKSRK</Hsp_hseq>
+      <Hsp_midline>MLT + IAVIGGDARQLE+IRKL E  A + LVGFDQLDHGFTGA K  IDE+ F ++D++ILPV+ T   G + T+FSNE+VVL ++HI +TP H  I+SGISNAYL +IA    R L+KLFERDD+AIYNSIPTVEGTIM+ IQHTDYTIHGS+VAVLG GRTGM++AR F ALGA VK GAR S HLARITEM   PFH  +L E V+DIDI INT+P +I+  +V++ M   TLI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAG+ILANVL+ LLAE+++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_095308161.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinic acid synthetase subunit A [Robertmurraya]</Hit_def>
+  <Hit_accession>WP_095308161</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>8.91148e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEG</Hsp_qseq>
+      <Hsp_hseq>MLTGLHLAVIGGDARQLEIIRRLTELDAKLSLIGFEQLDHAFSGAVKEKIDEVDFSIIDAIILPVAGTGLDGQVDTIFSNEKVLLSEEILLETPSHCTVYSGITNSYLSGITKKADRRLVQLFQRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVLVLGLGRVGMTVARAFNALGAYVKVGARKTEHIARITEMSLTPFQLKNLGEHVRDVDICINTIPHMIVTASVISKMPPHTLIIDLASKPGGTDFRYAEKRGIKALIAPSLPGIVAPRTAGQILANVLSRVLQEDLQSRKG</Hsp_hseq>
+      <Hsp_midline>MLTGL +AVIGGDARQLEIIR+LTE  A + L+GF+QLDH F+GAVK  IDE+ F  ID+IILPV+ T  +G V T+FSNE+V+L ++ +  TP+HC ++SGI+N+YL  I  +A R+LV+LF+RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLGLGR GMT+AR F ALGA VKVGAR + H+ARITEM L PF    L EHV+D+DICINTIP MI+  +V+S M P TLI+DLAS+PGGTDF+YAEK+GIKAL+AP LPGIVAP+TAGQILANVLS++L E +Q+ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_175989691.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. Marseille-Q1617]</Hit_def>
+  <Hit_accession>WP_175989691</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>9.59217e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVLGGDARQLEIIRKLTELDAKISLVGFEQLDHAFTGATKEKLGEVDFSIIDAIILPVPGTNLQGEIDTIFSNEKICLSEDIVSQTPEHCTIYSGISNKYLDNVVNSTNRKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSSIVVLGLGRVGMSVARTFNNLGAKVKVGARKSEHLARITEMGLEAFHLDQLTKEVENCDICINTIPTSIIKANVIAKMPPHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLLEE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIRKLTE  A I LVGF+QLDH FTGA K  + E+ F  ID+IILPV  T  +G + T+FSNE++ L +D + +TP HC I+SGISN YL+N+     RKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ARTF  LGA VKVGAR S HLARITEMGL  FH D+L + V++ DICINTIP+ I+   V++ M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|MCD8502506.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillaceae bacterium]</Hit_def>
+  <Hit_accession>MCD8502506</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>1.07913e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGKHVLVIGGDARQLEVIRKMIEMDAKISLVGFDQLDEGFIGTAKVQLDQVNFTQVDAIVLPVSGTSNEGVVETIFSNEKITLKLDHLKVTPEHCTVYSGISNQYLKDITARADRKLVELFERDDVAIYNSIPTVEGTIMMVIQNTDITIHKSNIVVLGLGRVGMSVARTFDLLGANVKVGARKSEDLARIYEMGLVPFQLSELENEVRDIDVCINTIPIMILTPKVLAKMPTRSLIVDLASRPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKIIANVLSTLISD</Hsp_hseq>
+      <Hsp_midline>MLTG  + VIGGDARQLE+IRK+ E  A I LVGFDQLD GF G  K  +D++ F Q+D+I+LPVS T+ EGVV T+FSNE++ LK DH+  TP HC ++SGISN YL++I A+A RKLV+LFERDD+AIYNSIPTVEGTIM+ IQ+TD TIH S + VLGLGR GM++ARTF  LGANVKVGAR S  LARI EMGLVPF   EL+  V+DID+CINTIP MIL   VL+ M  ++LI+DLASRPGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+I+ANVLS L+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_377937403.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus seohaeanensis]</Hit_def>
+  <Hit_accession>WP_377937403</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>1.09101e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVLGGDARQLEIIRKLTELDAKISLVGFEQLDHSFTGATKEKLDEINFSEIDAIVLPVPGTSNEGEVETIFSNEKIVLTEDILLQTPEHCTIYSGISNGFLDGIVSSSKRKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNILVLGLGRVGMSVARTFHHLGAKIKVGARKSEHLARITEMGLTPFQLGDLEKEVKNCDICINTIPAPVVEAGVIAKMPSHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLCQLLTE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIRKLTE  A I LVGF+QLDH FTGA K  +DEI F +ID+I+LPV  T+ EG V T+FSNE++VL +D + +TP HC I+SGISN +L+ I + +KRKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS + VLGLGR GM++ARTF  LGA +KVGAR S HLARITEMGL PF   +L++ VK+ DICINTIP+ ++   V++ M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVL +LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>tpg|HET7578520.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillales bacterium]</Hit_def>
+  <Hit_accession>HET7578520</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>1.14285e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTGLSIAVIGGDARQLELIRKLSEWDANLFLVGFDQLDHGFTGATKVGLDEVNFEEVDAVLLPVSGTSLQGKVETIFSNEEVVLTAQHLQKTPEHCVVYSGISNDYLDQCVKDASRRLVKLLERNDVAIYNSIPTAEGTIMMVIQNTDVTIHDSDVMVLGFGRTGMTVARMMASLGARVKVGARRSEHLARITEMGLEPFYVDSLEQEVKGIDICINTIPASILTASVLSQMPLSTLIIDLASKPGGTDFRYADKRGIKALLAPGLPGIVAPKTAGEILAKVLHPLLISNQKGE</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKL+E  A+++LVGFDQLDHGFTGA K  +DE+ F+++D+++LPVS T+ +G V T+FSNEEVVL   H+ +TP HCV++SGISN YL+     A R+LVKL ER+D+AIYNSIPT EGTIM+ IQ+TD TIH S V VLG GRTGMT+AR  A+LGA VKVGAR S HLARITEMGL PF+ D L++ VK IDICINTIP+ IL  +VLS M   TLI+DLAS+PGGTDF+YA+K+GIKALLAPGLPGIVAPKTAG+ILA VL  LL   Q  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_378932433.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Metabacillus herbersteinensis]</Hit_def>
+  <Hit_accession>WP_378932433</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.58716e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIAVIGGDARQLEVIRKLTELDAKLSLVGFDQLDHGFTGVNKTKLVDVKFSSLDAIILPVPGTNLEGLVDTVFSNEEVVLTEEMVASTPPHCVIYSGITNSYLNKLVDTTGRKLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDMTIHGSNVAVLGFGRVGMSVARTFSALGAKVKVGARKTSHLARITEMGLEPFLLDNLENEVSAVDVCINTIPFEIVTAKVISKMPAHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQIVANVLTQLLSELRSNR</Hsp_hseq>
+      <Hsp_midline>MLTGL IAVIGGDARQLE+IRKLTE  A + LVGFDQLDHGFTG  K  + ++ F  +D+IILPV  T  EG+V TVFSNEEVVL ++ +  TP HCVI+SGI+N+YL  +     RKLV+LFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS VAVLG GR GM++ARTF+ALGA VKVGAR ++HLARITEMGL PF  D L+  V  +D+CINTIP  I+   V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQI+ANVL++LL+E+++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_046522125.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Mesobacillus campisalis]</Hit_def>
+  <Hit_accession>WP_046522125</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>1.9018e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELDAKLSLVGFEQLDHAFTGASKEKISEIDFSVQDALILPVPGTNLEGQVETVFSSEKVVLTKEMLDSLPSHAVIYSGISNSYLDGITKDANKKLVQLFARDDVAIYNSIPTVEGTIMMVIQHTDFTIHGSNVAVLGLGRVGVSVARTFHALGAKVKVGARKSEHLARITEMGLAPFHLNDLAAEVRDIDICINTIPSQIVTASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLVQLLDE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + LVGF+QLDH FTGA K  I EI F   D++ILPV  T  EG V TVFS+E+VVL ++ +D  P+H VI+SGISN+YL+ I   A +KLV+LF RDD+AIYNSIPTVEGTIM+ IQHTD+TIHGS VAVLGLGR G+++ARTF ALGA VKVGAR S HLARITEMGL PFH ++L   V+DIDICINTIPS I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL +LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_184522389.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus benzoevorans]</Hit_def>
+  <Hit_accession>WP_184522389</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>1.95413e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTDMQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAAKVKISEVDFSHIDSLILPVSGTSLEGQVDTVFSNEKVFLLEELIAQTPSHCVVYTGISNPYLNGIVERSNRRLVPIFNRDDVAIYNSIPTVEGTIMLAIQHTDFTIHGSNVMVLGLGRVGMSVARTFAALGAKVTVGARKTEHFARITEMGLTPFHLDELTNWVKDIDICINTIPHHIVTAAVISKMPAHTLIIDLASKPGGTDFRYAEKRGVKALLAPSLPGIVAPKTAGNIIANVLSQLL</Hsp_hseq>
+      <Hsp_midline>MLT ++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  I E+ F  IDS+ILPVS T+ EG V TVFSNE+V L ++ I +TP+HCV+++GISN YL  I  ++ R+LV +F RDD+AIYNSIPTVEGTIMLAIQHTD+TIHGS V VLGLGR GM++ARTFAALGA V VGAR + H ARITEMGL PFH DEL   VKDIDICINTIP  I+   V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAP LPGIVAPKTAG I+ANVLS+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_389214685.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Cytobacillus mangrovibacter]</Hit_def>
+  <Hit_accession>WP_389214685</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>2.05327e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEIIRKLTDLDAKLSLIGFEQLDHAFTGAVKEKINEVEFSNKDVIILPVPGTSSDGQIETIFSNEKVYLQKEMLVETPPHCTVYSGISNSYLDSITTQTNRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDTTIHGSTITVLGLGRVGMSVARTFQALGAKVKVGARKSEHIARITEMGLTPFYLSDLENEVKDADICINTIPKLIVTSSVISKMPVHTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQILANVLSQLIRDDMKRERGQ</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLT+  A + L+GF+QLDH FTGAVK  I+E+ F   D IILPV  T+ +G + T+FSNE+V L+++ +  TP HC ++SGISN+YL++I  Q  R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD TIHGS + VLGLGR GM++ARTF ALGA VKVGAR S H+ARITEMGL PF+  +L+  VKD DICINTIP +I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQILANVLS+L+  +++ E G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_141433465.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. 03113]</Hit_def>
+  <Hit_accession>WP_141433465</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>2.51364e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTEMHIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAAKVKIDELDFSDVDAILLPVPGTDLQGQVDTIFSNEQVFLTEEILKKTQNHCTVYSGISNSYLNELLEKTNRRLVQLFDRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVIVLGLGRVGMSVARTFFALGAKVKVGARKSEHIARITEMGLIPFHLDEIEQIVKDVDICINTIPFLVIKSSVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLID</Hsp_hseq>
+      <Hsp_midline>MLT + IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  IDE+ F  +D+I+LPV  T  +G V T+FSNE+V L ++ + +T  HC ++SGISN+YL  +  +  R+LV+LF+RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLGLGR GM++ARTF ALGA VKVGAR S H+ARITEMGL+PFH DE+++ VKD+DICINTIP +++  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_026692439.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus kribbensis]</Hit_def>
+  <Hit_accession>WP_026692439</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>2.59756e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEVIRKLTQLDAKLWLVGFEQLDHAFTGAVKEKLKDLNMSTIDAIILPVPGTGTEGGIETIFSSEEVVLTEEILKKTPSHCTIYSGITNAYLDKITKNANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDYTIHGSNVMVLGLGRVGMSVARTFHSLGAHVKVGARKSEDLARITEMALTPFHIKDLEEKIQDIDICINTVPYPVVTAAVLANMPPHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGKILANVLAQLL</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE+IRKLT+  A ++LVGF+QLDH FTGAVK  + ++    ID+IILPV  T  EG + T+FS+EEVVL ++ + +TP+HC I+SGI+NAYL+ I   A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTDYTIHGS V VLGLGR GM++ARTF +LGA+VKVGAR S  LARITEM L PFH  +L+E ++DIDICINT+P  ++   VL++M P TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAG+ILANVL++LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_117323824.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus glennii]</Hit_def>
+  <Hit_accession>WP_117323824</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>2.59756e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLA-EIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGVQIAVIGGDARQLEVVRKLTELDAKLSLVGFEQLDHSFTGAVKEKLDDLNLSEIDSIILPVPGTNSTGRVETIFSNEEVIITEQILSKTPPHCTVYSGISNEYLNGIIKKANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSTVAVLGFGRTGMSVARTFQAIGAKVKVGARKSEDLARITEMAMTPFHLNDLATAVRDVDICINTIPVLIVSASVLANMPVHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLIQDDMKKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE++RKLTE  A + LVGF+QLDH FTGAVK  +D++   +IDSIILPV  T   G V T+FSNEEV++ +  + +TP HC ++SGISN YL  I  +A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS VAVLG GRTGM++ARTF A+GA VKVGAR S  LARITEM + PFH ++L   V+D+DICINTIP +I++ +VL++M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++L+  +++  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_101581134.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. T33-2]</Hit_def>
+  <Hit_accession>WP_101581134</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>2.80444e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVMGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAAKEKIDDVDFTSLDAIILPVPGTSLEGQVETIFSNEKVVLTKELLQNTPQHCTIYSGISNSHLTAMTKHANRRLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVVVLGLGRVGMSVARTFHALGANVKVGARKSEHIARITEMGLAPFHLHDLEHSVRDTDICINTIPHPVVSASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQ</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  ID++ F  +D+IILPV  T+ EG V T+FSNE+VVL ++ +  TP HC I+SGISN++L  +   A R+LV+LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLGLGR GM++ARTF ALGANVKVGAR S H+ARITEMGL PFH  +L+  V+D DICINTIP  +++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_213096687.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Lederbergia citrea]</Hit_def>
+  <Hit_accession>WP_213096687</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>3.55883e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVLGGDARQLEIIRKLTELDAKLFLIGFEQLAQPFSGAVKEKLENVDFSQMDSLILPVPGTNLQGEVETIFSSEKIVLTEQILNMTPSYCTIYSGISNTYLDQISKDSNRRLIQLFERDDVAIYNSIPTVEGTIMMAIQNTDITIHQSSIAVLGLGRVGMSVARTFALLGAKVKVGARKSAHLARITEMGLVPFHLNDLKDEVKDLDMCINTIPSLILNAGIIANMPSNSLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKSAGQILANVLSQLLAE</Hsp_hseq>
+      <Hsp_midline>MLT + IAV+GGDARQLEIIRKLTE  A ++L+GF+QL   F+GAVK  ++ + F Q+DS+ILPV  T  +G V T+FS+E++VL +  ++ TP++C I+SGISN YL+ I+  + R+L++LFERDD+AIYNSIPTVEGTIM+AIQ+TD TIH S +AVLGLGR GM++ARTFA LGA VKVGAR SAHLARITEMGLVPFH ++LK+ VKD+D+CINTIPS+ILN  ++++M   +LI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPK+AGQILANVLS+LLAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_215040797.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. ISL-18]</Hit_def>
+  <Hit_accession>WP_215040797</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>3.81037e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVMGGDARQLEIIRRLTELDARLSLIGFEQLDHAFTGAVKERLDEVDFSNVDALILPVPGTNLEGQVETIFSNEKVILTGDILSKTPEHCTVYSGITNSYLNEITKVANRPLIQLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVTVLGLGRVGMSVARTFAALGAKVKVGARKSEHLARITEMGLTPFHLSELVNEVKDTDILINTAPHLIVTAMVISKLPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANILAQLLQE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIR+LTE  A + L+GF+QLDH FTGAVK  +DE+ F  +D++ILPV  T  EG V T+FSNE+V+L  D + +TP HC ++SGI+N+YL  I   A R L++LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLGLGR GM++ARTFAALGA VKVGAR S HLARITEMGL PFH  EL   VKD DI INT P +I+   V+S +   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILAN+L++LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_256240200.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. V3B]</Hit_def>
+  <Hit_accession>WP_256240200</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>3.83222e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEI</Hsp_qseq>
+      <Hsp_hseq>MLTDMQIAIIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGATKEKIEEINFSQIDAIILPVAGTSLDGHVDTIFSNEKVVLLEEMLQKTPSHCIVFSGIANSYLTGITERANRGLVKLFNRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSTVTVLGLGRVGMSVARTFHLLGAKVKVGARKTEHIARITEMGLTPFHLDEISHWVKDTDICINTIPHQIVTASVISKMPVHTLIIDLASKPGGTDFRYAEKRGVKALLAPSLPGIVAPKTAGNILANVLIQLLQDV</Hsp_hseq>
+      <Hsp_midline>MLT ++IA+IGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  I+EI F QID+IILPV+ T+ +G V T+FSNE+VVL ++ + +TP+HC++FSGI+N+YL  I  +A R LVKLF RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLGLGR GM++ARTF  LGA VKVGAR + H+ARITEMGL PFH DE+   VKD DICINTIP  I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAP LPGIVAPKTAG ILANVL +LL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_147532173.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus marasmi]</Hit_def>
+  <Hit_accession>WP_147532173</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>4.15912e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLQIAVIGGDARQLEIIRKLTEMDAKLSLIGFEQLDHAFTGAIKEKIDDLDFSTMDAIILPVPGTTQDGQIETIFSNEKVVLTEEMLSVTPEHCTIYSGISNGYLNGIVKAADRRLVQLFERDDVAIYNSIPTVEGTIMLAIQHTDFTIHGSNIAVLGLGRVGMSVARTFHALGAKVSVGARKSEHIARITEMGLTPFLLKDIQQYVKDTDICINTIPYQIVTASVISKMPAHTLILDLASKPGGTDFRYAEKRGIKAILAPGLPGIVAPKTAGQILAGVLIQLLMD</Hsp_hseq>
+      <Hsp_midline>MLTGL+IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGA+K  ID++ F  +D+IILPV  TT +G + T+FSNE+VVL ++ +  TP HC I+SGISN YL  I   A R+LV+LFERDD+AIYNSIPTVEGTIMLAIQHTD+TIHGS +AVLGLGR GM++ARTF ALGA V VGAR S H+ARITEMGL PF   +++++VKD DICINTIP  I+  +V+S M   TLILDLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQILA VL +LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_119111614.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Mesobacillus zeae]</Hit_def>
+  <Hit_accession>WP_119111614</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>4.18298e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVLGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAAKEKMDELDFAAQDALILPVPGTSIEGQVETIFSSEKVILTKEMVEKTPSHCMIYSGISNAYLTGIAEQAKRQLVLLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVAVLGLGRVGVSVARSFHALGSKVRVGARKSEHLARIAEMALTPFHLDNLGSMVGDIDICINTIPHPVVTASIISKMPSHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLIGDEYTER</Hsp_hseq>
+      <Hsp_midline>MLTG++IAV+GGDARQLEIIRKLTE  A + L+GF+QLDH FTGA K  +DE+ F   D++ILPV  T+ EG V T+FS+E+V+L ++ +++TP+HC+I+SGISNAYL  IA QAKR+LV LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS VAVLGLGR G+++AR+F ALG+ V+VGAR S HLARI EM L PFH D L   V DIDICINTIP  ++  +++S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++L+ +   E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_409294332.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Paraperibacillus marinus]</Hit_def>
+  <Hit_accession>WP_409294332</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>4.25119e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEVVRKLTQLDAKLWLVGFEQLDHAFTGAVKEKLDELNMQEIDAIILPVPGTNAEGDIETIFSSEKVKLTEEILKKTPGHCTIYSGISNQYLDRVTQNAERKLVQLFERDDVAIYNSIPTVEGTIMMAIQHTDYTIHGANVAVLGLGRVGMSVARTFHSLGSRVKVGARKSEDLARITEMSLQPFHIRDLEQEIKNIDICINTIPHPVVTAAVLANMPSHTLVIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLAQLL</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE++RKLT+  A ++LVGF+QLDH FTGAVK  +DE+  Q+ID+IILPV  T  EG + T+FS+E+V L ++ + +TP HC I+SGISN YL+ +   A+RKLV+LFERDD+AIYNSIPTVEGTIM+AIQHTDYTIHG+ VAVLGLGR GM++ARTF +LG+ VKVGAR S  LARITEM L PFH  +L++ +K+IDICINTIP  ++   VL++M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVL++LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_217038204.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. FJAT-29790]</Hit_def>
+  <Hit_accession>WP_217038204</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>4.25443e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGIQIAVIGGDARQLEIIRKLTELDAKLSLIGFEQLDHAFTGAVKEKIDEVEFSNKDVLILPVPGTGLDGQIETIFSNEKVYLLKEMLMETPPHCTVYSGISNSYLNSITKQANRRLVQLFERNDVAIYNSIPTVEGTIMMAIQHTDITIHGSNIMILGLGRTGMSLARTFYALGAKVKVGARKTEHFARITEMGLTPFHLDELEVEVRDTDICINTVPHLIVTASVISKMPVHTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQILANVLSQLIKD</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE  A + L+GF+QLDH FTGAVK  IDE+ F   D +ILPV  T  +G + T+FSNE+V L ++ +  TP HC ++SGISN+YL +I  QA R+LV+LFER+D+AIYNSIPTVEGTIM+AIQHTD TIHGS + +LGLGRTGM++ARTF ALGA VKVGAR + H ARITEMGL PFH DEL+  V+D DICINT+P +I+  +V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQILANVLS+L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_027408737.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Anoxybacteroides tepidamans]</Hit_def>
+  <Hit_accession>WP_027408737</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>4.79521e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE-IQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMHVAIIGGDARQLEVIRKLTELDAKLSLIGFDQLAHSFTGATKTSINEIDVSDLDAIILPVHGTNLEGKVNTVFSNEKIAITEEMLLKTPKHCTVYSGISNSYLDDLMKAVNRKYVQLFERDDVAIYNSIPTAEGTIMMVIQHTDFTIHGSRVAVLGLGRVGMTVARTFAALGAKVKVGARRTEHLARILEMGLEPFHLQDLEKEVRDIDVCINTIPTLVVTASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKALLAPGLPGVVAPKTAGQIIANVLSQLLFEDLNKRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG+ +A+IGGDARQLE+IRKLTE  A + L+GFDQL H FTGA K +I+EI    +D+IILPV  T  EG V+TVFSNE++ + ++ + +TP HC ++SGISN+YL+++     RK V+LFERDD+AIYNSIPT EGTIM+ IQHTD+TIHGS+VAVLGLGR GMT+ARTFAALGA VKVGAR + HLARI EMGL PFH  +L++ V+DID+CINTIP++++  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPG+VAPKTAGQI+ANVLS+LL E +   +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_028399031.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Ectobacillus panaciterrae]</Hit_def>
+  <Hit_accession>WP_028399031</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>5.10742e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHIAVIGGDARQLEVIRKMIELDAKLSLIGFDQLDHGFTGAAKEQMQELDFSSLDAIILPVAGTNLEGQIDTIFSNKKVVLTKEQVEETPSHFTIYSGISNAYLDGLAASTNRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTDYTIHGSKVMVLGFGRTGMSVARTFQALGAKVRVGARRSEHLARITEMTFAPFHLNDLEQEVQDADIVINTIPHLIVTASIISKMPAHTLIVDLASKPGGTDFRYAEKRGVKAFLAPGLPGIVAPKTAGQILANVLTSLLSEDKARK</Hsp_hseq>
+      <Hsp_midline>MLT + IAVIGGDARQLE+IRK+ E  A + L+GFDQLDHGFTGA K  + E+ F  +D+IILPV+ T  EG + T+FSN++VVL ++ ++ TP+H  I+SGISNAYL+ +AA   RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHTDYTIHGS+V VLG GRTGM++ARTF ALGA V+VGAR S HLARITEM   PFH ++L++ V+D DI INTIP +I+  +++S M   TLI+DLAS+PGGTDF+YAEK+G+KA LAPGLPGIVAPKTAGQILANVL+ LL+E +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_419151372.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Aeribacillus alveayuensis]</Hit_def>
+  <Hit_accession>WP_419151372</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>5.33604e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGLNIALIGGDARQLEVIRKLVELDAKIFLVGFDQLDHAFTGAKKAKIEELNFSEIDAMILPVSGTSLDGQIETVFSNEKIVLTEEILASTPEYCRIYSGISNQYLDDLVSKTNRTLVQLFERDDVAIYNSIPTVEGTIMMVIQHTDFTIHNSTVAVLGLGRVGMSVARAFHHLGAKVKVGARKTKDIARITEMGLTPFHLQNLEEEVKDLDVCINTIPHPILTAKVISKMPPHTLIVDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLLLE</Hsp_hseq>
+      <Hsp_midline>MLTGL IA+IGGDARQLE+IRKL E  A I+LVGFDQLDH FTGA K  I+E+ F +ID++ILPVS T+ +G + TVFSNE++VL ++ +  TP +C I+SGISN YL+++ ++  R LV+LFERDD+AIYNSIPTVEGTIM+ IQHTD+TIH S VAVLGLGR GM++AR F  LGA VKVGAR +  +ARITEMGL PFH   L+E VKD+D+CINTIP  IL   V+S M P TLI+DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+LL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_254758967.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Ectobacillus ponti]</Hit_def>
+  <Hit_accession>WP_254758967</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>5.39477e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQ</Hsp_qseq>
+      <Hsp_hseq>MLTNMHVAVVGGDARQLEVIRKLIELDAKLSLVGFDQLDHGFTGASKEQIQTLDFSSLDAMILPVAGTNAEGGVDTIFSNQKVVLTKEQIEQTPAHFTIFSGISNAYLDSLAASTNRKLIRLFERDDVAIYNSIPTVEGTIMMVIQHTDYTIHGSRVVVLGFGRTGMSVARTFHALGANVRVGARRSEHLARISEMVMVPFHMNDIEKEVQNADVVINTIPHQVVTASVISKMPAHTLIIDLASKPGGTDFRYAEKRGIKAFLAPGLPGIVAPKTAGQILANVLSSLLQDLR</Hsp_hseq>
+      <Hsp_midline>MLT + +AV+GGDARQLE+IRKL E  A + LVGFDQLDHGFTGA K  I  + F  +D++ILPV+ T  EG V T+FSN++VVL ++ I++TPAH  IFSGISNAYL+++AA   RKL++LFERDD+AIYNSIPTVEGTIM+ IQHTDYTIHGS+V VLG GRTGM++ARTF ALGANV+VGAR S HLARI+EM +VPFH +++++ V++ D+ INTIP  ++  +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKA LAPGLPGIVAPKTAGQILANVLS LL +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_409305474.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Peribacillus sedimenti]</Hit_def>
+  <Hit_accession>WP_409305474</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>5.77603e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEVVRKLTELDAKLFLVGFEQLDHSFTGAVKESLGSLELSEIDTIILPVPGTGSDGKVETIFSSEDVIITEEIISKTPPHCTIYSGISNDYLNGIIKKAKRRLVKLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVVVLGFGRTGMSVSRTFQALGAKVKVGARKSEDLARITEMAMTPFHLSNLAENVRDVDICINTIPFPIVTASILANMPVHTLLIDLASKPGGTDFRYAEKRGIKALLAPGLPGIVAPKTAGQILANVLSQLIEE</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLE++RKLTE  A ++LVGF+QLDH FTGAVK ++  +   +ID+IILPV  T  +G V T+FS+E+V++ ++ I +TP HC I+SGISN YL  I  +AKR+LVKLFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLG GRTGM+++RTF ALGA VKVGAR S  LARITEM + PFH   L E+V+D+DICINTIP  I+  ++L++M   TL++DLAS+PGGTDF+YAEK+GIKALLAPGLPGIVAPKTAGQILANVLS+L+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_042356223.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus rubiinfantis]</Hit_def>
+  <Hit_accession>WP_042356223</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>6.7327e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQ</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAVIGGDARQLEIIRKLTELEARLSLIGFEQLDHAFTGAVKEKIDEVDFTKIDAIILPVAGTNLEGQIETIFSNEKVILSEEILKKTPKHCTIYSGISNEYLNDLVVNTGRTLIQLFSRDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVTILGLGRCGMSIARAFHALGAKVKVGARKSEHLARITEMGLAPFHLSEIEMEVIDADIVINTIPQLIINEGVIAKLPPHTLIIDIASKPGGTDFRYAEKRGIKALLAPSLPGIVAPKTAGQILADVLTQLLEELK</Hsp_hseq>
+      <Hsp_midline>MLTG++IAVIGGDARQLEIIRKLTE +A + L+GF+QLDH FTGAVK  IDE+ F +ID+IILPV+ T  EG + T+FSNE+V+L ++ + +TP HC I+SGISN YL ++     R L++LF RDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V +LGLGR GM+IAR F ALGA VKVGAR S HLARITEMGL PFH  E++  V D DI INTIP +I+N+ V++ + P TLI+D+AS+PGGTDF+YAEK+GIKALLAP LPGIVAPKTAGQILA+VL++LL E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_125906082.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. HMF5848]</Hit_def>
+  <Hit_accession>WP_125906082</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>8.0677e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAE</Hsp_qseq>
+      <Hsp_hseq>MLTDMHVAVIGGDARQLEVIRKLTELDAKLTLIGFDQLDHGFTGASKAQITEVDFSNIDAIILPVPGTSLEGKIETIFSNETVVLTEEILANTPEHCTIYSGISNAYLDKIINSTDRKLVKLFERDDVAIYNSIPTVEGTIMMVIQHTDITIHGSRVAVLGLGRVGMSVARSFHALGAKVKVGARKTEHVARISEMGLEPFYLSDLEKEVQDIDVCINTVPDLIVTARVISKMPAHTLIIDLASKPGGTDFRYAEKRGVKALLAPGLPGIVAPKTAGQIVANVLANLLSE</Hsp_hseq>
+      <Hsp_midline>MLT + +AVIGGDARQLE+IRKLTE  A + L+GFDQLDHGFTGA K  I E+ F  ID+IILPV  T+ EG + T+FSNE VVL ++ +  TP HC I+SGISNAYL+ I     RKLVKLFERDD+AIYNSIPTVEGTIM+ IQHTD TIHGS+VAVLGLGR GM++AR+F ALGA VKVGAR + H+ARI+EMGL PF+  +L++ V+DID+CINT+P +I+   V+S M   TLI+DLAS+PGGTDF+YAEK+G+KALLAPGLPGIVAPKTAGQI+ANVL+ LL+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_053599959.1|</Hit_id>
+  <Hit_def>dipicolinic acid synthetase subunit A [Bacillus sp. FJAT-18017]</Hit_def>
+  <Hit_accession>WP_053599959</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>9.55706e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLL-AEIQAEEGK</Hsp_qseq>
+      <Hsp_hseq>MLTGMQIAIIGGDARQLEIIRKLTELDAKLLLVGFEQLDHAFTGAQKEKIGEADFSAVDALILPVSGTSMDGQVETIFSNEQVVLTEEILAKTPETCTIYSGITNGYLTGIIKKAKRRLVLLFERDDVAIYNSIPTVEGTIMMAIQHTDFTIHGSNVVVLGFGRTGMSVARTFHVLGAKVKTGARKSEHLARITEMGLIPFHLSEIEKEIRDADIVINTIPHQIVSASVISKMASHTLIIDLASKPGGTDFRYAEKRGIKAMLAPGLPGIVAPKTAGQILANVLSQLLQVDLQNRKGK</Hsp_hseq>
+      <Hsp_midline>MLTG++IA+IGGDARQLEIIRKLTE  A + LVGF+QLDH FTGA K  I E  F  +D++ILPVS T+ +G V T+FSNE+VVL ++ + +TP  C I+SGI+N YL  I  +AKR+LV LFERDD+AIYNSIPTVEGTIM+AIQHTD+TIHGS V VLG GRTGM++ARTF  LGA VK GAR S HLARITEMGL+PFH  E+++ ++D DI INTIP  I++ +V+S M   TLI+DLAS+PGGTDF+YAEK+GIKA+LAPGLPGIVAPKTAGQILANVLS+LL  ++Q  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>465517121</Statistics_db-num>
+      <Statistics_db-len>148632845539</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
