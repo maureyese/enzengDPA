@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+<GBSet>
+  <GBSeq>
+
+    <GBSeq_locus>SPY12701</GBSeq_locus>
+    <GBSeq_length>297</GBSeq_length>
+    <GBSeq_moltype>AA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>BCT</GBSeq_division>
+    <GBSeq_update-date>03-AUG-2020</GBSeq_update-date>
+    <GBSeq_create-date>16-JUN-2018</GBSeq_create-date>
+    <GBSeq_definition>dipicolinate synthase subunit A [Bacillus subtilis]</GBSeq_definition>
+    <GBSeq_primary-accession>SPY12701</GBSeq_primary-accession>
+    <GBSeq_accession-version>SPY12701.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|SPY12701.1|</GBSeqid>
+      <GBSeqid>gnl|WGS:UATI|SPY12701</GBSeqid>
+      <GBSeqid>gi|1411404525</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJEB6403</GBSeq_project>
+    <GBSeq_source>Bacillus subtilis</GBSeq_source>
+    <GBSeq_organism>Bacillus subtilis</GBSeq_organism>
+    <GBSeq_taxonomy>Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..297</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Doyle,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>Pathogen Informatics</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-JUN-2018) WTSI, Pathogen Informatics, Wellcome Trust Sanger Institute, CB10 1SA, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>The organism was changed from &apos;Paenibacillus polymyxa&apos; to &apos;Bacillus subtilis&apos; in July 2020.; ##Taxonomic-Update-Statistics-START## ; This Genome (query) :: GCA_900454375.1 ; Current Name :: Bacillus subtilis ; Previous Name :: Paenibacillus polymyxa ; Date Updated :: 2020-07-30 ; Analysis Type :: Average Nucleotide Identity (ANI) ; Analysis 1 (A1) :: Query vs. TYPE genome for current name ; A1 Genome (subject) :: GCA_012931705.1 ; A1 Name :: Bacillus subtilis ; A1 ANI :: 98.66% ; A1 Query Coverage :: 91.51% ; A1 Subject Coverage :: 87.89% ; Analysis 2 (A2) :: Query vs. TYPE genome for previous name ; A2 Genome (subject) :: GCA_900454525.1 ; A2 Name :: Paenibacillus polymyxa ; A2 ANI :: 86.5% ; A2 Query Coverage :: 0.34% ; A2 Subject Coverage :: 0.23% ; ##Taxonomic-Update-Statistics-END##</GBSeq_comment>
+    <GBSeq_source-db>embl accession UATI01000009.1</GBSeq_source-db>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..297</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>297</GBInterval_to>
+            <GBInterval_accession>SPY12701.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bacillus subtilis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>NCTC4744</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serovar</GBQualifier_name>
+            <GBQualifier_value>not available: to be reported later</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1423</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contig: ERS1943159SCcontig000009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>Protein</GBFeature_key>
+        <GBFeature_location>1..297</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>297</GBInterval_to>
+            <GBInterval_accession>SPY12701.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>dipicolinate synthase subunit A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>calculated_mol_wt</GBQualifier_name>
+            <GBQualifier_value>31817</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>Region</GBFeature_key>
+        <GBFeature_location>3..296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3</GBInterval_from>
+            <GBInterval_to>296</GBInterval_to>
+            <GBInterval_accession>SPY12701.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>region_name</GBQualifier_name>
+            <GBQualifier_value>PRK08306</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>dipicolinate synthase subunit DpsA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>CDD:181371</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..297</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>297</GBInterval_to>
+            <GBInterval_accession>SPY12701.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>spoVFA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>NCTC4744_01703</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>coded_by</GBQualifier_name>
+            <GBQualifier_value>UATI01000009.1:468974..469867</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>ab initio prediction:Prodigal:2.60</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>similar to AA sequence:RefSeq:YP_003012118.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>11</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR007698</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR014215</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR031629</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR036291</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:A0A2X1V7R4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>mltglkiaviggdarqleiirklteqqadiylvgfdqldhgftgavkcnideipfqqidsiilpvsattgegvvstvfsneevvlkqdhidrtpahcvifsgisnayleniaaqakrklvklferddiaiynsiptvegtimlaiqhtdytihgsqvavlglgrtgmtiartfaalganvkvgarssahlaritemglvpfhtdelkehvkdidicintipsmilnqtvlssmtpktlildlasrpggtdfkyaekqgikallapglpgivapktagqilanvlskllaeiqaeegk</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJEB6403</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMEA104318181</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
+
+</GBSet>

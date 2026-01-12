@@ -2,47 +2,93 @@
   "interproscan-version": "5.76-107.0",
   "results": [
     {
-      "sequence": "MLTGLKIAVIGGDARQLEIIRKLTEQQADIYLVGFDQLDHGFTGAVKCNIDEIPFQQIDSIILPVSATTGEGVVSTVFSNEEVVLKQDHIDRTPAHCVIFSGISNAYLENIAAQAKRKLVKLFERDDIAIYNSIPTVEGTIMLAIQHTDYTIHGSQVAVLGLGRTGMTIARTFAALGANVKVGARSSAHLARITEMGLVPFHTDELKEHVKDIDICINTIPSMILNQTVLSSMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLAEIQAEEGK",
-      "md5": "e886ad6d5e6cea3e0152a7e5307fedfd",
+      "sequence": "MLTGLTIAIIGGDARQLEIIRKLTEQQANIYLVGFDQLDHGFTGAVKCKIDEIAFQQIDSIILPVSATTGEGVVATVFSNEEVVLKQEHLEQTPAHCVIYSGISNTYLEKIATEAKRKLVKLFERDDIAIFNSIPTVEGTIMMAIQHTDYTIHGSRVAVLGLGRTGMTIARTFAALGAKVKVGARSSAHLARISEMGLAPFQIDELTENVKDIDICINTVPSMILNQAVLSRMTPKTLILDLASRPGGTDFKYAEKQGIKALLAPGLPGIVAPKTAGQILANVLSKLLSELQ",
+      "md5": "2b6f149f453ce753304f7bcf5385a458",
       "matches": [
         {
           "signature": {
-            "accession": "NF006162",
-            "name": "PRK08306.1",
-            "description": "dipicolinate synthase subunit DpsA",
-            "type": "FAMILY",
+            "accession": "G3DSA:3.40.50.720",
+            "name": "",
+            "description": null,
+            "type": "HOMOLOGOUS_SUPERFAMILY",
             "signatureLibraryRelease": {
-              "library": "NCBIFAM",
-              "version": "17.0"
+              "library": "GENE3D",
+              "version": "4.3.0"
             },
             "entry": null
           },
           "locations": [
             {
-              "start": 1,
-              "end": 294,
+              "start": 151,
+              "end": 291,
               "representative": true,
-              "hmmStart": 1,
-              "hmmEnd": 294,
-              "hmmLength": 297,
-              "hmmBounds": "N_TERMINAL_COMPLETE",
-              "evalue": 2.8e-128,
-              "score": 438.9,
-              "envelopeStart": 1,
-              "envelopeEnd": 297,
-              "postProcessed": false,
+              "hmmStart": 4,
+              "hmmEnd": 144,
+              "hmmLength": 146,
+              "hmmBounds": "COMPLETE",
+              "evalue": 1.2e-30,
+              "score": 108.1,
+              "envelopeStart": 151,
+              "envelopeEnd": 291,
+              "postProcessed": true,
               "location-fragments": [
                 {
-                  "start": 1,
-                  "end": 294,
+                  "start": 151,
+                  "end": 291,
                   "dc-status": "CONTINUOUS"
                 }
               ]
             }
           ],
-          "evalue": 2.5e-128,
-          "score": 439.1,
-          "model-ac": "NF006162"
+          "evalue": 5.9e-75,
+          "score": 251.8,
+          "model-ac": "3d4oB01"
+        },
+        {
+          "signature": {
+            "accession": "TIGR02853",
+            "name": "spore_dpaA",
+            "description": "dipicolinic acid synthetase subunit A",
+            "type": "FAMILY",
+            "signatureLibraryRelease": {
+              "library": "NCBIFAM",
+              "version": "17.0"
+            },
+            "entry": {
+              "accession": "IPR014215",
+              "name": "Dipicolinic_acid_synth_A",
+              "description": "Dipicolinic acid synthetase subunit A",
+              "type": "FAMILY",
+              "goXRefs": [],
+              "pathwayXRefs": []
+            }
+          },
+          "locations": [
+            {
+              "start": 5,
+              "end": 290,
+              "representative": false,
+              "hmmStart": 2,
+              "hmmEnd": 287,
+              "hmmLength": 287,
+              "hmmBounds": "C_TERMINAL_COMPLETE",
+              "evalue": 1.1e-134,
+              "score": 459.7,
+              "envelopeStart": 4,
+              "envelopeEnd": 290,
+              "postProcessed": false,
+              "location-fragments": [
+                {
+                  "start": 5,
+                  "end": 290,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 9.5e-135,
+          "score": 459.9,
+          "model-ac": "TIGR02853"
         },
         {
           "signature": {
@@ -58,12 +104,12 @@
           },
           "locations": [
             {
-              "start": 146,
+              "start": 147,
               "end": 243,
               "representative": false,
               "sites": [
                 {
-                  "description": "NP_BIND: NADP.",
+                  "description": "NADP.",
                   "numLocations": 1,
                   "siteLocations": [
                     {
@@ -72,30 +118,30 @@
                       "residue": "GLGRTG"
                     }
                   ],
-                  "label": null,
-                  "group": 0,
-                  "hmmStart": 0,
-                  "hmmEnd": 0
+                  "label": "NP_BIND",
+                  "group": 1,
+                  "hmmStart": 189,
+                  "hmmEnd": 194
                 }
               ],
-              "hmmStart": 175,
+              "hmmStart": 176,
               "hmmEnd": 280,
               "hmmLength": 428,
-              "evalue": 2.3e-05,
-              "score": 21.1,
+              "evalue": 5.1e-10,
+              "score": 24.6,
               "envelopeStart": 1,
               "envelopeEnd": 2,
               "location-fragments": [
                 {
-                  "start": 146,
+                  "start": 147,
                   "end": 243,
                   "dc-status": "CONTINUOUS"
                 }
               ]
             }
           ],
-          "evalue": 2.3e-05,
-          "score": 21.1,
+          "evalue": 5.1e-10,
+          "score": 24.6,
           "scope": null,
           "model-ac": "PIRSR000445-3"
         },
@@ -117,11 +163,11 @@
               "end": 138,
               "representative": true,
               "hmmStart": 4,
-              "hmmEnd": 138,
+              "hmmEnd": 136,
               "hmmLength": 153,
               "hmmBounds": "COMPLETE",
-              "evalue": 3.1e-46,
-              "score": 158.6,
+              "evalue": 1.8e-46,
+              "score": 159.4,
               "envelopeStart": 1,
               "envelopeEnd": 138,
               "postProcessed": true,
@@ -134,48 +180,137 @@
               ]
             }
           ],
-          "evalue": 2e-69,
-          "score": 234.0,
+          "evalue": 2.4e-68,
+          "score": 230.4,
           "model-ac": "2rirE01"
         },
         {
           "signature": {
-            "accession": "G3DSA:3.40.50.720",
-            "name": "",
-            "description": null,
-            "type": "HOMOLOGOUS_SUPERFAMILY",
+            "accession": "PF16924",
+            "name": "DpaA_N",
+            "description": "Dipicolinate synthase subunit A N-terminal domain",
+            "type": "DOMAIN",
             "signatureLibraryRelease": {
-              "library": "GENE3D",
-              "version": "4.3.0"
+              "library": "PFAM",
+              "version": "38.0"
             },
-            "entry": null
+            "entry": {
+              "accession": "IPR031629",
+              "name": "DpaA_N",
+              "description": "Dipicolinate synthase subunit A, N-terminal",
+              "type": "DOMAIN",
+              "goXRefs": [],
+              "pathwayXRefs": []
+            }
           },
           "locations": [
             {
-              "start": 151,
-              "end": 291,
+              "start": 7,
+              "end": 123,
               "representative": false,
-              "hmmStart": 4,
-              "hmmEnd": 144,
-              "hmmLength": 146,
-              "hmmBounds": "COMPLETE",
-              "evalue": 1.1e-30,
-              "score": 108.1,
-              "envelopeStart": 151,
-              "envelopeEnd": 291,
+              "hmmStart": 2,
+              "hmmEnd": 117,
+              "hmmLength": 117,
+              "hmmBounds": "C_TERMINAL_COMPLETE",
+              "evalue": 2.2e-33,
+              "score": 126.2,
+              "envelopeStart": 6,
+              "envelopeEnd": 123,
               "postProcessed": true,
               "location-fragments": [
                 {
-                  "start": 151,
+                  "start": 7,
+                  "end": 123,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 3.6e-36,
+          "score": 135.1,
+          "model-ac": "PF16924"
+        },
+        {
+          "signature": {
+            "accession": "PF01262",
+            "name": "AlaDh_PNT_C",
+            "description": "Alanine dehydrogenase/PNT, C-terminal domain",
+            "type": "DOMAIN",
+            "signatureLibraryRelease": {
+              "library": "PFAM",
+              "version": "38.0"
+            },
+            "entry": {
+              "accession": "IPR007698",
+              "name": "AlaDH/PNT_NAD(H)-bd",
+              "description": "Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain",
+              "type": "DOMAIN",
+              "goXRefs": [],
+              "pathwayXRefs": [
+                {
+                  "name": "Citric acid cycle (TCA cycle)",
+                  "databaseName": "Reactome",
+                  "id": "R-BTA-71403"
+                },
+                {
+                  "name": "Lysine catabolism",
+                  "databaseName": "Reactome",
+                  "id": "R-HSA-71064"
+                },
+                {
+                  "name": "Lysine catabolism",
+                  "databaseName": "Reactome",
+                  "id": "R-RNO-71064"
+                },
+                {
+                  "name": "Citric acid cycle (TCA cycle)",
+                  "databaseName": "Reactome",
+                  "id": "R-MMU-71403"
+                },
+                {
+                  "name": "Lysine catabolism",
+                  "databaseName": "Reactome",
+                  "id": "R-BTA-71064"
+                },
+                {
+                  "name": "Lysine catabolism",
+                  "databaseName": "Reactome",
+                  "id": "R-MMU-71064"
+                },
+                {
+                  "name": "Citric acid cycle (TCA cycle)",
+                  "databaseName": "Reactome",
+                  "id": "R-HSA-71403"
+                }
+              ]
+            }
+          },
+          "locations": [
+            {
+              "start": 152,
+              "end": 291,
+              "representative": false,
+              "hmmStart": 26,
+              "hmmEnd": 185,
+              "hmmLength": 214,
+              "hmmBounds": "INCOMPLETE",
+              "evalue": 2.5e-06,
+              "score": 38.6,
+              "envelopeStart": 128,
+              "envelopeEnd": 292,
+              "postProcessed": true,
+              "location-fragments": [
+                {
+                  "start": 152,
                   "end": 291,
                   "dc-status": "CONTINUOUS"
                 }
               ]
             }
           ],
-          "evalue": 7.6e-74,
-          "score": 248.2,
-          "model-ac": "3d4oB01"
+          "evalue": 1.2e-06,
+          "score": 39.6,
+          "model-ac": "PF01262"
         },
         {
           "signature": {
@@ -3184,21 +3319,60 @@
           },
           "locations": [
             {
-              "start": 131,
+              "start": 133,
               "end": 248,
               "representative": false,
               "hmmLength": 168,
               "location-fragments": [
                 {
-                  "start": 131,
+                  "start": 133,
                   "end": 248,
                   "dc-status": "CONTINUOUS"
                 }
               ]
             }
           ],
-          "evalue": 3.04e-19,
+          "evalue": 4.04e-19,
           "model-ac": "0044526"
+        },
+        {
+          "signature": {
+            "accession": "NF006162",
+            "name": "PRK08306.1",
+            "description": "dipicolinate synthase subunit DpsA",
+            "type": "FAMILY",
+            "signatureLibraryRelease": {
+              "library": "NCBIFAM",
+              "version": "17.0"
+            },
+            "entry": null
+          },
+          "locations": [
+            {
+              "start": 1,
+              "end": 290,
+              "representative": true,
+              "hmmStart": 1,
+              "hmmEnd": 290,
+              "hmmLength": 297,
+              "hmmBounds": "N_TERMINAL_COMPLETE",
+              "evalue": 1.7e-127,
+              "score": 436.4,
+              "envelopeStart": 1,
+              "envelopeEnd": 292,
+              "postProcessed": false,
+              "location-fragments": [
+                {
+                  "start": 1,
+                  "end": 290,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 1.5e-127,
+          "score": 436.5,
+          "model-ac": "NF006162"
         },
         {
           "signature": {
@@ -3214,12 +3388,12 @@
           },
           "locations": [
             {
-              "start": 147,
-              "end": 233,
+              "start": 146,
+              "end": 235,
               "representative": false,
               "sites": [
                 {
-                  "description": "NP_BIND: NAD.",
+                  "description": "NAD.",
                   "numLocations": 1,
                   "siteLocations": [
                     {
@@ -3228,206 +3402,32 @@
                       "residue": "GLGRTG"
                     }
                   ],
-                  "label": null,
-                  "group": 0,
-                  "hmmStart": 0,
-                  "hmmEnd": 0
+                  "label": "NP_BIND",
+                  "group": 1,
+                  "hmmStart": 163,
+                  "hmmEnd": 168
                 }
               ],
-              "hmmStart": 149,
-              "hmmEnd": 233,
+              "hmmStart": 148,
+              "hmmEnd": 235,
               "hmmLength": 326,
-              "evalue": 7.7e-06,
-              "score": 22.9,
+              "evalue": 7.7e-10,
+              "score": 24.2,
               "envelopeStart": 1,
               "envelopeEnd": 2,
               "location-fragments": [
                 {
-                  "start": 147,
-                  "end": 233,
+                  "start": 146,
+                  "end": 235,
                   "dc-status": "CONTINUOUS"
                 }
               ]
             }
           ],
-          "evalue": 7.7e-06,
-          "score": 22.9,
+          "evalue": 7.7e-10,
+          "score": 24.2,
           "scope": null,
           "model-ac": "PIRSR000188-2"
-        },
-        {
-          "signature": {
-            "accession": "PF16924",
-            "name": "DpaA_N",
-            "description": "Dipicolinate synthase subunit A N-terminal domain",
-            "type": "DOMAIN",
-            "signatureLibraryRelease": {
-              "library": "PFAM",
-              "version": "38.0"
-            },
-            "entry": {
-              "accession": "IPR031629",
-              "name": "DpaA_N",
-              "description": "Dipicolinate synthase subunit A, N-terminal",
-              "type": "DOMAIN",
-              "goXRefs": [],
-              "pathwayXRefs": []
-            }
-          },
-          "locations": [
-            {
-              "start": 6,
-              "end": 123,
-              "representative": false,
-              "hmmStart": 1,
-              "hmmEnd": 117,
-              "hmmLength": 117,
-              "hmmBounds": "COMPLETE",
-              "evalue": 8.6e-33,
-              "score": 124.2,
-              "envelopeStart": 6,
-              "envelopeEnd": 123,
-              "postProcessed": true,
-              "location-fragments": [
-                {
-                  "start": 6,
-                  "end": 123,
-                  "dc-status": "CONTINUOUS"
-                }
-              ]
-            }
-          ],
-          "evalue": 7.2e-36,
-          "score": 134.2,
-          "model-ac": "PF16924"
-        },
-        {
-          "signature": {
-            "accession": "TIGR02853",
-            "name": "spore_dpaA",
-            "description": "dipicolinic acid synthetase subunit A",
-            "type": "FAMILY",
-            "signatureLibraryRelease": {
-              "library": "NCBIFAM",
-              "version": "17.0"
-            },
-            "entry": {
-              "accession": "IPR014215",
-              "name": "Dipicolinic_acid_synth_A",
-              "description": "Dipicolinic acid synthetase subunit A",
-              "type": "FAMILY",
-              "goXRefs": [],
-              "pathwayXRefs": []
-            }
-          },
-          "locations": [
-            {
-              "start": 5,
-              "end": 290,
-              "representative": false,
-              "hmmStart": 2,
-              "hmmEnd": 287,
-              "hmmLength": 287,
-              "hmmBounds": "C_TERMINAL_COMPLETE",
-              "evalue": 0.0,
-              "score": 455.9,
-              "envelopeStart": 4,
-              "envelopeEnd": 290,
-              "postProcessed": false,
-              "location-fragments": [
-                {
-                  "start": 5,
-                  "end": 290,
-                  "dc-status": "CONTINUOUS"
-                }
-              ]
-            }
-          ],
-          "evalue": 0.0,
-          "score": 456.0,
-          "model-ac": "TIGR02853"
-        },
-        {
-          "signature": {
-            "accession": "PF01262",
-            "name": "AlaDh_PNT_C",
-            "description": "Alanine dehydrogenase/PNT, C-terminal domain",
-            "type": "DOMAIN",
-            "signatureLibraryRelease": {
-              "library": "PFAM",
-              "version": "38.0"
-            },
-            "entry": {
-              "accession": "IPR007698",
-              "name": "AlaDH/PNT_NAD(H)-bd",
-              "description": "Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain",
-              "type": "DOMAIN",
-              "goXRefs": [],
-              "pathwayXRefs": [
-                {
-                  "name": "Citric acid cycle (TCA cycle)",
-                  "databaseName": "Reactome",
-                  "id": "R-BTA-71403"
-                },
-                {
-                  "name": "Lysine catabolism",
-                  "databaseName": "Reactome",
-                  "id": "R-HSA-71064"
-                },
-                {
-                  "name": "Lysine catabolism",
-                  "databaseName": "Reactome",
-                  "id": "R-RNO-71064"
-                },
-                {
-                  "name": "Citric acid cycle (TCA cycle)",
-                  "databaseName": "Reactome",
-                  "id": "R-MMU-71403"
-                },
-                {
-                  "name": "Lysine catabolism",
-                  "databaseName": "Reactome",
-                  "id": "R-BTA-71064"
-                },
-                {
-                  "name": "Lysine catabolism",
-                  "databaseName": "Reactome",
-                  "id": "R-MMU-71064"
-                },
-                {
-                  "name": "Citric acid cycle (TCA cycle)",
-                  "databaseName": "Reactome",
-                  "id": "R-HSA-71403"
-                }
-              ]
-            }
-          },
-          "locations": [
-            {
-              "start": 152,
-              "end": 294,
-              "representative": true,
-              "hmmStart": 26,
-              "hmmEnd": 187,
-              "hmmLength": 214,
-              "hmmBounds": "INCOMPLETE",
-              "evalue": 6e-07,
-              "score": 40.6,
-              "envelopeStart": 129,
-              "envelopeEnd": 297,
-              "postProcessed": true,
-              "location-fragments": [
-                {
-                  "start": 152,
-                  "end": 294,
-                  "dc-status": "CONTINUOUS"
-                }
-              ]
-            }
-          ],
-          "evalue": 3e-07,
-          "score": 41.6,
-          "model-ac": "PF01262"
         }
       ],
       "xref": [
