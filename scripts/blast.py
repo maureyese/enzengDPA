@@ -240,22 +240,19 @@ def get_blast_results(
 # ------------------------
 
 def convert_blast_xml_to_pd(
-        xml_results:str, 
-        rid:str,
-        export:bool = False,
-        export_folder:str = "files/"
+        xml_results: str, 
+        rid: str,
+        query_data: str = None,
+        export: bool = False,
+        export_folder: str = "files/"
 ) -> pd.DataFrame:
-    '''Convert BLAST XML results to Pandas DataFrame'''
-    # Parse XML
+    '''Convert BLAST XML results to Pandas DataFrame and prepend query info'''
+    
+    # 1. Parse BLAST Results
     root = ET.fromstring(xml_results)
-
-    # Extract data
     data = []
-
-    # Namespace for BLAST XML
     namespace = ''
 
-    # Extract data from each hit
     for hit in root.findall(f'.//{namespace}Hit'):
         hit_num = hit.find(f'{namespace}Hit_num').text
         hit_id = hit.find(f'{namespace}Hit_id').text
@@ -263,65 +260,67 @@ def convert_blast_xml_to_pd(
         hit_accession = hit.find(f'{namespace}Hit_accession').text
         hit_len = hit.find(f'{namespace}Hit_len').text
 
-        # Get HSP data
         hsp = hit.find(f'.//{namespace}Hsp')
         if hsp is not None:
-            hsp_num = hsp.find(f'{namespace}Hsp_num').text
-            bit_score = hsp.find(f'{namespace}Hsp_bit-score').text
-            score = hsp.find(f'{namespace}Hsp_score').text
-            evalue = hsp.find(f'{namespace}Hsp_evalue').text
-            query_from = hsp.find(f'{namespace}Hsp_query-from').text
-            query_to = hsp.find(f'{namespace}Hsp_query-to').text
-            hit_from = hsp.find(f'{namespace}Hsp_hit-from').text
-            hit_to = hsp.find(f'{namespace}Hsp_hit-to').text
-            identity = hsp.find(f'{namespace}Hsp_identity').text
-            positive = hsp.find(f'{namespace}Hsp_positive').text
-            gaps = hsp.find(f'{namespace}Hsp_gaps').text
-            align_len = hsp.find(f'{namespace}Hsp_align-len').text
-            qseq = hsp.find(f'{namespace}Hsp_qseq').text
-            hseq = hsp.find(f'{namespace}Hsp_hseq').text
-            midline = hsp.find(f'{namespace}Hsp_midline').text
-
-            # Append to data list
+            identity = int(hsp.find(f'{namespace}Hsp_identity').text)
+            align_len = int(hsp.find(f'{namespace}Hsp_align-len').text)
+            
             data.append({
                 'Hit_num': hit_num,
                 'Hit_id': hit_id,
                 'Hit_def': hit_def,
                 'Hit_accession': hit_accession,
                 'Hit_len': hit_len,
-                'Hsp_num': hsp_num,
-                'Bit_score': float(bit_score),
-                'Score': int(score),
-                'E_value': evalue,
-                'Query_from': int(query_from),
-                'Query_to': int(query_to),
-                'Hit_from': int(hit_from),
-                'Hit_to': int(hit_to),
-                'Identity': int(identity),
-                'Positive': int(positive),
-                'Gaps': int(gaps),
-                'Align_len': int(align_len),
-                'Percent_identity': round(int(identity) / int(align_len) * 100, 2),
-                'Query_seq': qseq,
-                'Hit_seq': hseq,
-                'Midline': midline,
+                'Hsp_num': hsp.find(f'{namespace}Hsp_num').text,
+                'Bit_score': float(hsp.find(f'{namespace}Hsp_bit-score').text),
+                'Score': int(hsp.find(f'{namespace}Hsp_score').text),
+                'E_value': hsp.find(f'{namespace}Hsp_evalue').text,
+                'Query_from': int(hsp.find(f'{namespace}Hsp_query-from').text),
+                'Query_to': int(hsp.find(f'{namespace}Hsp_query-to').text),
+                'Hit_from': int(hsp.find(f'{namespace}Hsp_hit-from').text),
+                'Hit_to': int(hsp.find(f'{namespace}Hsp_hit-to').text),
+                'Identity': identity,
+                'Positive': int(hsp.find(f'{namespace}Hsp_positive').text),
+                'Gaps': int(hsp.find(f'{namespace}Hsp_gaps').text),
+                'Align_len': align_len,
+                'Percent_identity': round(identity / align_len * 100, 2),
+                'Query_seq': hsp.find(f'{namespace}Hsp_qseq').text,
+                'Hit_seq': hsp.find(f'{namespace}Hsp_hseq').text,
+                'Midline': hsp.find(f'{namespace}Hsp_midline').text,
             })
 
-    # Create DataFrame
     df = pd.DataFrame(data)
 
-    # Display the DataFrame info and first few rows
-    print(f"DataFrame shape: {df.shape}")
-    #print("\nFirst 5 rows:")
-    #print(df.head())
-
-    # Save dataframe
-                    # Save to file
+    # 2. Parse Query Data (GenBank XML) and Prepend
+    if query_data:
+        q_root = ET.fromstring(query_data)
+        # Handle finding the sequence and definition in the GBSet format
+        q_seq_elem = q_root.find('.//GBSeq_sequence')
+        q_def_elem = q_root.find('.//GBSeq_definition')
+        q_acc_elem = q_root.find('.//GBSeq_accession-version')
+        
+        if q_seq_elem is not None:
+            # Create a row representing the query itself
+            query_row = pd.DataFrame([{
+                'Hit_num': '0',
+                'Hit_id': 'Query',
+                'Hit_def': q_def_elem.text if q_def_elem is not None else 'Query Sequence',
+                'Hit_accession': q_acc_elem.text if q_acc_elem is not None else rid,
+                'Hit_len': len(q_seq_elem.text),
+                'Bit_score': 0.0,
+                'E_value': '0',
+                'Percent_identity': 100.0,
+                'Query_seq': q_seq_elem.text.upper(),
+                'Hit_seq': q_seq_elem.text.upper(),
+            }])
+            
+            # Prepend to the dataframe
+            df = pd.concat([query_row, df], ignore_index=True).fillna('')
     if export:
         if not export_folder.endswith("/"):
             export_folder = f"{export_folder}/"
         df.to_csv(f"{export_folder}{rid}_results.csv", index=False)
-        print(f"DataFrame saved to {rid}_results.csv")
+        print(f"DataFrame saved to {export_folder}{rid}_results.csv")
 
     return df
 
@@ -330,38 +329,42 @@ def convert_blast_xml_to_pd(
 # ------------------------
 
 def export_blast_results_to_fasta(
-        rid:str,
-        query_id:str,
+        rid: str,
         df: pd.DataFrame,
-        export_folder:str = "files/"
+        export_folder: str = "files/"
 ) -> None:
+    '''Create FASTA file from BLASTA DataFrame'''
     try:
+        if df.empty:
+            print("DataFrame is empty. Nothing to export.")
+            return
+
         if not export_folder.endswith("/"):
             export_folder = f"{export_folder}/"
-        # Create output filename
+        
         output_filename = f"{export_folder}{rid}_blast.fasta"
 
-        # Open file for writing
         with open(output_filename, 'w') as fasta_file:
-            # Get the template sequence
-            template = df['Query_seq'].iloc(0)
-            fasta_file.write(f">{query_id}\n")
-            fasta_file.write(f"{template}\n")
-
             for index, row in df.iterrows():
-                # Get title from Hit_def column
-                title = row['Hit_def']
-                # Get sequence from Hit_seq
-                sequence = row['Hit_seq']
+                accession = str(row.get('Hit_accession', '')).strip()
+                if not accession or accession == 'nan':
+                    accession = str(row.get('Hit_id', 'Unknown'))
+                
+                header = row.get('Hit_def', 'No definition')
+                # --- FIX END ---
 
-                # Write FASTA entry directly to file
-                fasta_file.write(f">{title}\n")
-                fasta_file.write(f"{sequence}\n")
+                if index == 0:
+                    sequence = row.get('Query_seq', '')
+                else:
+                    sequence = row.get('Hit_seq', '')
+
+                if sequence:
+                    fasta_file.write(f">{accession} {header}\n")
+                    fasta_file.write(f"{sequence}\n")
 
         print(f"BLAST results successfully exported to {output_filename}")
-        print(f"Total sequences exported: {len(df)}")
-    except KeyError as e:
-        print(f"Error: Missing required column in DataFrame: {e}")
+        return output_filename
+        
     except Exception as e:
         print(f"Error exporting BLAST results: {e}")
 

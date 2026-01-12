@@ -14,92 +14,65 @@ from pymsaviz import MsaViz
 # ------------------------
 
 def perform_msa(
-        df:pd.DataFrame,
-        query_id:str,
-        num_sequences: int = 100) -> AlignIO.MultipleSeqAlignment:
-    '''Run MSA using Clustal-Omega. Make sure you have it installed (Ubuntu-based)'''
-    # Verify df is not empty
-    if df.empty:
-        print("Error: Input DataFrame is empty.")
+        input_fasta: str,
+        rid: str,
+        num_sequences: int = 100,
+        export_folder: str = "files/"
+) -> AlignIO.MultipleSeqAlignment:
+    '''
+    Run MSA using Clustal-Omega using a specific input FASTA file.
+    '''
+    # 1. Verify input file exists
+    if not os.path.exists(input_fasta):
+        print(f"Error: The file {input_fasta} was not found.")
         return None
 
-    # Prepare sequences
-    sequences = []
+    if not export_folder.endswith("/"):
+        export_folder = f"{export_folder}/"
 
-    # Extract original query sequence (it's the same for all hits)
-    query_seq_str = df.iloc[0]['Query_seq']
-    query_record = SeqRecord(
-        Seq(query_seq_str),
-        id=query_id,
-        name=query_id,
-        description=f"Query Sequence: {query_id}"
-    )
-
-        # Extract top N hit sequences (Hsp_hseq)
-    # Ensure num_sequences is at least 1 (for the query)
-    num_hits = max(0, num_sequences - 1)
-    top_hits = df.head(num_hits)
-
-    for index, row in top_hits.iterrows():
-        # Hit_id is typically the most descriptive identifier
-        accession_parts = row['Hit_id'].split('|')
-        # Tries to get the accession number if the ID is piped (e.g., ref|ACC|def)
-        seq_id = accession_parts[1] if len(accession_parts) > 1 else row['Hit_accession']
-        seq_def = row['Hit_def']
-
-        hit_record = SeqRecord(
-            Seq(row['Hit_seq']),
-            id=seq_id,
-            name=seq_id,
-            description=f"{seq_id} | {seq_def}"
-        )
-        sequences.append(hit_record)
-
-    if len(sequences) < 2:
-        print(f"Error: Only {len(sequences)} sequence(s) available. Need at least two sequences for alignment.")
-        return None
-
-    print(f"Prepared {len(sequences)} sequences (1 Query + {len(sequences) - 1} Top Hits) for alignment.")
-
-    # 2. Save sequences to a temporary FASTA file
-    random_suffix = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
-    temp_fasta_in = f"temp_input_{random_suffix}.fasta"
-    temp_aln_out = f"temp_output_{random_suffix}.fasta"
-
-    with open(temp_fasta_in, "w") as output_handle:
-        SeqIO.write(sequences, output_handle, "fasta")
-    print(f"Sequences saved to temporary file: {temp_fasta_in}")
-
-    # 3. Run the Clustal alignment
+    # 2. Subset the sequences
+    # We read the input_fasta and take only the top N sequences
+    subset_fasta = f"{export_folder}{rid}_msa_input.fasta"
+    temp_aln_out = f"{export_folder}{rid}_aligned.fasta"
+    
     try:
-        cmd = ["clustalo", "-i", temp_fasta_in, "-o", temp_aln_out, "--outfmt=fasta", "--verbose", "--auto"]
-        print(f"Running: {' '.join(cmd)}")
+        records = list(SeqIO.parse(input_fasta, "fasta"))
+        # Ensure we don't try to take more sequences than available
+        actual_num = min(len(records), num_sequences)
+        SeqIO.write(records[:actual_num], subset_fasta, "fasta")
+        
+        print(f"Prepared {actual_num} sequences for alignment.")
 
+        # 3. Run Clustal Omega
+        # -i: input file, -o: output file, --force: overwrite, --auto: set parameters automatically
+        cmd = [
+            "clustalo", 
+            "-i", subset_fasta, 
+            "-o", temp_aln_out, 
+            "--outfmt=fasta", 
+            "--force", 
+            "--auto"
+        ]
+        
+        print(f"Executing: {' '.join(cmd)}")
         result = subprocess.run(cmd, capture_output=True, text=True)
 
         if result.returncode != 0:
-            print(f"Clustal Omega failed with error: {result.stderr}")
+            print(f"Clustal Omega Error: {result.stderr}")
             return None
 
-        print("Alignment completed successfully")
-
-        # 4. Read the alignment
+        # 4. Load the result into Biopython AlignIO
         alignment = AlignIO.read(temp_aln_out, "fasta")
+        print(f"Alignment completed successfully with {len(alignment)} sequences.")
 
-        # 5. Clean up temporary files
-        os.remove(temp_fasta_in)
-        os.remove(temp_aln_out)
-        print("Temporary files cleaned up.")
+        # 5. Optional Cleanup
+        if os.path.exists(subset_fasta):
+            os.remove(subset_fasta)
 
         return alignment
 
     except Exception as e:
-        print(f"Error during alignment: {e}")
-        # Clean up on error
-        if os.path.exists(temp_fasta_in):
-            os.remove(temp_fasta_in)
-        if os.path.exists(temp_aln_out):
-            os.remove(temp_aln_out)
+        print(f"An error occurred during MSA: {e}")
         return None
 
 # ------------------------

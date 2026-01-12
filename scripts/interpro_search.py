@@ -189,3 +189,5 @@ DLGADYNLSQVCDGKVSVHIIEGDHRTLLEGRGLESIINIIHSSLAEPRVSVREG"""
         
     except Exception as error:
         print(f"Error running and checking InterProScan job: {error}")
+
+# END
