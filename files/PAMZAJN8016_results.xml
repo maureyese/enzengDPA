@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_cluster_seq</BlastOutput_db>
+  <BlastOutput_query-ID>QRQ54142.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>dipicolinate synthase subunit B [Bacillus subtilis]</BlastOutput_query-def>
+  <BlastOutput_query-len>200</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>QRQ54142.1</Iteration_query-ID>
+  <Iteration_query-def>dipicolinate synthase subunit B [Bacillus subtilis]</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_187002230.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_187002230</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>5.69525e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVTEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_hseq>
+      <Hsp_midline>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALV EGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_306012148.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus pumilus]</Hit_def>
+  <Hit_accession>WP_306012148</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>1.2968e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILV</Hsp_qseq>
+      <Hsp_hseq>MTTLKGKRIGFGLTGSHCTYEAVYPQIEALVKEGAEVRPVVSYTVQNTNTRFGDGADWIERIEELTGFKAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMAKFANAMTDSPVLMAAKATIRNHRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPTSMVANMNLLSQTVEEALQHRQIQPILI</Hsp_hseq>
+      <Hsp_midline>M++LKGKRIGFGLTGSHCTYEAV+PQIEALV EGAEVRPVV++ V++TNTRFG+GA+W+++IE+LTG++AIDSIVKAEPLGPKLPLDCMVIAPLTGNSM+K ANAMTDSPVLMAAKATIRN+RPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKP SMVA M+LL QT+E+AL H+Q+QPIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_309331194.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B, partial [Bacillus atrophaeus]</Hit_def>
+  <Hit_accession>WP_309331194</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>4.88405e-121</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTI</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVKEGAEVRSVVTFTVKSTDTRFGEGAEWIKKIEELTGYEAIDSIVKAEPLGPKLPLDCMIIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPYKKPNSMVAKMELLPQTV</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTYEAVFPQIEALV EGAEVR VVTF VKST+TRFGEGAEW+KKIE+LTGYEAIDSIVKAEPLGPKLPLDCM+IAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDP+KKPNSMVAKM+LLPQT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_254003724.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_254003724</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>2.31606e-119</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYEEVFPQIEALISQGAEVRPVVTSTVQSTDTRFGEGGDWVRKIEEATGFEAIDSIVKAEPLGPILPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNGRPVVLGISTNDGLGLNGTNLMRLMSAKNIYFIPFGQDDHVKKPTSLVARMDLLPITVEKALLHQQVQPVLVHHHE</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTYE VFPQIEAL+++GAEVRPVVT  V+ST+TRFGEG +WV+KIE+ TG+EAIDSIVKAEPLGP LPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRN RPVVLGISTND LGLNGTNLMRLMS KNI+FIPFGQDD  KKP S+VA+MDLLP T+EKAL+HQQ+QP+LV +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_427301761.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. NPDC077027]</Hit_def>
+  <Hit_accession>WP_427301761</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>5.06903e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILV</Hsp_qseq>
+      <Hsp_hseq>MTSFKGKRIGFGLTGSHCTYDAVYPQIEELVEKGAEVRPIVSYTVQSTNTRFGDGAEWIDRIEKLTGHQAIDTIVKAEPLGPKLPLDCMIIAPLTGNSMAKFANAMTDSPVLMAAKATIRNHRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPTSMVANMNLLSKTVEAALEHQQIQPILI</Hsp_hseq>
+      <Hsp_midline>M+S KGKRIGFGLTGSHCTY+AV+PQIE LV +GAEVRP+V++ V+STNTRFG+GAEW+ +IE LTG++AID+IVKAEPLGPKLPLDCM+IAPLTGNSM+K ANAMTDSPVLMAAKATIRN+RPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKP SMVA M+LL +T+E AL HQQ+QPIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_148955569.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus swezeyi]</Hit_def>
+  <Hit_accession>WP_148955569</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>2.0138e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMSIKGKRIGFGLTGSHCTYDAVFPQIEELVSKGAEVRPIVTHTVKSTDTRFGEGAEWVKKIEELTGFEVIDSIPKAEPLGPKTPLDCMVIAPLTGNSMSKLANAMTDSPVLMASKATIRNSRPVVLGISTNDALGLNGVNLMRLMTTKNIFFIPFGQDDPYQKPNSLVAKMDLLLPAVEEALSYKQIQPVLINNEQ</Hsp_hseq>
+      <Hsp_midline>M S+KGKRIGFGLTGSHCTY+AVFPQIE LV++GAEVRP+VT  VKST+TRFGEGAEWVKKIE+LTG+E IDSI KAEPLGPK PLDCMVIAPLTGNSMSKLANAMTDSPVLMA+KATIRN+RPVVLGISTNDALGLNG NLMRLM+TKNIFFIPFGQDDP++KPNS+VAKMDLL   +E+AL ++Q+QP+L+ N Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_375844533.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus haynesii]</Hit_def>
+  <Hit_accession>WP_375844533</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>1.76649e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMSIKGKRIGFGLTGSHCTYDAVFPQIEALIKKGAEVRPVVTHTVKSTDTRFGEGEEWVRRIEELTGFKVIDSIPKAEPLGPKTPLDCMVVAPLTGNSMSKLANAQTDSPVLMAAKATMRNSRPVVLGISTNDALGLNGVNLMRLMAAKNVYFIPFGQDDPYKKPNSLVAKMDLLVPAVEEALSHKQIQPILVHNDQ</Hsp_hseq>
+      <Hsp_midline>M S+KGKRIGFGLTGSHCTY+AVFPQIEAL+ +GAEVRPVVT  VKST+TRFGEG EWV++IE+LTG++ IDSI KAEPLGPK PLDCMV+APLTGNSMSKLANA TDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+ KN++FIPFGQDDP+KKPNS+VAKMDLL   +E+AL H+Q+QPILV N Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_101565701.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillaceae]</Hit_def>
+  <Hit_accession>WP_101565701</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>3.87377e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MMKVKGKRIGFGLTGSHCTYDAVYPQIKRLIDEGADVMPVVTFTVQSTNTRFGEGEEWIKKIEDLTGHKVIDSIVKAEPLGPKIPLDCMVVAPMTGNSMSKLANAMTDSPVLMAAKATLRNHQPIVLGISTNDALGLNGMNLMKLMATKNIYFIPFGQDAPFKKPNSLVAKMDLLLETVEAALDHSQFQPVLIEKFRDDE</Hsp_hseq>
+      <Hsp_midline>M  +KGKRIGFGLTGSHCTY+AV+PQI+ L++EGA+V PVVTF V+STNTRFGEG EW+KKIEDLTG++ IDSIVKAEPLGPK+PLDCMV+AP+TGNSMSKLANAMTDSPVLMAAKAT+RN++P+VLGISTNDALGLNG NLM+LM+TKNI+FIPFGQD PFKKPNS+VAKMDLL +T+E AL H Q QP+L+E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_430236167.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Neobacillus sp. SM06]</Hit_def>
+  <Hit_accession>WP_430236167</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>9.81592e-114</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPQIEKLVQEGAEVLPVVTFTVKNTETRFGKGEDWVARIEELTGNKAIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPIKKPNSMVARMEMLTETIESAIGGKQIQPVIIEKYR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFPQIE LV EGAEV PVVTF VK+T TRFG+G +WV +IE+LTG +AIDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M++L +TIE A+  +Q+QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_256240324.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. V3B]</Hit_def>
+  <Hit_accession>WP_256240324</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>3.66649e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMSLNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPIVTFTVKNTETRFGKGEDWVKRIEDLTGHKVIDSIVKAEPLGPKIPLDCMVIAPMTGNSMSKFANALTDSPVLMAAKATLRNLKPVVLGISTNDALGLNGINLMRLMATKNIYFIPYGQDDPIKKPNSMVARMTMLSETIEEAITGRQLQPIIVERYK</Hsp_hseq>
+      <Hsp_midline>M SL GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV P+VTF VK+T TRFG+G +WVK+IEDLTG++ IDSIVKAEPLGPK+PLDCMVIAP+TGNSMSK ANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M +L +TIE+A+  +QLQPI+VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MDP4171932.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillota bacterium]</Hit_def>
+  <Hit_accession>MDP4171932</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>4.75998e-113</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKGKVIGFGLTGSHCTYDAVFPQIEKLVNAGAEVLPVVTFTVQSTETRFGVGENWVKRIEDLTGHKVIDSIVKAEPLGPKIPLDCMVIAPLTGNTMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMTLLTEAIEQAINGKQLQPVLVERY</Hsp_hseq>
+      <Hsp_midline>SLKGK IGFGLTGSHCTY+AVFPQIE LVN GAEV PVVTF V+ST TRFG G  WVK+IEDLTG++ IDSIVKAEPLGPK+PLDCMVIAPLTGN+MSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M LL + IE+A+  +QLQP+LVE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_214478533.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Cytobacillus gottheilii]</Hit_def>
+  <Hit_accession>WP_214478533</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.63616e-112</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVIPVVTFTVKNTTTRFGKGEDWVKRIEDLTGNKAIDSIVAAEPLGPKLPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNGSPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPVNKPNSMVARMTLISETIESAIEGKQLQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF VK+T TRFG+G +WVK+IEDLTG +AIDSIV AEPLGPKLPLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP  KPNSMVA+M L+ +TIE A+  +QLQP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_166024013.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Neobacillus terrae]</Hit_def>
+  <Hit_accession>WP_166024013</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.77413e-112</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVTFTVQSTDTRFGKGEDWITRIEELTGHKVIDSIVKAEPLGPRIPLDCMVIAPMTGNTMSKFANAMTDSPVLMAAKATLRNQKPVVVGISTNDALGLNGMNLMKLMATKNIYFIPFGQDDPVKKPNSMVARMTMLSETIEEAINGKQLQPVLVERYKDQD</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF V+ST+TRFG+G +W+ +IE+LTG++ IDSIVKAEPLGP++PLDCMVIAP+TGN+MSK ANAMTDSPVLMAAKAT+RN +PVV+GISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNSMVA+M +L +TIE+A+  +QLQP+LVE Y+  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_176483839.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillus]</Hit_def>
+  <Hit_accession>WP_176483839</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.946</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>3.14405e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMRLKGKRIGFGLTGSHCTYEAVVPKIEQLVKEGAEVLPVVTFTVQNTTTRFGEGLEWIKKIEDITGKKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATLRNHKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDAPEKKPNSMVARMELLLPTVVDALEHKQLQPVVVERFR</Hsp_hseq>
+      <Hsp_midline>M  LKGKRIGFGLTGSHCTYEAV P+IE LV EGAEV PVVTF V++T TRFGEG EW+KKIED+TG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN++PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P KKPNSMVA+M+LL  T+  AL H+QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_243289826.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. FJAT-47783]</Hit_def>
+  <Hit_accession>WP_243289826</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>2.05936e-111</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>VKGKRIGFGLTGSHCTYDEVYPQIERLVHAGADVLPVVTHTVKMTTTRFGEGADWVERIEEITGHEVIDSIVKAEPLGPKVPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNHRPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDAPEKKPNSMVAYMDLLQETVECALEHKQYQPVVIERYK</Hsp_hseq>
+      <Hsp_midline>+KGKRIGFGLTGSHCTY+ V+PQIE LV+ GA+V PVVT  VK T TRFGEGA+WV++IE++TG+E IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P KKPNSMVA MDLL +T+E AL H+Q QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_243387012.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Aeribacillus kexueae]</Hit_def>
+  <Hit_accession>WP_243387012</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>3.10237e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMDVKGKRIGFGLTGSHCTYDEVFPQIERLVQAGADVIPVVTHTVQATTTRFGEGNEWVKKIEEATGHEIVDSIVKAEPLGPKLPLDCMIIAPLTGNSMSKFANAMTDSPVLMAAKATLRNHRPVVLGISTNDALGLNGVNLMRLMATKNIFFIPFGQDAPEKKPNSMVAYMNYLQETVEAALEHKQFQPVIIERYK</Hsp_hseq>
+      <Hsp_midline>M  +KGKRIGFGLTGSHCTY+ VFPQIE LV  GA+V PVVT  V++T TRFGEG EWVKKIE+ TG+E +DSIVKAEPLGPKLPLDCM+IAPLTGNSMSK ANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+TKNIFFIPFGQD P KKPNSMVA M+ L +T+E AL H+Q QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_044396193.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Mesobacillus]</Hit_def>
+  <Hit_accession>WP_044396193</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>3.37978e-111</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGN</Hsp_qseq>
+      <Hsp_hseq>SLQGKKIGFGLTGSHCTYDAVFPEIKKLVNAGAEVLPVVTFTVKSTETRFGKGEDWVERIEALTGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGINLMRLMATKNIFMIPFGQDDPIKKPNSMVAKMELLSETVLEAMKGIQLQPVLVERYKDN</Hsp_hseq>
+      <Hsp_midline>SL+GK+IGFGLTGSHCTY+AVFP+I+ LVN GAEV PVVTF VKST TRFG+G +WV++IE LTG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNIF IPFGQDDP KKPNSMVAKM+LL +T+ +A+   QLQP+LVE Y+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_174735059.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Mesobacillus harenae]</Hit_def>
+  <Hit_accession>WP_174735059</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>3.6972e-111</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>TLKGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPIVTFTVKNTETRFGKGEDWIERIEELTGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGGSMSKFANALNDSPVLMAAKATLRNLKPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPVKKPNSMVARMTLLDKTVEAAMRGEQLQPVLIEKYKDSE</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV P+VTF VK+T TRFG+G +W+++IE+LTG + IDSIVKAEPLGPK+PLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDP KKPNSMVA+M LL +T+E A+  +QLQP+L+E Y+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_166238059.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillaceae]</Hit_def>
+  <Hit_accession>WP_166238059</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>7.62271e-111</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLNGKRIGFGLTGSHCTYDAVFPEIEKLVQAGAEVLPVVTFTVKNTETRFGKGEDWIQRIEDLTGHKVIDSIVKAEPLGPKIPLDCMVVAPLTGVSMSKFANAMNDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPVKKPNSMVARMTLLSETVEAALEGRQLQPVLVERYKDSD</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LV  GAEV PVVTF VK+T TRFG+G +W+++IEDLTG++ IDSIVKAEPLGPK+PLDCMV+APLTG SMSK ANAM DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M LL +T+E AL  +QLQP+LVE Y+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_406817970.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus indicus]</Hit_def>
+  <Hit_accession>WP_406817970</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>9.49143e-111</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>VQGKRIGFGLTGSHCTYDAVFPQIKRLIDEGADVMPVVTNTVKMTNTRFGEGAEWIKKIEELTGHKAIDSIVGAEPLGPKIPLDCMVVAPLTGNSMSKLANAMTESPVLMAAKATLRNHKPVVLGISTNDGLGLNGANLMQLMGAKNIYFIPFGQDAPFQKPNSLVAKMDLLLETVEAALEHTQFQPVIIEKFRDDE</Hsp_hseq>
+      <Hsp_midline>++GKRIGFGLTGSHCTY+AVFPQI+ L++EGA+V PVVT  VK TNTRFGEGAEW+KKIE+LTG++AIDSIV AEPLGPK+PLDCMV+APLTGNSMSKLANAMT+SPVLMAAKAT+RN++PVVLGISTND LGLNG NLM+LM  KNI+FIPFGQD PF+KPNS+VAKMDLL +T+E AL H Q QP+++E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_066225498.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus fastidiosus]</Hit_def>
+  <Hit_accession>WP_066225498</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>1.11879e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPQIEKLVEEGVEVLPVVSHTVQSTTTRFGEGAEWIKKIEEATGNKVIDSIVKAEPLGPKIPLDCMIIAPLTGNTMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGANLMRLMATKNIYFIPFGQDAPDKKPNSMVAQMTLLQATVEAALENKQYQPVIIEKYK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFPQIE LV EG EV PVV+  V+ST TRFGEGAEW+KKIE+ TG + IDSIVKAEPLGPK+PLDCM+IAPLTGN+MSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P KKPNSMVA+M LL  T+E AL ++Q QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_313798630.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Cytobacillus sp.]</Hit_def>
+  <Hit_accession>WP_313798630</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>1.16418e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIERLVNEGAEVLPVVTFTVQNTETRFGKGEDWIQRIEDLTGNTVIDSIVKAEPLGPKIPLDCMVIAPLTGSSMSKFANAMTDNPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPIKKPNSMVARMTQLSQTVEMAIEGKQLQPVIVERFK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE LVNEGAEV PVVTF V++T TRFG+G +W+++IEDLTG   IDSIVKAEPLGPK+PLDCMVIAPLTG+SMSK ANAMTD+PVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M  L QT+E A+  +QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_172418586.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Geobacillus]</Hit_def>
+  <Hit_accession>WP_172418586</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>1.26733e-110</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGN</Hsp_qseq>
+      <Hsp_hseq>NSLKGKRIGFGLTGSHCTYDAVFPEIEKLVHEGAEVLPIVTYTVKTTNTRFGEGEEWVKKLEQLTGNEVIDTIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATMRNHRPVVLGISTNDALGLNGVNLMRLMAAKNIYFIPFGQDAPQAKPNSMVAYMPLLRDTVLAALEGKQLQPVVIERFRYN</Hsp_hseq>
+      <Hsp_midline>+SLKGKRIGFGLTGSHCTY+AVFP+IE LV+EGAEV P+VT+ VK+TNTRFGEG EWVKK+E LTG E ID+IVKAEPLGPK+PLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+ KNI+FIPFGQD P  KPNSMVA M LL  T+  AL  +QLQP+++E ++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_003350138.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus methanolicus]</Hit_def>
+  <Hit_accession>WP_003350138</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>2.68926e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDEVYPEIENLVNTGAEVIPVVTFTVKNTETRFGKGEDWVKRIEDLTGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSLSKLANAMTDSPVLMAAKATMRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFVPFGQDDPIKKPNSMVARMSMLEETIIAAMNGKQLQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+ V+P+IE LVN GAEV PVVTF VK+T TRFG+G +WVK+IEDLTG + IDSIVKAEPLGPK+PLDCMVIAPLTGNS+SKLANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+F+PFGQDDP KKPNSMVA+M +L +TI  A+  +QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_044746886.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Aeribacillus alveayuensis]</Hit_def>
+  <Hit_accession>WP_044746886</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>2.71891e-110</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVE</Hsp_qseq>
+      <Hsp_hseq>VKGKRIGFGLTGSHCTYDEVFPQIERLVEAGANVLPIVTHTVKSTTTRFGEGGEWVKKIEEVTGHEVIDSIVKAEPLGPKTPLDCMIIAPLTGNSLSKLANAMTDSPVLMAAKATMRNHRPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDAPYHKPNSMVANMDLLVETVEYALENKQIQPVIIE</Hsp_hseq>
+      <Hsp_midline>+KGKRIGFGLTGSHCTY+ VFPQIE LV  GA V P+VT  VKST TRFGEG EWVKKIE++TG+E IDSIVKAEPLGPK PLDCM+IAPLTGNS+SKLANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P+ KPNSMVA MDLL +T+E AL ++Q+QP+++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_090829994.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [unclassified Bacillus (in: firmicutes)]</Hit_def>
+  <Hit_accession>WP_090829994</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>3.02165e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIEKLIQQGAEVIPVVTFTVQSTTTRFGKGEDWVQRIEDLTGNKVVDSIVKAEPLGPKLPLDCMVIAPLTGNTMSKFANAMTDSPVLMAAKATLRNLKPVVLGISTNDALGLNGMNLMKLMATKNIYFIPFGQDDPEKKPNSMVARMTKLSETVEAAINGKQLQPVLVERY</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE L+ +GAEV PVVTF V+ST TRFG+G +WV++IEDLTG + +DSIVKAEPLGPKLPLDCMVIAPLTGN+MSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNSMVA+M  L +T+E A+  +QLQP+LVE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_243296451.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus litorisediminis]</Hit_def>
+  <Hit_accession>WP_243296451</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>5.55563e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGITGSHCTYEEVFPEIEGLVNEGAEVVPVVSFTVKSTNTRFGEGAEWIRKIEEVTGREVIDSIVKAEPLGPKEPLDCMVIAPLTGNSMSKLANALTDSPPLMAAKATLRNYRPVVLGISTNDALGLNGVNLMKLMAAKDIYFIPFGQDDPFNKPKSMVADMTLLKDTVLAALEGKQFQPVLRERYK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFG+TGSHCTYE VFP+IE LVNEGAEV PVV+F VKSTNTRFGEGAEW++KIE++TG E IDSIVKAEPLGPK PLDCMVIAPLTGNSMSKLANA+TDSP LMAAKAT+RN RPVVLGISTNDALGLNG NLM+LM+ K+I+FIPFGQDDPF KP SMVA M LL  T+  AL  +Q QP+L E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_101576695.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillus]</Hit_def>
+  <Hit_accession>WP_101576695</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>6.18683e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIEKLVNLGAEVIPVVTFTVKNTETRFGSGEDWVQRIENLTGQAIIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGNPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMTMLEETIVAAVNGTQLQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF VK+T TRFG G +WV++IE+LTG   IDSIVKAEPLGPKLPLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L +TI  A+   QLQP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_422507116.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. DJP31]</Hit_def>
+  <Hit_accession>WP_422507116</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>7.63482e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>MTSLKGRRIGFGLTGSHCTYDEVIPQIERLIAEGADVRPIVTHTVMSTDTRFGEGEDWVKKLEEITGHQIIDSIVKAEPLGPKIPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNQNPVVLGISTNDALGLNGVNLMRLMSTKNIYFIPFGQDSPEKKPNSMVARMDSLLDTVLAALEGKQLQPVIVERY</Hsp_hseq>
+      <Hsp_midline>M+SLKG+RIGFGLTGSHCTY+ V PQIE L+ EGA+VRP+VT  V ST+TRFGEG +WVKK+E++TG++ IDSIVKAEPLGPK+PLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLMSTKNI+FIPFGQD P KKPNSMVA+MD L  T+  AL  +QLQP++VE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_141433466.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. 03113]</Hit_def>
+  <Hit_accession>WP_141433466</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>7.84262e-110</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDDVFPEIVKLVEAGAEVLPVVSFTVQNTDTRFGKGQEWIQKIEEVTGHKAIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANALTESPVLMAAKATLRNQSPVVLGISTNDALGLNGMNLMKLMATKNIYFIPFGQDDPIKKPNSLVARMPLLSETVESALQSKQLQPVLVERY</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+ VFP+I  LV  GAEV PVV+F V++T+TRFG+G EW++KIE++TG++AIDSIVKAEPLGPK+PLDCMVIAPLTGNSMSKLANA+T+SPVLMAAKAT+RN  PVVLGISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNS+VA+M LL +T+E AL  +QLQP+LVE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_077211573.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Robertmurraya dakarensis]</Hit_def>
+  <Hit_accession>WP_077211573</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>1.14309e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVIPVVTHTVQNTVTRFGDGEDWVQRIVELTGNSAIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGKPVVLGISTNDALGLNGVNLMRLMATKNIFFIPYGQDDPVKKPNSMVARMTMLSETIESAIQGQQIQPVIVERFKDDE</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVT  V++T TRFG+G +WV++I +LTG  AIDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNIFFIP+GQDDP KKPNSMVA+M +L +TIE A+  QQ+QP++VE ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_191812134.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Cytobacillus]</Hit_def>
+  <Hit_accession>WP_191812134</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.31817e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>NLKGKKIGFGLTGSHCTYDAVFPEIEKLVAAGAEVLPVVTFTVQNTDTRFGDGEDWIKRIEEVTGNKVIDSIVKAEPLGPKIPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNEKPVVLGISTNDALGLNGTNLMRLMSTKNIYFIPFGQDDPVKKPNSMVARMTALSDTIVKAMNGEQIQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>+LKGK+IGFGLTGSHCTY+AVFP+IE LV  GAEV PVVTF V++T+TRFG+G +W+K+IE++TG + IDSIVKAEPLGPK+PLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNGTNLMRLMSTKNI+FIPFGQDDP KKPNSMVA+M  L  TI KA+  +Q+QP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_053602851.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillus]</Hit_def>
+  <Hit_accession>WP_053602851</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.35952e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPQIEKLVQGGAEVRPIVTNTVKSTVTRFGEGEEWVKRIEDVTGFSVIDTIPKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATMRNSNPVVLGISTNDALGFNGVNLMKLISGKNIYFIPFGQDDPINKPNSMVAHMEYLLKTVEHALEHKQLQPIIIGSH</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFPQIE LV  GAEVRP+VT  VKST TRFGEG EWVK+IED+TG+  ID+I KAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKAT+RN+ PVVLGISTNDALG NG NLM+L+S KNI+FIPFGQDDP  KPNSMVA M+ L +T+E AL H+QLQPI++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_153123800.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Peribacillus tepidiphilus]</Hit_def>
+  <Hit_accession>WP_153123800</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.4233e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDIVFPEIEKLVNEGAEVIPIVTFTVKNTETRFGNGEDWVKRIEKLTGHHVIDTIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATMRNHRPVVLGISTNDALGLNGVNLMRLMAAKDIYFIPYGQDDPHKKPNSMVARMSLLKDTILFAIKGEQIQPVIVEKFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+ VFP+IE LVNEGAEV P+VTF VK+T TRFG G +WVK+IE LTG+  ID+IVKAEPLGPKLPLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+ K+I+FIP+GQDDP KKPNSMVA+M LL  TI  A+  +Q+QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_423991448.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Mesobacillus sp.]</Hit_def>
+  <Hit_accession>WP_423991448</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.53375e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLQGKKIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVTFTVQNTETRFGKGEDWVHRIEELTGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGMPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMGMLSETIISAMSGSQLQPVLVERYK</Hsp_hseq>
+      <Hsp_midline>SL+GK+IGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF V++T TRFG+G +WV +IE+LTG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L +TI  A+   QLQP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_307474364.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Cytobacillus purgationiresistens]</Hit_def>
+  <Hit_accession>WP_307474364</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>2.18258e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SFNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVTFTVQNTNTRFGEGEDWIKRIEDLTGNKVIDSIVKAEPLGPKIPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNEMPVVLGISTNDALGLNGVNLMRLMATKHIYFIPFGQDDPMKKPNSMVARMTDLSDTILAAMEGKQLQPVVVERYK</Hsp_hseq>
+      <Hsp_midline>S  GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF V++TNTRFGEG +W+K+IEDLTG + IDSIVKAEPLGPK+PLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TK+I+FIPFGQDDP KKPNSMVA+M  L  TI  A+  +QLQP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_094366127.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Sutcliffiella]</Hit_def>
+  <Hit_accession>WP_094366127</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>2.26005e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>LKGKRIGFGLTGSHCTYDAVVPEIEKLVNEGADVIPVVSFTVQNTNTRFGEGQEWIQKIEEITGNKAIDSIVKAEPLGPKIPLDCMVVAPLTGNSMSKLANALTDSPVLMAAKATLRNHHPVVLGISTNDALGLNGINLMRLMSTKNIYFIPFGQDAPEKKPNSMVARMNMLVPTVVEAINNKQIQPVIVEKY</Hsp_hseq>
+      <Hsp_midline>LKGKRIGFGLTGSHCTY+AV P+IE LVNEGA+V PVV+F V++TNTRFGEG EW++KIE++TG +AIDSIVKAEPLGPK+PLDCMV+APLTGNSMSKLANA+TDSPVLMAAKAT+RN+ PVVLGISTNDALGLNG NLMRLMSTKNI+FIPFGQD P KKPNSMVA+M++L  T+ +A+ ++Q+QP++VE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_191155748.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus arenae]</Hit_def>
+  <Hit_accession>WP_191155748</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>2.33097e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>VKGKRIGFGLTGSHCTYDAVFPQIQKLVEEGADVLPVVSQTVKQTTTRFGEGAEWIEKIEEATGNKVIDSIVKAEPLGPKIPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNHHPVVLGISTNDALGLNGINLMRLMSVKNIFFIPFGQDSPFKKPNSMVANMNLLLDTIEAALENSQYQPVIIEKYK</Hsp_hseq>
+      <Hsp_midline>+KGKRIGFGLTGSHCTY+AVFPQI+ LV EGA+V PVV+  VK T TRFGEGAEW++KIE+ TG + IDSIVKAEPLGPK+PLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN+ PVVLGISTNDALGLNG NLMRLMS KNIFFIPFGQD PFKKPNSMVA M+LL  TIE AL + Q QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_316568534.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Neobacillus sp. YIM B06451]</Hit_def>
+  <Hit_accession>WP_316568534</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>2.90237e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>NLKGKRIGFGLTGSHCTYDAVYPEIEKLVNAGAEVVPVVTFTVKNTETRFGKGEDWIERIEQLTGKTAIDSIVKAEPLGPKEPLDCMVIAPLTGASMSKFANAINDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMSSKNIFFIPFGQDDPVKKPNSMVARMGLLKETVESALEGVQLQPVLVERYLDKD</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AV+P+IE LVN GAEV PVVTF VK+T TRFG+G +W+++IE LTG  AIDSIVKAEPLGPK PLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMS+KNIFFIPFGQDDP KKPNSMVA+M LL +T+E AL   QLQP+LVE Y   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_208025310.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus salipaludis]</Hit_def>
+  <Hit_accession>WP_208025310</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>2.97261e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGN</Hsp_qseq>
+      <Hsp_hseq>MMSLKGKRIGFGLTGSHCTYDAVFPEIEKLVQAGAEVVPVVSYTVKSTDTRFGNGEDWVKRIEDLTGNKAIDSIVKAEPLGPKMPLDCMVIAPLTGVSMSKFANAMNDSPVLMAAKATLRNLKPIVLGISTNDALGLNGVNLMRLMATKHIYFIPYGQDDPVKKPNSMVARMTMLMETVEAAIEGKQIQPVLVERFRDD</Hsp_hseq>
+      <Hsp_midline>M SLKGKRIGFGLTGSHCTY+AVFP+IE LV  GAEV PVV++ VKST+TRFG G +WVK+IEDLTG +AIDSIVKAEPLGPK+PLDCMVIAPLTG SMSK ANAM DSPVLMAAKAT+RN +P+VLGISTNDALGLNG NLMRLM+TK+I+FIP+GQDDP KKPNSMVA+M +L +T+E A+  +Q+QP+LVE ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_116350534.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. HNG]</Hit_def>
+  <Hit_accession>WP_116350534</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>3.32358e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MTSLKGKRIGFGVTGSHCTYDAVMPEIIRLVDEGADVIPVVSWTVQSTTTRFGEGAEWIERIEKATGNQVIDSIVKAEPLGPKMPLDCMVIAPLTGNSMSKFANALTDSPVLMAAKATLRNQRPVVLGISTNDALGLNGINLMRLMATKNIYFIPYGQDDPTKKPNSMVARMSMLRDTVAAAIEGKQLQPVLVERYRDDE</Hsp_hseq>
+      <Hsp_midline>M+SLKGKRIGFG+TGSHCTY+AV P+I  LV+EGA+V PVV++ V+ST TRFGEGAEW+++IE  TG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANA+TDSPVLMAAKAT+RN RPVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M +L  T+  A+  +QLQP+LVE Y+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_202653941.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Neobacillus]</Hit_def>
+  <Hit_accession>WP_202653941</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.857</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>5.13231e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLQGKRIGFGLTGSHCTYDAVFPEIEKLVQDGAEVIPIVTFTVKNTETRFGNGEDWIQRIEKLTGHEAIDSIVKAEPLGPKYPLDCMVIAPLTGVSMSKFANAINDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMKLMATKNIYFIPYGQDDPFKKPNSLVAKMTLLKETVEAAIEGKQYQPVIIEKYKYNE</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFGLTGSHCTY+AVFP+IE LV +GAEV P+VTF VK+T TRFG G +W+++IE LTG+EAIDSIVKAEPLGPK PLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLM+LM+TKNI+FIP+GQDDPFKKPNS+VAKM LL +T+E A+  +Q QP+++E Y+ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_335427551.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. JJ1609]</Hit_def>
+  <Hit_accession>WP_335427551</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>6.88644e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLQGKKIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVTFTVQNTETRFGKGEDWVHRIEELTGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGMPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMGMLSETIISAMNGSQIQPVLVERYK</Hsp_hseq>
+      <Hsp_midline>SL+GK+IGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF V++T TRFG+G +WV +IE+LTG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L +TI  A+   Q+QP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_308181597.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Neobacillus sp. PS3-40]</Hit_def>
+  <Hit_accession>WP_308181597</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>7.20935e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKGTRIGFGLTGSHCTYDAVFPEIEKLVQAGAEVIPVVTFTVQNTDTRFGNGEDWIKKIEDLTGNKVIDSIVKAEPLGPKMPLDCMVISPITGNTMSKFANAMTDSPVLMAAKATLRNGKPIVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPIKKPNSMVARMSMTCETIENAISGKQVQPVIVERY</Hsp_hseq>
+      <Hsp_midline>SLKG RIGFGLTGSHCTY+AVFP+IE LV  GAEV PVVTF V++T+TRFG G +W+KKIEDLTG + IDSIVKAEPLGPK+PLDCMVI+P+TGN+MSK ANAMTDSPVLMAAKAT+RN +P+VLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +  +TIE A+  +Q+QP++VE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>tpg|HEY4550734.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>HEY4550734</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>9.17555e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLHGKRIGFGLTGSHCTYDAVFPEIEKLVKAGAEVLPVVTYTVKSTETRFGKGEDWIERIEIVTGNKAIDSIVSAEPLGPKIPLDCMVIAPITGSSMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMKLMATKNIYFIPFGQDDPIKKPNSMVARMTMLSEAIESAIIGKQLQPIIVERYK</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LV  GAEV PVVT+ VKST TRFG+G +W+++IE +TG +AIDSIV AEPLGPK+PLDCMVIAP+TG+SMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNSMVA+M +L + IE A++ +QLQPI+VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_231788316.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus kandeliae]</Hit_def>
+  <Hit_accession>WP_231788316</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>9.90734e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>LKNRRIGFGLTGSHCTYDAVFPEIQRLVAEGAEVLPVVTHTVQATNTRFGDGAEWIAKIEEATGHKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATMRNHHPVVLGISTNDALGLNGANLMKLMAAKNVFFIPFGQDNPYKKPNSMVARMELLLDTVESALKGEQYQPLIIERFRDEE</Hsp_hseq>
+      <Hsp_midline>LK +RIGFGLTGSHCTY+AVFP+I+ LV EGAEV PVVT  V++TNTRFG+GAEW+ KIE+ TG++ IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKAT+RN+ PVVLGISTNDALGLNG NLM+LM+ KN+FFIPFGQD+P+KKPNSMVA+M+LL  T+E AL  +Q QP+++E ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_108669642.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Peribacillus acanthi]</Hit_def>
+  <Hit_accession>WP_108669642</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>1.89163e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDVVFPEIEKLVNEGAEVIPIVTFTVQNTNTRFGKGEDWVERIVQLTGHQVIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATIRNHRPVVLGISTNDALGLNGVNLMRLMATKDFYFIPYGQDAPDKKPNSMVARMSMIRETILEAIQGRQIQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+ VFP+IE LVNEGAEV P+VTF V++TNTRFG+G +WV++I  LTG++ IDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKATIRN+RPVVLGISTNDALGLNG NLMRLM+TK+ +FIP+GQD P KKPNSMVA+M ++ +TI +A+  +Q+QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_147532176.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus marasmi]</Hit_def>
+  <Hit_accession>WP_147532176</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>1.92599e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGITGSHCTYEEIYPEIEKLVKAGAEVMPVVTFTVKSTDTRFGKGEDWIAKIEAVTGNKVIDSIVKAEPLGPRTPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGKPVVLGISTNDALGLNGVNLMRLMTTKNIYFIPFGQDDPVKKPNSMVARMSLTDQAILAAMEGRQLQPVLVEKYR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFG+TGSHCTYE ++P+IE LV  GAEV PVVTF VKST+TRFG+G +W+ KIE +TG + IDSIVKAEPLGP+ PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M L  Q I  A+  +QLQP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_377876271.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. CGMCC 1.16607]</Hit_def>
+  <Hit_accession>WP_377876271</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>2.32964e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>NLKGKRIGFGLTGSHCTYDAVYPEIEKLINEGAEVIPVVTFTVKNTDTRFGKGEDWIERIEDLTGNKVIDSIVKAEPLGPKLPLDCMVIAPLTGVSMSKFANAMNDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKQNSMVARMTMLTETVQAALNGIQIQPVLVERFR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AV+P+IE L+NEGAEV PVVTF VK+T+TRFG+G +W+++IEDLTG + IDSIVKAEPLGPKLPLDCMVIAPLTG SMSK ANAM DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KK NSMVA+M +L +T++ AL   Q+QP+LVE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_006322293.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Anoxybacillus flavithermus]</Hit_def>
+  <Hit_accession>WP_006322293</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>2.73526e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVE</Hsp_qseq>
+      <Hsp_hseq>NVQGKRIGFGLTGSHCTYDAVMPEIEKLIAKGADVIPIVSYTVQSTNTRFGKGEEWVKKLEEMTGHQVIDTIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATMRNHRPVVVGISTNDALGLNGVNLMRLMAAKNIYFIPFGQDDPFKKPNSMVAHMTLLLDTVEAALEGRQIQPVIVE</Hsp_hseq>
+      <Hsp_midline>+++GKRIGFGLTGSHCTY+AV P+IE L+ +GA+V P+V++ V+STNTRFG+G EWVKK+E++TG++ ID+IVKAEPLGPKLPLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN+RPVV+GISTNDALGLNG NLMRLM+ KNI+FIPFGQDDPFKKPNSMVA M LL  T+E AL  +Q+QP++VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_042356222.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus rubiinfantis]</Hit_def>
+  <Hit_accession>WP_042356222</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>3.53339e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SVKGKRIGFGLTGSHCTYDAVFPEIERLVQAGAEVIPIVTFTVKSSDTRFGKGEDWVQRIEELTGNKAIDSIVKAEPLGPKMPLDCMVIAPLTGVSMSKFANAINDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMSTKNIYFIPYGQDDPVNKPNSMVARMLLLKETVEAAMEGKQIQPVIIEKYKDSE</Hsp_hseq>
+      <Hsp_midline>S+KGKRIGFGLTGSHCTY+AVFP+IE LV  GAEV P+VTF VKS++TRFG+G +WV++IE+LTG +AIDSIVKAEPLGPK+PLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMSTKNI+FIP+GQDDP  KPNSMVA+M LL +T+E A+  +Q+QP+++E Y+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_125906083.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. HMF5848]</Hit_def>
+  <Hit_accession>WP_125906083</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>3.80033e-108</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LKGKRIGFGLTGSHCTYDAVLPEIQKLVDAGADVWPVATFNVKSTTTRFAEGEELVKKIEDITGNSIIDSIVKAEPLGPKTPLDCMVVAPLTGNSMSKFANAMTDSPVLMAAKATLRNQNPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPIKKPNSMVAKMELLSDTVEAALEGKQFQPVVIEKFR</Hsp_hseq>
+      <Hsp_midline>LKGKRIGFGLTGSHCTY+AV P+I+ LV+ GA+V PV TFNVKST TRF EG E VKKIED+TG   IDSIVKAEPLGPK PLDCMV+APLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVAKM+LL  T+E AL  +Q QP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_132948192.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Thermolongibacillus altinsuensis]</Hit_def>
+  <Hit_accession>WP_132948192</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>4.49701e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>TLKGKRIGFGLTGSHCTYDAVMPEIEKLIVAGAEVLPIVSYTVQTTNTRFGKGEDWIKRLEEMTGNKVIDTIVKAEPLGPKIPLDCMVVAPLTGNSMSKLANAMTDSPVLMAAKATMRNHRPVVVGISTNDALGLNGVNLMRLMSAKNIYFIPFGQDAPFTKPNSMVAKMSLLKETVEAALEGRQLQPVIIETFR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AV P+IE L+  GAEV P+V++ V++TNTRFG+G +W+K++E++TG + ID+IVKAEPLGPK+PLDCMV+APLTGNSMSKLANAMTDSPVLMAAKAT+RN+RPVV+GISTNDALGLNG NLMRLMS KNI+FIPFGQD PF KPNSMVAKM LL +T+E AL  +QLQP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_001049482.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Bacillus]</Hit_def>
+  <Hit_accession>WP_001049482</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>5.0733e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>NLKGKRIGFGFTGSHCTYEEVMPHLEKLIAEGAEVRPVVSYTVQSTNTRFGEGEEWIKKIEEITGFKAINSIVGAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGKPVVLAVSTNDALGLNGVNLMRLMATKNIYFVPFGQDAPEKKPNSMVARMELLEDTVLEALQGKQLQPVVVEKFR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFG TGSHCTYE V P +E L+ EGAEVRPVV++ V+STNTRFGEG EW+KKIE++TG++AI+SIV AEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVL +STNDALGLNG NLMRLM+TKNI+F+PFGQD P KKPNSMVA+M+LL  T+ +AL  +QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_078109086.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Heyndrickxia]</Hit_def>
+  <Hit_accession>WP_078109086</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>5.2904e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLQGKRIGFGLTGSHCTYDAVYPEIKKLVDAGAEVIPVVTFTVKSTTTRFGAGEEWIEKIEEVTGRKVIDTIVDAEPLGPKLPLDCMVISPLTGNSMSKMANALTDSPVLMAAKATLRNGKPVVLGISTNDALGLNGVNLMRLMSTKNIYFIPYGQDDPEKKPNSMVARMSSLQDTVEAALEGKQLQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFGLTGSHCTY+AV+P+I+ LV+ GAEV PVVTF VKST TRFG G EW++KIE++TG + ID+IV AEPLGPKLPLDCMVI+PLTGNSMSK+ANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMSTKNI+FIP+GQDDP KKPNSMVA+M  L  T+E AL  +QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|MFZ0443821.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>MFZ0443821</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>5.66103e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVVPVVTATVKNTTTRFGKGEDWIKRIEELTGHKVIDSIVGAEPLGPKMPVDCMVVAPITGASMSKFANALSDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNIMRLMSTKNIYFIPYGQDDPFKKPNSMVARMSMLVETVEEAILGKQIQPVIVERFK</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVT  VK+T TRFG+G +W+K+IE+LTG++ IDSIV AEPLGPK+P+DCMV+AP+TG SMSK ANA++DSPVLMAAKAT+RN +PVVLGISTNDALGLNG N+MRLMSTKNI+FIP+GQDDPFKKPNSMVA+M +L +T+E+A++ +Q+QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_322447721.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Robertmurraya mangrovi]</Hit_def>
+  <Hit_accession>WP_322447721</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>6.36172e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVTHTVKNTTTRFGKGEDWVERIEDLTGNKVIDSIVGAEPLGPKIPLDCMVIAPLTGNSMSKFANALTDSPVLMAAKATLRNLKPVVVGISTNDALGLNGVNLMRLMSTKNIFFIPYGQDDPEKKPNSMVARMTLLSDTVEAAINGKQLQPVIIEKFR</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVT  VK+T TRFG+G +WV++IEDLTG + IDSIV AEPLGPK+PLDCMVIAPLTGNSMSK ANA+TDSPVLMAAKAT+RN +PVV+GISTNDALGLNG NLMRLMSTKNIFFIP+GQDDP KKPNSMVA+M LL  T+E A+  +QLQP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_323217266.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B, partial [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_323217266</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>6.4821e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIP</Hsp_qseq>
+      <Hsp_hseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEELVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIP</Hsp_hseq>
+      <Hsp_midline>MSSLKGKRIGFGLTGSHCTYEAVFPQIE LVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_114896608.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Priestia megaterium]</Hit_def>
+  <Hit_accession>WP_114896608</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>6.55337e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVMPEIEKLVNLGAEVLPVVSYTVQSTNTRFGDGEDWVKKIEELTGHAVINTIVKAEPLGPKIPLDCMVVAPITGNTMSKFANAMTESPVLMAAKATLRNNKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVLKPNSMVARMTMLSDTVYAALEDKQIQPVIVEKFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AV P+IE LVN GAEV PVV++ V+STNTRFG+G +WVKKIE+LTG+  I++IVKAEPLGPK+PLDCMV+AP+TGN+MSK ANAMT+SPVLMAAKAT+RNN+PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP  KPNSMVA+M +L  T+  AL  +Q+QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_307256236.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Oikeobacillus pervagus]</Hit_def>
+  <Hit_accession>WP_307256236</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>1.20606e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPQIITLVEEGAEVVPVVTYTVKNTETRFGKGEDWVAKIEEATGKKALDSIVSTEPLGPKMPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMSMLRDTVATAIAGKQFQPVVVEKFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFPQI  LV EGAEV PVVT+ VK+T TRFG+G +WV KIE+ TG +A+DSIV  EPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L  T+  A+  +Q QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_240251677.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Fredinandcohnia quinoae]</Hit_def>
+  <Hit_accession>WP_240251677</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>1.55787e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MTNLNGKRIGFGLTGSHCTYDAVMPEIKRLVDAGAEVLPVVSYTVQSTNTRFGDGEEWIAKIEELTGKKVIDSIVKAEPLGPKIPLDCMVIAPLTGSSMSKFANAMTDNPVLMAAKATLRNQRPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDSPLKKPNSMVARMNMLEDTVLSAIEGKQLQPVIIEKYRDDE</Hsp_hseq>
+      <Hsp_midline>M++L GKRIGFGLTGSHCTY+AV P+I+ LV+ GAEV PVV++ V+STNTRFG+G EW+ KIE+LTG + IDSIVKAEPLGPK+PLDCMVIAPLTG+SMSK ANAMTD+PVLMAAKAT+RN RPVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQD P KKPNSMVA+M++L  T+  A+  +QLQP+++E Y+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_117325019.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Peribacillus saganii]</Hit_def>
+  <Hit_accession>WP_117325019</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>2.01889e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGRRIGFGLTGSHCTYDIVFPEIEKLINEGAEVIPVVTGTVKNTETRFGKGEDWVDRLEKLTGHHVVDTIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATMRNHRPVVVGISTNDALGLNGVNLMRLLSAKDLYFIPFGQDDPFKKPNSMVARMSMLRDTVIAAINGEQLQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>SLKG+RIGFGLTGSHCTY+ VFP+IE L+NEGAEV PVVT  VK+T TRFG+G +WV ++E LTG+  +D+IVKAEPLGPKLPLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN+RPVV+GISTNDALGLNG NLMRL+S K+++FIPFGQDDPFKKPNSMVA+M +L  T+  A+  +QLQP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_055740362.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Heyndrickxia]</Hit_def>
+  <Hit_accession>WP_055740362</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>2.17571e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLQGKRIGFGLTGSHCTYDAVFPEIKRLVDSGVEVIPVVTYTVKNTETRFGSGEEWIERIEEVTGRKVIDSIVDAEPLGPKLPLDCMVIAPLTGNSMSKMANALTDSPVLMAAKATLRNRNPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPINKPNSMVAKMTLLQETVEEAIKGRQLQPVIIERFR</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFGLTGSHCTY+AVFP+I+ LV+ G EV PVVT+ VK+T TRFG G EW+++IE++TG + IDSIV AEPLGPKLPLDCMVIAPLTGNSMSK+ANA+TDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP  KPNSMVAKM LL +T+E+A+  +QLQP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>dbj|GIN83649.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Heyndrickxia sporothermodurans]</Hit_def>
+  <Hit_accession>GIN83649</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>2.56945e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>MMSVKGKRIGFGLTGSHCTYDAVFPEIKNLVEAGAEVIPVVTFTVKSTETRFGKGEDWIDRIEQVTGRKVIDSIVDAEPLGPKLPLDCMVIAPLTGNSMSKMANALTDSPVLMAAKATLRNRKPVVLGISTNDALGLNGVNLMRLMSTKNIYFIPYGQDDPVRKPNSMVARMSDLQRTVEAAMEGYQLQPVIVERF</Hsp_hseq>
+      <Hsp_midline>M S+KGKRIGFGLTGSHCTY+AVFP+I+ LV  GAEV PVVTF VKST TRFG+G +W+ +IE +TG + IDSIV AEPLGPKLPLDCMVIAPLTGNSMSK+ANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMSTKNI+FIP+GQDDP +KPNSMVA+M  L +T+E A+   QLQP++VE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_375840628.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Cytobacillus sp. Hz8]</Hit_def>
+  <Hit_accession>WP_375840628</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>2.64518e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>NLKGKRIGFGLTGSHCTYDAVLPEIENLVNAGAEVLPVVTFTVQNTETRFGKGEDWIHRIEEITGNKVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATLRNGNPVVLAISTNDALGLNGVNLMRLMATKNIYFVPYGQDDPIKKPNSMVARMTMLKESVESALEGKQIQPVIVERYR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AV P+IE LVN GAEV PVVTF V++T TRFG+G +W+ +IE++TG + IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN  PVVL ISTNDALGLNG NLMRLM+TKNI+F+P+GQDDP KKPNSMVA+M +L +++E AL  +Q+QP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_233811179.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Cytobacillus spongiae]</Hit_def>
+  <Hit_accession>WP_233811179</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>3.16438e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLNGKRIGFGLTGSHCTYDAVFPEIEKLVNAGAEVLPVVSHTVKHTTTRFGKGEDWVQRIEDLTGNKVIDSIVGAEPLGPKIPLDCMVVAPITGNTMSKFANAMTDSPVLMAAKATLRNQMPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPVKKPNSMVARMTMLSHTIEEAMKGKQIQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVV+  VK T TRFG+G +WV++IEDLTG + IDSIV AEPLGPK+PLDCMV+AP+TGN+MSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M +L  TIE+A+  +Q+QP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_119111615.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Mesobacillus zeae]</Hit_def>
+  <Hit_accession>WP_119111615</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>3.27016e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVMPEIEKLVNEGAEVVPVVTFTVQTTNTRFGKGEDWIERIETLTGNKVIDSIVKAEPLGPKMPLDCMVVAPMTGVSMSKFANAMNDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMSAKNVYFIPFGQDDPESKPNSMVARMGMLRETIISAISGQQLQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AV P+IE LVNEGAEV PVVTF V++TNTRFG+G +W+++IE LTG + IDSIVKAEPLGPK+PLDCMV+AP+TG SMSK ANAM DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMS KN++FIPFGQDDP  KPNSMVA+M +L +TI  A+  QQLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|MBP3038356.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillaceae bacterium Marseille-Q3522]</Hit_def>
+  <Hit_accession>MBP3038356</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>3.40367e-107</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LKGKRIGFGLTGSHCTYDDVFPEIVKLVQKGAEVIPVVTFTVKNTETRFGNGEDWVKRIETVTGNKAIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATMRNEMPVVVGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMTMLIPTIEAALNRKQYQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>LKGKRIGFGLTGSHCTY+ VFP+I  LV +GAEV PVVTF VK+T TRFG G +WVK+IE +TG +AIDSIVKAEPLGPK+PLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN  PVV+GISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L  TIE AL  +Q QP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_445488172.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Niallia sp. 03133]</Hit_def>
+  <Hit_accession>WP_445488172</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>4.3319e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKDKRIGFGISASHCTYAEVFPQIENLVSLGADVVPVVTGNVQHTDTRFGKGFEWISKIEELTGNEAIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDNAVLMAAKATLRNQKPIVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPMKKPNSMVARMSLLSETIEAALESRQIQPVIIERFQ</Hsp_hseq>
+      <Hsp_midline>SLK KRIGFG++ SHCTY  VFPQIE LV+ GA+V PVVT NV+ T+TRFG+G EW+ KIE+LTG EAIDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTD+ VLMAAKAT+RN +P+VLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M LL +TIE AL  +Q+QP+++E +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_184522391.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus benzoevorans]</Hit_def>
+  <Hit_accession>WP_184522391</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>5.59534e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLMGKRIGFGLTGSHCTYDAVYPEIEKLVQAGVEVLPVVTYTVKNTETRFGRGEDWVEKIEILTGHKAIATIVDAEPLGPKIPLDCMVISPITGNTISKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNIMRLMATKNIYFIPFGQDDPIKKPNSMVARMPMLSETIEAALLGKQLQPVLVERYK</Hsp_hseq>
+      <Hsp_midline>SL GKRIGFGLTGSHCTY+AV+P+IE LV  G EV PVVT+ VK+T TRFG G +WV+KIE LTG++AI +IV AEPLGPK+PLDCMVI+P+TGN++SK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG N+MRLM+TKNI+FIPFGQDDP KKPNSMVA+M +L +TIE AL+ +QLQP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_412968337.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Fredinandcohnia sp. 179-A 10B2 NHS]</Hit_def>
+  <Hit_accession>WP_412968337</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>7.71832e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MTSLKGKRIGFGVTGSHCTYDAVLPEIIKLVDEGADVVPVVSYTVQSTNTRFGEGAEWIEKIESVTGNKVIDSIVKAEPLGPRIPLDCMVIAPLTGNSMSKFANALTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDAPTSKPNSMVARMEMLRDTVISAIDGKQFQPVIVEKFRDDE</Hsp_hseq>
+      <Hsp_midline>M+SLKGKRIGFG+TGSHCTY+AV P+I  LV+EGA+V PVV++ V+STNTRFGEGAEW++KIE +TG + IDSIVKAEPLGP++PLDCMVIAPLTGNSMSK ANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P  KPNSMVA+M++L  T+  A+  +Q QP++VE ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_123257473.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Niallia circulans]</Hit_def>
+  <Hit_accession>WP_123257473</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>7.91598e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLQGKRIGFGISGSHCTYEEVVPQVEKLVVQGAEVVPVVTGNVKNTDTRFGKGKDWVSKIEEITGQKIIDSIVAAEPLGPKAPLDCMVIAPLTGNSMSKFANAMTDNAVLMAAKATLRNQKPVVLGISTNDALGLNGINLMRLMATKNIFFIPFGQDDPEKKPNSMVARMSMLAETIEAALEYKQIQPVIVEKY</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFG++GSHCTYE V PQ+E LV +GAEV PVVT NVK+T+TRFG+G +WV KIE++TG + IDSIV AEPLGPK PLDCMVIAPLTGNSMSK ANAMTD+ VLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNIFFIPFGQDDP KKPNSMVA+M +L +TIE AL ++Q+QP++VE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_150917040.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Robertmurraya sp. DFI.2.37]</Hit_def>
+  <Hit_accession>WP_150917040</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>9.34838e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SVNGKRIGFGLTGSHCTYDEVFPEIEKLVHAGAEVLPVVTHTVKNTDTRFGKGEDWIERIEELTGNKVIDTIVKAEPLGPKIPLDCMVIAPLTGNSLSKFANAMTDSPVLMAAKATLRNRKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPIKKPNSLVARMSLLLDTVEAAMNGEQIQPVLVERYK</Hsp_hseq>
+      <Hsp_midline>S+ GKRIGFGLTGSHCTY+ VFP+IE LV+ GAEV PVVT  VK+T+TRFG+G +W+++IE+LTG + ID+IVKAEPLGPK+PLDCMVIAPLTGNS+SK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNS+VA+M LL  T+E A+  +Q+QP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_335477196.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. JJ1764]</Hit_def>
+  <Hit_accession>WP_335477196</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>1.00218e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>MMNLQGKRIGFGLTGSHCTYDAVFPEIEKLVQAGVEVIPVVSFTVKNTDTRFGKGDDWVERIEDLTGNKVIDSIVKAEPLGPKLPLDCMVIAPLTGVSMSKFANAINDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPIKKPNSMVARMPLLVDTVVAALEGTQIQPVLVERYKDTD</Hsp_hseq>
+      <Hsp_midline>M +L+GKRIGFGLTGSHCTY+AVFP+IE LV  G EV PVV+F VK+T+TRFG+G +WV++IEDLTG + IDSIVKAEPLGPKLPLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP KKPNSMVA+M LL  T+  AL   Q+QP+LVE Y+  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_163250267.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Neobacillus thermocopriae]</Hit_def>
+  <Hit_accession>WP_163250267</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>1.15347e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGLTGSHCTYDAVFPEIEKLVQEGAEVVPIVTFTVKNTDTRFGKGENWVQRIEELTGNTVIDSIVKAEPLGPKYPLDCMVIAPLTGVSMSKFANAINDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPYGQDDPINKPNSMVARMTLLIDTVKAALEGRQLQPVLIERYK</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFGLTGSHCTY+AVFP+IE LV EGAEV P+VTF VK+T+TRFG+G  WV++IE+LTG   IDSIVKAEPLGPK PLDCMVIAPLTG SMSK ANA+ DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIP+GQDDP  KPNSMVA+M LL  T++ AL  +QLQP+L+E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_101581133.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. T33-2]</Hit_def>
+  <Hit_accession>WP_101581133</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>1.16618e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKKIGFGLTGSHCTYDAVFPEIEKLVNEGAEVLPVVSFTVKNTDTRFGKGEDWIQRIEELTGNKVIDSIVKAEPLGPKIPLDCMVIAPMTGVSMSKFANAMNDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMRLMSTKNVYFIPFGQDDPEKKPNSMVARMTDLRETVVSAMNGKQYQPVLVERYR</Hsp_hseq>
+      <Hsp_midline>SLKGK+IGFGLTGSHCTY+AVFP+IE LVNEGAEV PVV+F VK+T+TRFG+G +W+++IE+LTG + IDSIVKAEPLGPK+PLDCMVIAP+TG SMSK ANAM DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMSTKN++FIPFGQDDP KKPNSMVA+M  L +T+  A+  +Q QP+LVE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_006837481.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. SG-1]</Hit_def>
+  <Hit_accession>WP_006837481</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>1.18977e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SVKGKRIGFGLTGSHCTYDAVFPEIERLVNEGAEVIPVVTSTVKHTVTRFGDGEDWIKRIEEVTGNKVVDTIVKAEPLGPKLPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNHRPVVVGISTNDALGLNGVNLMKLISAKDIYFIPFGQDDPEKKPKSMVARMTRLLETVEAAMEGKQLQPVVVERY</Hsp_hseq>
+      <Hsp_midline>S+KGKRIGFGLTGSHCTY+AVFP+IE LVNEGAEV PVVT  VK T TRFG+G +W+K+IE++TG + +D+IVKAEPLGPKLPLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN+RPVV+GISTNDALGLNG NLM+L+S K+I+FIPFGQDDP KKP SMVA+M  L +T+E A+  +QLQP++VE Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_254758968.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Ectobacillus ponti]</Hit_def>
+  <Hit_accession>WP_254758968</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>1.20517e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGFTGSHCTYEEVMPYLQQLVDEGAEVRPVVSYTLKHTNTRFGEGEEWIKKIEAITGFTAIDSIVGAEPLGPKIPLDVMVIAPMTGNSMSKLANAMTDSPVLMAAKATLRNCKPVVLAISTNDALGLNGVNLMRLMATKNIYFAPFGQDAPDKKPNSMVARMELLRDTITAALEGKQLQPVIVEKYR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFG TGSHCTYE V P ++ LV+EGAEVRPVV++ +K TNTRFGEG EW+KKIE +TG+ AIDSIV AEPLGPK+PLD MVIAP+TGNSMSKLANAMTDSPVLMAAKAT+RN +PVVL ISTNDALGLNG NLMRLM+TKNI+F PFGQD P KKPNSMVA+M+LL  TI  AL  +QLQP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_248561187.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Niallia sp. NCCP-28]</Hit_def>
+  <Hit_accession>WP_248561187</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.52802e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SLKDKRIGFGISASHCTYAEVYPQIEKLVNLGADVVPVVTGNVKSTNTRFGKGFEWIGKIEELTGNQTIDSIVAAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDNAVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMAALPETIEAAIEGKQIQPVIIEKY</Hsp_hseq>
+      <Hsp_midline>SLK KRIGFG++ SHCTY  V+PQIE LVN GA+V PVVT NVKSTNTRFG+G EW+ KIE+LTG + IDSIV AEPLGPK+PLDCMVIAPLTGNSMSK ANAMTD+ VLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M  LP+TIE A+  +Q+QP+++E Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_066233188.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Heyndrickxia]</Hit_def>
+  <Hit_accession>WP_066233188</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.54779e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLEGKRIGFGLTGSHCTYDAVFPEIEKLVEVGAEVVPIVTFTVKNTETRFGKGEDWIEKIESVTGRKVIDSIVEAEPLGPKYPLDCMVISPLTGNSMSKLANALTDSPVLMAAKATIRNQKPVVLGISTNDALGLNGVNLMRLMATKHIYFIPYGQDDPIKKPNSMVARMSSLQDTVKAALEGRQLQPVIVERFR</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFGLTGSHCTY+AVFP+IE LV  GAEV P+VTF VK+T TRFG+G +W++KIE +TG + IDSIV+AEPLGPK PLDCMVI+PLTGNSMSKLANA+TDSPVLMAAKATIRN +PVVLGISTNDALGLNG NLMRLM+TK+I+FIP+GQDDP KKPNSMVA+M  L  T++ AL  +QLQP++VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_197090945.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. FJAT-27231]</Hit_def>
+  <Hit_accession>WP_197090945</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.81131e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>MMSLKGKRIGFGITGSHCTYEEVFPQIKKLVELGADVVPVVTATMKGTGTRFGEAGEWVKKIEEVTAKKVIDSIVEAEPLGPKTPLDCMVIAPITGNSLSKLANAMTDSPVLMAAKATLRNLRPVVLGISTNDALGLNGMNIMRLMPVKNIFFIPFGQDDPEKKPNSMVARMESLPETIEAALGGKQLQPVIIERFR</Hsp_hseq>
+      <Hsp_midline>M SLKGKRIGFG+TGSHCTYE VFPQI+ LV  GA+V PVVT  +K T TRFGE  EWVKKIE++T  + IDSIV+AEPLGPK PLDCMVIAP+TGNS+SKLANAMTDSPVLMAAKAT+RN RPVVLGISTNDALGLNG N+MRLM  KNIFFIPFGQDDP KKPNSMVA+M+ LP+TIE AL  +QLQP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_032088783.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Rossellomorea]</Hit_def>
+  <Hit_accession>WP_032088783</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.92352e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SIKGKRIGFGLTGSHCTYDAVFPEIERLVNNGAEVMPIVTSTVMNTETRFGKGEDWIKRIEDVTGHRVIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNHRPVVLGISTNDALGLNGINLMRLISTKDIYFIPFGQDAPENKPKSMVARMTLIQETIEAAIEGKQLQPVIIEKF</Hsp_hseq>
+      <Hsp_midline>S+KGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV P+VT  V +T TRFG+G +W+K+IED+TG+  IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRL+STK+I+FIPFGQD P  KP SMVA+M L+ +TIE A+  +QLQP+++E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_152444359.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. THAF10]</Hit_def>
+  <Hit_accession>WP_152444359</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.20221e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGN</Hsp_qseq>
+      <Hsp_hseq>LKGKRLGFGLTGSHCTYDAVVPEIQKLLDEGAEIIPVVTSTVQNTTTRFGQGEDWIKRIEDMTGNKIIDSIVKAEPLGPKLPLDCMIIAPLTGNSMSKLANAITESPVLMAAKATLRNHRPVVLGISTNDALGLNGLNLMRLMSTKNIYFIPYGQDAPEKKPNSMVARMSMLLPTVLDALEHKQIQPVIVERYKDD</Hsp_hseq>
+      <Hsp_midline>LKGKR+GFGLTGSHCTY+AV P+I+ L++EGAE+ PVVT  V++T TRFG+G +W+K+IED+TG + IDSIVKAEPLGPKLPLDCM+IAPLTGNSMSKLANA+T+SPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLMSTKNI+FIP+GQD P KKPNSMVA+M +L  T+  AL H+Q+QP++VE Y+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_374724024.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Calidifontibacillus erzurumensis]</Hit_def>
+  <Hit_accession>WP_374724024</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.20221e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>TLNGKRIGFGLTGSHCTYDAVMPQIEKLVEAGAEVQPIVTFTVKNTTTRFGKGEDWVTKLEEMTGKKVIDSIVDAEPLGPKYPLDCMVIAPLTGNTMSKLANALTDSPVLMAAKATLRNLKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPLKKPNSIVARMDALVDTVEAALEGRQYQPVLIEKFR</Hsp_hseq>
+      <Hsp_midline>+L GKRIGFGLTGSHCTY+AV PQIE LV  GAEV+P+VTF VK+T TRFG+G +WV K+E++TG + IDSIV AEPLGPK PLDCMVIAPLTGN+MSKLANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNS+VA+MD L  T+E AL  +Q QP+L+E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_102346892.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. Marseille-P3661]</Hit_def>
+  <Hit_accession>WP_102346892</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.20221e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>TLKGKRIGFGITGSHCTYEATVPQIEKLVNAGAEVVPVVTFNVKNTTTRFGNGEDWVKKIEEITGNKVIDSIVGAEPLGPKFPLDCMVIAPMTGNSMSRFANALTDSPVLMAAKATLRNLKPVVLGISTNDALGLNGANLMKLMSTKNIYFIPFGQDDPHVKPNSIVARMDSLIDTVEAAIKGYQLQPVLIERFR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFG+TGSHCTYEA  PQIE LVN GAEV PVVTFNVK+T TRFG G +WVKKIE++TG + IDSIV AEPLGPK PLDCMVIAP+TGNSMS+ ANA+TDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLM+LMSTKNI+FIPFGQDDP  KPNS+VA+MD L  T+E A+   QLQP+L+E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_378932246.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus herbersteinensis]</Hit_def>
+  <Hit_accession>WP_378932246</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.22648e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SVKGKRIGFGLTGSHCTYDAVYPQIKKLVDFGADVMPVVTHTVKTTNTRFGKGEDWIERIEELTGHKAIDSMVGAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNQNPVVLGISTNDALGLNGINLMRLMATKNIYFIPFGQDAPTNKPNSMVARMENLIETVEAALEHKQFQPVIIEKF</Hsp_hseq>
+      <Hsp_midline>S+KGKRIGFGLTGSHCTY+AV+PQI+ LV+ GA+V PVVT  VK+TNTRFG+G +W+++IE+LTG++AIDS+V AEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P  KPNSMVA+M+ L +T+E AL H+Q QP+++E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_154305772.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Metabacillus lacus]</Hit_def>
+  <Hit_accession>WP_154305772</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.22648e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>LQGKVIGFGLTGSHCTYDAVYPEIEGLIKEGAEVLPVVTNTVQHTSTRFGTEGEWVEKIEQLTGNSVIDSIVKAEPLGPKIPLDIMVIAPLTGNSMSKLANALTDSPVLMAAKATLRNHRPVVIGISTNDALGLNGANLMKLMSTKNIYFIPFGQDAPFKKPNSMVARMHLLMDTVEAALQHKQYQPVIIEKFRDDE</Hsp_hseq>
+      <Hsp_midline>L+GK IGFGLTGSHCTY+AV+P+IE L+ EGAEV PVVT  V+ T+TRFG   EWV+KIE LTG   IDSIVKAEPLGPK+PLD MVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN+RPVV+GISTNDALGLNG NLM+LMSTKNI+FIPFGQD PFKKPNSMVA+M LL  T+E AL H+Q QP+++E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_015593163.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. 1NLA3E]</Hit_def>
+  <Hit_accession>WP_015593163</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.26727e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>SLKGKRIGFGITGSHCTYEEIFPEIAKLVKAEAEVIPVVTFTVKNTDTRFGKGEDWIGKIETLTGHKVIDSIVKAEPLGPRIPLDCMVIAPITGNSMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGMNLMKLMATKNIYFIPFGQDDPIKKPNSMVARMSLLDETILAAMEGTQLQPVLVEKFR</Hsp_hseq>
+      <Hsp_midline>SLKGKRIGFG+TGSHCTYE +FP+I  LV   AEV PVVTF VK+T+TRFG+G +W+ KIE LTG++ IDSIVKAEPLGP++PLDCMVIAP+TGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNSMVA+M LL +TI  A+   QLQP+LVE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|MDF2606636.1|</Hit_id>
+  <Hit_def>dpaB [Bacillales bacterium]</Hit_def>
+  <Hit_accession>MDF2606636</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.538</Hsp_bit-score>
+      <Hsp_score>802</Hsp_score>
+      <Hsp_evalue>3.6131e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LQGRRIGFGLTGSHCTYDAVIPEIEKLVQEGADVIPIVTHTVKSTNTRFGDGDEWVKKLEEITKNKIIDTIVKAEPLGPKLPLDCMIIAPLTGNSLSKLANALTDSPVLMAAKATMRNHRPVVLGISTNDALGLNGVNLMRLMAAKNIYFIPFGQDAPVNKPNSMVAQMDLLLGTVSEALEKRQIQPVIIEKYK</Hsp_hseq>
+      <Hsp_midline>L+G+RIGFGLTGSHCTY+AV P+IE LV EGA+V P+VT  VKSTNTRFG+G EWVKK+E++T  + ID+IVKAEPLGPKLPLDCM+IAPLTGNS+SKLANA+TDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRLM+ KNI+FIPFGQD P  KPNSMVA+MDLL  T+ +AL  +Q+QP+++E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_429651295.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Aeribacillus pallidus]</Hit_def>
+  <Hit_accession>WP_429651295</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>3.96533e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQG</Hsp_qseq>
+      <Hsp_hseq>VKGKRIGFGLTGSHCTYDAVYPQIEALVKAGADVVPIVTATVQQTETRFGKGEDWIERIENLTGKKVIQSIVDAEPLGPKMPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATLRNHHPVVVGISTNDALGLNGVNLMRLMATKNIYFIPFGQDHPFKKPNSMVADMNKLLPTVEAALEGKQLQPVIIERYQG</Hsp_hseq>
+      <Hsp_midline>+KGKRIGFGLTGSHCTY+AV+PQIEALV  GA+V P+VT  V+ T TRFG+G +W+++IE+LTG + I SIV AEPLGPK+PLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN+ PVV+GISTNDALGLNG NLMRLM+TKNI+FIPFGQD PFKKPNSMVA M+ L  T+E AL  +QLQP+++E YQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_181536754.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [[Anoxybacillus] calidus]</Hit_def>
+  <Hit_accession>WP_181536754</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>4.96502e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLQGKRIGFGLTGSHCTYDEVIPEIEKLVEEGAEVLPIVTYTVQTTNTRFGDGADWVKKLEEITGNKVIDTIVKAEPLGPKIPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATMRGHRPVVVGISTNDALGLNGVNLMRLMAAKNIYFIPFGQDAPQTKPNSMVARMSLLRDTVIAALEGRQLQPVIIEKFRDSE</Hsp_hseq>
+      <Hsp_midline>SL+GKRIGFGLTGSHCTY+ V P+IE LV EGAEV P+VT+ V++TNTRFG+GA+WVKK+E++TG + ID+IVKAEPLGPK+PLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKAT+R +RPVV+GISTNDALGLNG NLMRLM+ KNI+FIPFGQD P  KPNSMVA+M LL  T+  AL  +QLQP+++E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_223700178.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Sutcliffiella deserti]</Hit_def>
+  <Hit_accession>WP_223700178</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>5.35095e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LKGKRLGFGLTGSHCTYDAVVPELKKLVNAGADVIPVVSYTVQNTNTRFGEGEEWIKKIEEITGNKIINSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANALTESPVLMAAKATLRNLNPVVLGISTNDALGLNGMNLMKLMSTKNIYFIPFGQDSPDKKPNSMVARMEMLVPTVLQALEHKQIQPVIVERYK</Hsp_hseq>
+      <Hsp_midline>LKGKR+GFGLTGSHCTY+AV P+++ LVN GA+V PVV++ V++TNTRFGEG EW+KKIE++TG + I+SIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANA+T+SPVLMAAKAT+RN  PVVLGISTNDALGLNG NLM+LMSTKNI+FIPFGQD P KKPNSMVA+M++L  T+ +AL H+Q+QP++VE Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_326164051.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Schinkia azotoformans]</Hit_def>
+  <Hit_accession>WP_326164051</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>5.71468e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>TLKGKRIGFGLTGSHCTYDAVMPQIEKLIQAGADVRPVATHTVKSTTTRFGKGEEWLVKLEEMTGNQVITTIVEAEPLGPKMPLDCMVIAPLTGNSMSKLANALTDSPVLMAAKATLRNLNPVVLGISTNDALGLNGMNLMKLMATKNIYFIPFGQDDPIKKPNSIVARMDALVDTVEAAILGRQFQPILIERYR</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AV PQIE L+  GA+VRPV T  VKST TRFG+G EW+ K+E++TG + I +IV+AEPLGPK+PLDCMVIAPLTGNSMSKLANA+TDSPVLMAAKAT+RN  PVVLGISTNDALGLNG NLM+LM+TKNI+FIPFGQDDP KKPNS+VA+MD L  T+E A++ +Q QPIL+E Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_204203745.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus suaedaesalsae]</Hit_def>
+  <Hit_accession>WP_204203745</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>5.72535e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>MTSLKGKRIGFGLTGSHCTYDAVMPQLQKLIDEGAEVLPVATHTVMNTNTRFGKGDDWVAKLEEITGHKIIDSIVKAEPLGPKIPLDCMVIAPLTGNSMSKFANAMTDSPVLMAAKATLRNGKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDAPVKKPNSMVARMESLHDTVLAALEGKQVQPVVVERF</Hsp_hseq>
+      <Hsp_midline>M+SLKGKRIGFGLTGSHCTY+AV PQ++ L++EGAEV PV T  V +TNTRFG+G +WV K+E++TG++ IDSIVKAEPLGPK+PLDCMVIAPLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQD P KKPNSMVA+M+ L  T+  AL  +Q+QP++VE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_428908612.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Niallia sp. Kr1]</Hit_def>
+  <Hit_accession>WP_428908612</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>7.19372e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>NLKGKRIGFGLTGSHCTYDAVFPEIERLVNAGAEVVPVVTFTVKNTTTRFGKGEDWIQRIEEVTGNKIIDSIVAAEPLGPRIPVDCMVIAPLTGASMSKFANALSDSPVLMAAKATLRNQKPVVLGISTNDALGLNGINLMRLMSTKNIYFIPYGQDDPVNKPNSMVARMPLLLDTVEAALEGKQLQPVLVERFK</Hsp_hseq>
+      <Hsp_midline>+LKGKRIGFGLTGSHCTY+AVFP+IE LVN GAEV PVVTF VK+T TRFG+G +W+++IE++TG + IDSIV AEPLGP++P+DCMVIAPLTG SMSK ANA++DSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLMSTKNI+FIP+GQDDP  KPNSMVA+M LL  T+E AL  +QLQP+LVE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_246939796.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus pinisoli]</Hit_def>
+  <Hit_accession>WP_246939796</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>7.20712e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>MTSLKGKRIGFGLTGSHCTYDAVVPQIEKLMEAGAEVIPVATNTVRLTNTRFGDGDEWVKKLEEITGNQLIDSIVKAEPLGPKIPLDCMVVSPLTGNSMSKFANAMTDSPVLMAAKATLRNQKPVVLGISTNDALGLNGVNLMRLMATKNIYFIPFGQDDPVKKPNSMVARMGSLVDTVVAAIEGKQLQPVVIERF</Hsp_hseq>
+      <Hsp_midline>M+SLKGKRIGFGLTGSHCTY+AV PQIE L+  GAEV PV T  V+ TNTRFG+G EWVKK+E++TG + IDSIVKAEPLGPK+PLDCMV++PLTGNSMSK ANAMTDSPVLMAAKAT+RN +PVVLGISTNDALGLNG NLMRLM+TKNI+FIPFGQDDP KKPNSMVA+M  L  T+  A+  +QLQP+++E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_120670587.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Caldibacillus debilis]</Hit_def>
+  <Hit_accession>WP_120670587</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>9.97582e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LRGKRIGFGLTGSHCTYDAVYPEIEKLVEEGAEVVPVVSFTVKNTTTRFGSGEEWIGKIEEVTGKKAIDSIVEAEPLGPKYPLDCMVIAPLTGNSLSKLANALTDSPVLMAAKATMRNQRPVVLGISTNDALGLNGINLMRLISAKNIYFIPFGQDDPANKPNSMVADMTLLADTVKHALAGKQYQPMIIERFR</Hsp_hseq>
+      <Hsp_midline>L+GKRIGFGLTGSHCTY+AV+P+IE LV EGAEV PVV+F VK+T TRFG G EW+ KIE++TG +AIDSIV+AEPLGPK PLDCMVIAPLTGNS+SKLANA+TDSPVLMAAKAT+RN RPVVLGISTNDALGLNG NLMRL+S KNI+FIPFGQDDP  KPNSMVA M LL  T++ AL  +Q QP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_223088328.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus aquiflavi]</Hit_def>
+  <Hit_accession>WP_223088328</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>1.03285e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQ</Hsp_qseq>
+      <Hsp_hseq>LKGKKVGFGLTGSHCTYDAVFPEIEKLVNEGAEVFPVVTFTVKSSTTRFGKGDEWVQRIENLTGRSVVDSIVEAEPFGPKNPLDCMIIAPLTGNSMSKFANALTDSPVLMAAKATLRNQKPVVVGFSTNDALGLNGVNLMRLMSAKNIYFIPFGQDDPKKKPNSMVAQMSFLKETVCSALEGKQLQPVIIERFR</Hsp_hseq>
+      <Hsp_midline>LKGK++GFGLTGSHCTY+AVFP+IE LVNEGAEV PVVTF VKS+ TRFG+G EWV++IE+LTG   +DSIV+AEP GPK PLDCM+IAPLTGNSMSK ANA+TDSPVLMAAKAT+RN +PVV+G STNDALGLNG NLMRLMS KNI+FIPFGQDDP KKPNSMVA+M  L +T+  AL  +QLQP+++E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_048004004.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipicolinate synthase subunit B [Rossellomorea]</Hit_def>
+  <Hit_accession>WP_048004004</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.997</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>1.44539e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENY</Hsp_qseq>
+      <Hsp_hseq>SIKGKRIGFGLTGSHCTYDEVFPQIEKLVNGGADVLPVVSSTMMNTNTRFGKGEDWVKRIEDVTGHKVIDSIVKAEPLGPKIPLDCMVISPLTGNTMSKFANAMTDSPVLMAAKATLRNHRPVVLGISTNDALGLNGINLMRLISTKDIYFIPFGQDAPEQKPKSMVARMSLTQETIEAAMEGRQLQPVVIERY</Hsp_hseq>
+      <Hsp_midline>S+KGKRIGFGLTGSHCTY+ VFPQIE LVN GA+V PVV+  + +TNTRFG+G +WVK+IED+TG++ IDSIVKAEPLGPK+PLDCMVI+PLTGN+MSK ANAMTDSPVLMAAKAT+RN+RPVVLGISTNDALGLNG NLMRL+STK+I+FIPFGQD P +KP SMVA+M L  +TIE A+  +QLQP+++E Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_123916608.1|</Hit_id>
+  <Hit_def>dipicolinate synthase subunit B [Bacillus sp. FJAT-42376]</Hit_def>
+  <Hit_accession>WP_123916608</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.612</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>1.72885e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SLKGKRIGFGLTGSHCTYEAVFPQIEALVNEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND</Hsp_qseq>
+      <Hsp_hseq>SLKGKTIGFGLTGSHCTYDAVFPEIQKLVSLGANVLPVITSTVRSTVTRFGDGEEWVKRIEEATGNEAIDSIVKAEPLGPKIPLDCMVIAPLTGNTMSKLANAMTESPVLMAAKATMRNNKPVLLGISTNDALGLNGVNLMKLMDAKNVFFIPFGQDHPEKKPNSMVARMTMLIPSLEAALDHKQIQPVIVERFRDDE</Hsp_hseq>
+      <Hsp_midline>SLKGK IGFGLTGSHCTY+AVFP+I+ LV+ GA V PV+T  V+ST TRFG+G EWVK+IE+ TG EAIDSIVKAEPLGPK+PLDCMVIAPLTGN+MSKLANAMT+SPVLMAAKAT+RNN+PV+LGISTNDALGLNG NLM+LM  KN+FFIPFGQD P KKPNSMVA+M +L  ++E AL H+Q+QP++VE ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>470748714</Statistics_db-num>
+      <Statistics_db-len>39977038</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

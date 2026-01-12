@@ -1,0 +1,376 @@
+{
+  "interproscan-version": "5.76-107.0",
+  "results": [
+    {
+      "sequence": "MSSLKGKRIGFGLTGSHCTYEAVFPQIEALVTEGAEVRPVVTFNVKSTNTRFGEGAEWVKKIEDLTGYEAIDSIVKAEPLGPKLPLDCMVIAPLTGNSMSKLANAMTDSPVLMAAKATIRNNRPVVLGISTNDALGLNGTNLMRLMSTKNIFFIPFGQDDPFKKPNSMVAKMDLLPQTIEKALMHQQLQPILVENYQGND",
+      "md5": "3d793f7bb25138e3036b614ad48e2ebf",
+      "matches": [
+        {
+          "signature": {
+            "accession": "PIRSF001390",
+            "name": "Dipicolinate_synth_subunit_B",
+            "description": null,
+            "type": "FAMILY",
+            "signatureLibraryRelease": {
+              "library": "PIRSF",
+              "version": "3.10"
+            },
+            "entry": {
+              "accession": "IPR014214",
+              "name": "Dipicolinic_acid_synth_B",
+              "description": "Dipicolinic acid synthetase, subunit B",
+              "type": "FAMILY",
+              "goXRefs": [],
+              "pathwayXRefs": []
+            }
+          },
+          "locations": [
+            {
+              "start": 2,
+              "end": 193,
+              "representative": false,
+              "hmmStart": 2,
+              "hmmEnd": 193,
+              "hmmLength": 197,
+              "hmmBounds": "INCOMPLETE",
+              "evalue": 6.7e-77,
+              "score": 255.4,
+              "envelopeStart": 1,
+              "envelopeEnd": 197,
+              "postProcessed": true,
+              "location-fragments": [
+                {
+                  "start": 2,
+                  "end": 193,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 6.7e-77,
+          "score": 255.4,
+          "model-ac": "PIRSF001390"
+        },
+        {
+          "signature": {
+            "accession": "SSF52507",
+            "name": "Homo-oligomeric flavin-containing Cys decarboxylases, HFCD",
+            "description": null,
+            "type": "HOMOLOGOUS_SUPERFAMILY",
+            "signatureLibraryRelease": {
+              "library": "SUPERFAMILY",
+              "version": "1.75"
+            },
+            "entry": {
+              "accession": "IPR036551",
+              "name": "Flavin_trans-like",
+              "description": "Flavin prenyltransferase-like",
+              "type": "HOMOLOGOUS_SUPERFAMILY",
+              "goXRefs": [
+                {
+                  "name": "catalytic activity",
+                  "databaseName": "GO",
+                  "category": "MOLECULAR_FUNCTION",
+                  "id": "GO:0003824"
+                }
+              ],
+              "pathwayXRefs": [
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-DDI-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-SCE-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-MMU-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-HSA-196783"
+                },
+                {
+                  "name": "Interconversion of nucleotide di- and triphosphates",
+                  "databaseName": "Reactome",
+                  "id": "R-SPO-499943"
+                }
+              ]
+            }
+          },
+          "locations": [
+            {
+              "start": 5,
+              "end": 186,
+              "representative": false,
+              "hmmLength": 185,
+              "location-fragments": [
+                {
+                  "start": 5,
+                  "end": 186,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 1.44e-29,
+          "model-ac": "0036713"
+        },
+        {
+          "signature": {
+            "accession": "G3DSA:3.40.50.1950",
+            "name": "",
+            "description": null,
+            "type": "HOMOLOGOUS_SUPERFAMILY",
+            "signatureLibraryRelease": {
+              "library": "GENE3D",
+              "version": "4.3.0"
+            },
+            "entry": {
+              "accession": "IPR036551",
+              "name": "Flavin_trans-like",
+              "description": "Flavin prenyltransferase-like",
+              "type": "HOMOLOGOUS_SUPERFAMILY",
+              "goXRefs": [
+                {
+                  "name": "catalytic activity",
+                  "databaseName": "GO",
+                  "category": "MOLECULAR_FUNCTION",
+                  "id": "GO:0003824"
+                }
+              ],
+              "pathwayXRefs": [
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-DDI-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-SCE-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-MMU-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-HSA-196783"
+                },
+                {
+                  "name": "Interconversion of nucleotide di- and triphosphates",
+                  "databaseName": "Reactome",
+                  "id": "R-SPO-499943"
+                }
+              ]
+            }
+          },
+          "locations": [
+            {
+              "start": 1,
+              "end": 200,
+              "representative": true,
+              "hmmStart": 4,
+              "hmmEnd": 198,
+              "hmmLength": 201,
+              "hmmBounds": "COMPLETE",
+              "evalue": 3.4e-65,
+              "score": 221.3,
+              "envelopeStart": 1,
+              "envelopeEnd": 200,
+              "postProcessed": true,
+              "location-fragments": [
+                {
+                  "start": 1,
+                  "end": 200,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 3.1e-65,
+          "score": 221.4,
+          "model-ac": "3lqkA00"
+        },
+        {
+          "signature": {
+            "accession": "PF02441",
+            "name": "Flavoprotein",
+            "description": "Flavoprotein",
+            "type": "DOMAIN",
+            "signatureLibraryRelease": {
+              "library": "PFAM",
+              "version": "38.0"
+            },
+            "entry": {
+              "accession": "IPR003382",
+              "name": "Flavoprotein",
+              "description": "Flavoprotein",
+              "type": "DOMAIN",
+              "goXRefs": [
+                {
+                  "name": "catalytic activity",
+                  "databaseName": "GO",
+                  "category": "MOLECULAR_FUNCTION",
+                  "id": "GO:0003824"
+                }
+              ],
+              "pathwayXRefs": [
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-DDI-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-SCE-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-MMU-196783"
+                },
+                {
+                  "name": "Coenzyme A biosynthesis",
+                  "databaseName": "Reactome",
+                  "id": "R-HSA-196783"
+                },
+                {
+                  "name": "Interconversion of nucleotide di- and triphosphates",
+                  "databaseName": "Reactome",
+                  "id": "R-SPO-499943"
+                }
+              ]
+            }
+          },
+          "locations": [
+            {
+              "start": 7,
+              "end": 177,
+              "representative": false,
+              "hmmStart": 1,
+              "hmmEnd": 153,
+              "hmmLength": 162,
+              "hmmBounds": "N_TERMINAL_COMPLETE",
+              "evalue": 1.6e-26,
+              "score": 104.3,
+              "envelopeStart": 7,
+              "envelopeEnd": 191,
+              "postProcessed": true,
+              "location-fragments": [
+                {
+                  "start": 7,
+                  "end": 177,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 1.4e-26,
+          "score": 104.5,
+          "model-ac": "PF02441"
+        },
+        {
+          "signature": {
+            "accession": "TIGR02852",
+            "name": "spore_dpaB",
+            "description": "dipicolinate synthase subunit B",
+            "type": "FAMILY",
+            "signatureLibraryRelease": {
+              "library": "NCBIFAM",
+              "version": "17.0"
+            },
+            "entry": {
+              "accession": "IPR014214",
+              "name": "Dipicolinic_acid_synth_B",
+              "description": "Dipicolinic acid synthetase, subunit B",
+              "type": "FAMILY",
+              "goXRefs": [],
+              "pathwayXRefs": []
+            }
+          },
+          "locations": [
+            {
+              "start": 7,
+              "end": 193,
+              "representative": false,
+              "hmmStart": 1,
+              "hmmEnd": 187,
+              "hmmLength": 187,
+              "hmmBounds": "COMPLETE",
+              "evalue": 7.8e-101,
+              "score": 346.6,
+              "envelopeStart": 7,
+              "envelopeEnd": 193,
+              "postProcessed": false,
+              "location-fragments": [
+                {
+                  "start": 7,
+                  "end": 193,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 6.9e-101,
+          "score": 346.7,
+          "model-ac": "TIGR02852"
+        },
+        {
+          "signature": {
+            "accession": "NF006161",
+            "name": "PRK08305.1",
+            "description": "dipicolinate synthase subunit B",
+            "type": "FAMILY",
+            "signatureLibraryRelease": {
+              "library": "NCBIFAM",
+              "version": "17.0"
+            },
+            "entry": null
+          },
+          "locations": [
+            {
+              "start": 3,
+              "end": 195,
+              "representative": true,
+              "hmmStart": 2,
+              "hmmEnd": 194,
+              "hmmLength": 196,
+              "hmmBounds": "INCOMPLETE",
+              "evalue": 2.3e-96,
+              "score": 332.5,
+              "envelopeStart": 2,
+              "envelopeEnd": 197,
+              "postProcessed": false,
+              "location-fragments": [
+                {
+                  "start": 3,
+                  "end": 195,
+                  "dc-status": "CONTINUOUS"
+                }
+              ]
+            }
+          ],
+          "evalue": 2e-96,
+          "score": 332.8,
+          "model-ac": "NF006161"
+        }
+      ],
+      "xref": [
+        {
+          "name": "EMBOSS_001",
+          "id": "EMBOSS_001"
+        }
+      ]
+    }
+  ]
+}
