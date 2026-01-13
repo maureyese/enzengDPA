@@ -1,0 +1,8 @@
+Ligand,Residue,Interaction,Count
+UNK0,ASN132.A,VdWContact,1
+UNK0,GLY266.A,VdWContact,1
+UNK0,GLY269.A,HBAcceptor,1
+UNK0,GLY269.A,VdWContact,1
+UNK0,PHE123.A,VdWContact,1
+UNK0,PRO268.A,VdWContact,1
+UNK0,THR136.A,VdWContact,1

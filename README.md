@@ -98,6 +98,8 @@ For strictly reference-only:
 - ```files/WP_309331194_uniprot_fourth.png``` (Bacillus atrophaeus)
 - ```files/WP_254003724_uniprot_fifth.png``` (Bacillus velezensis)
 
+These procedures were replicated on ```subunit_a_workflow.ipynb``` and ```subunit_b_workflow.ipynb```.
+
 ## Activity 4: Predict A-B Complex Structure using Structure Predictive Algorithms
 
 The selected sequences of subunit A (GenBank: SPY12701.1; ```files/SPY12701_1_result.xml```) and subunit B (GenBank: QRQ54142.1; ```files/QRQ54142_1_result.xml```) were submitted to predict the three-dimensional complex structure using several algorithms hosted on the Tamarind Bio Platform: AlphaFold, ESMFold, Chai‑1, and Boltz‑2. The resulting complex structure was intended to be used for predicting a potential ligand-binding pocket. However, none of the algorithms successfully identified a stable complex structure. The output files are listed below:
@@ -129,19 +131,26 @@ Subsequently, we identified a relevant article by Yang et al. (2025), which anal
 We predicted the tridimensional structures of subunit A and subunit B using AlphaFold.
 
 Subunit A:
-- TODO: Write path
+- ```tamarind_results/subunit_a_alphafold.zip```
+- ```tamarind_results/subunit_a_alphafold_metrics.csv```
+- ```tamarind_results/subunit_a_alphafold_model.pdb```
 
 Subunit B:
-- TODO: Write path
+- ```tamarind_results/subunit_b_alphafold.zip```
+- ```tamarind_results/subunit_b_alphafold_metrics.csv```
+- ```tamarind_results/subunit_b_alphafold_model.pdb```
 
-To identify a potential binding pocket, the SMILES structure of the precursor of DPA, (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate (HTPA) was retrieved. The predicted structures were separately added to different algorithms along with the SMILES of ligand: Boltz-2, DiffDock, GNINA and Autodock Vina. TODO: Write briefly our findings. The output files are listed below:
+To identify a potential binding pocket, the SMILES structure of the precursor of DPA, (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate (HTPA) was retrieved. The predicted structures were separately added to different algorithms along with the SMILES of ligand: Boltz-2, DiffDock, and Autodock Vina. TODO: Write briefly our findings. The output files are listed below:
 
-Boltz-2:
+Autodock Vina 
 
-DiffDock:
+(Subunit A):
+- ```tamarind_results/subunit_a_autodock_vina.zip``` (Overall files)
+- ```tamarind_results/subunit_a_autodock_vina_log.txt``` (Log report)
+- ```tamarind_results/subunit_a_complex_autodock_vina.pdb``` (Complex file)
+- ```subunit_a_ligand_autodock_vina.pdbqt``` (ligand PDBQT file, also found in SDF)
 
-GNINA:
+(Subunit B):
 
-Autodock Vina:
 
 ## END

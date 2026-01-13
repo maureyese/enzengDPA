@@ -1,0 +1,15 @@
+Ligand,Residue,Interaction,Count
+UNK0,ASN49.A,VdWContact,1
+UNK0,ASP36.A,Hydrophobic,1
+UNK0,ASP36.A,HBDonor,1
+UNK0,ASP36.A,VdWContact,1
+UNK0,GLU81.A,VdWContact,1
+UNK0,GLY34.A,HBAcceptor,1
+UNK0,GLY34.A,HBDonor,1
+UNK0,GLY34.A,VdWContact,1
+UNK0,LEU32.A,VdWContact,1
+UNK0,LYS47.A,VdWContact,1
+UNK0,PHE35.A,HBAcceptor,1
+UNK0,PHE35.A,VdWContact,1
+UNK0,SER79.A,VdWContact,1
+UNK0,VAL33.A,VdWContact,1

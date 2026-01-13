@@ -1,0 +1,16 @@
+Running job w9yci
+
+Generating ESM language model embeddings
+Processing 1 of 1 batches (1 sequences)
+
+0it [00:00, ?it/s]/home/ubuntu/DiffDock/datasets/parse_chi.py:91: RuntimeWarning: invalid value encountered in cast
+  Y = indices.astype(int)
+1it [00:34, 34.15s/it]1it [00:34, 34.15s/it]
+rm: cannot remove 'DiffDock/receptor.pdb': No such file or directory
+rm: cannot remove 'DiffDock/ligand.sdf': No such file or directory
+1 molecule converted
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is out/receptor.pdb)
+
+1 molecule converted

@@ -1,0 +1,5 @@
+Ligand,Residue,Interaction,Count
+UNK0,ARG125.A,VdWContact,1
+UNK0,GLU290.A,VdWContact,1
+UNK0,LYS118.A,HBAcceptor,1
+UNK0,LYS118.A,VdWContact,1

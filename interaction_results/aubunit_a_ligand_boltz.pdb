@@ -1,0 +1,36 @@
+HEADER    
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+REMARK     285 UNITARY VALUES FOR THE UNIT CELL AUTOMATICALLY SET
+REMARK     285 BY MDANALYSIS PDBWRITER BECAUSE UNIT CELL INFORMATION
+REMARK     285 WAS MISSING.
+REMARK     285 PROTEIN DATA BANK CONVENTIONS REQUIRE THAT
+REMARK     285 CRYST1 RECORD IS INCLUDED, BUT THE VALUES ON
+REMARK     285 THIS RECORD ARE MEANINGLESS.
+HETATM    1  O10 LIG B   1      -2.865  -0.427  -2.062  1.00 39.90      B    O  
+HETATM    2  C16 LIG B   1      -1.863   0.102  -1.578  1.00 41.49      B    C  
+HETATM    3  O13 LIG B   1      -1.743   1.326  -1.519  1.00 40.89      B    O  
+HETATM    4  C18 LIG B   1      -0.759  -0.778  -1.046  1.00 41.37      B    C  
+HETATM    5  N12 LIG B   1      -0.888  -2.097  -1.089  1.00 41.32      B    N  
+HETATM    6  C22 LIG B   1       0.178  -3.002  -0.720  1.00 43.93      B    C  
+HETATM    7  C17 LIG B   1      -0.391  -4.346  -0.212  1.00 47.59      B    C  
+HETATM    8  O11 LIG B   1       0.021  -4.833   0.837  1.00 43.90      B    O  
+HETATM    9  O14 LIG B   1      -1.207  -4.925  -0.904  1.00 40.84      B    O  
+HETATM   10  C20 LIG B   1       1.162  -2.375   0.237  1.00 48.87      B    C  
+HETATM   11  C21 LIG B   1       1.599  -1.047  -0.269  1.00 49.54      B    C  
+HETATM   12  O15 LIG B   1       2.538  -0.468   0.615  1.00 46.40      B    O  
+HETATM   13  C19 LIG B   1       0.436  -0.131  -0.457  1.00 50.85      B    C  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5   13
+CONECT    5    4    6
+CONECT    6    5    7   10
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7
+CONECT   10    6   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13    4   11
+END
