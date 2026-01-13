@@ -1,0 +1,10 @@
+Ligand,Residue,Interaction,Count
+UNK0,ASN44.A,HBAcceptor,1
+UNK0,ASN44.A,VdWContact,1
+UNK0,ASN97.A,VdWContact,1
+UNK0,ASP108.A,VdWContact,1
+UNK0,LYS101.A,HBAcceptor,1
+UNK0,LYS101.A,VdWContact,1
+UNK0,PHE43.A,VdWContact,1
+UNK0,SER98.A,VdWContact,1
+UNK0,THR42.A,VdWContact,1

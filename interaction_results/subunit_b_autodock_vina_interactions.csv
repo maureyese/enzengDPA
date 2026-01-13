@@ -1,0 +1,7 @@
+Ligand,Residue,Interaction,Count
+UNK0,ASN150.A,HBAcceptor,1
+UNK0,ASN150.A,VdWContact,1
+UNK0,ILE151.A,HBDonor,1
+UNK0,ILE151.A,VdWContact,1
+UNK0,MET146.A,VdWContact,1
+UNK0,THR148.A,VdWContact,1
