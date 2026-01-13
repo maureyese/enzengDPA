@@ -2,13 +2,13 @@
 
 This repository corresponds to one of the five computational biology analyses of the DPAHelix project in the GOGEC Competition of 2026.
 
+- **DPAHelix Members involved (No specific order)**: Andrea Catalina Lozano Garza, Miguel Angel Cerino Espinosa, Naomi Lizeth Renovato Castorena.
+- **Advisor**: LBG Mauricio Reyes-Elizondo
+- **PI**: Dr J Claudio Moreno-Rocha
+
 > **Initial objective (Later modified)**: Improve the catalytic activity of DPA synthase through multiple alignment, molecular docking and directed mutagenesis.
 
-We worked using VS Code, along with the WSL extension (Ubuntu 22.04) as our development environmnet (Only-Windows users).
-
-1. WSL Installation: https://learn.microsoft.com/en-us/windows/wsl/install
-2. VS Code Installation: https://code.visualstudio.com/docs/setup/windows#_install-vs-code-on-windows
-3. WSL extension on VS Code: https://code.visualstudio.com/docs/remote/wsl
+The analysis was mostly conducted on databases or web platforms. Nonetheless, a code version of this workflow was created for reproducibility, run on Google Colab and Ubuntu through WSL.
 
 ## Workflow
 
