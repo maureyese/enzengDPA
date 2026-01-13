@@ -43,19 +43,19 @@ Considerations:
 
 Given the lack of available data regarding quantitative catalytic information or a list of active site amino acids of the DPA synthase in the selected databases, we modified our objective **to identify potential catalytically relevant amino acids using comparative bioinformatics.** The identified highly conserved residues will serve as the candidate list for targeted mutagenesis experiments to improve catalytic activity.
 
-We accessed to NCBI and identified template sequences of subunit A (GenBank: SPY12701.1; ```files/SPY12701_1_result.xml```) and subunit B (GenBank: QRQ54142.1; ```files/QRQ54142_1_result.xml```) from _Bacillus subtilis_. Each template was queried in Protein-BLAST to identify similar sequences. The results provided a table of 100 sequences per each subunit. For biosafety explanation, we strictly used the 100 sequences only for referencing potential conserved regions in the original sequence (MSA and InterPro Analysis).
+We accessed to NCBI and identified template sequences of subunit A (GenBank: SPY12701.1; ```msa_results/SPY12701_1_result.xml```) and subunit B (GenBank: QRQ54142.1; ```msa_results/QRQ54142_1_result.xml```) from _Bacillus subtilis_. Each template was queried in Protein-BLAST to identify similar sequences. The results provided a table of 100 sequences per each subunit. For biosafety explanation, we strictly used the 100 sequences only for referencing potential conserved regions in the original sequence (MSA and InterPro Analysis).
 
 Results from Subunit A:
 
-- BLAST XML File: ```files/PAXKDZ9J016_results.xml```
-- BLAST DataFrame File: ```files/PAXKDZ9J016_results.csv```
-- BLAST FASTA File: ```files/PAXKDZ9J016_blast.fasta```
+- BLAST XML File: ```msa_results/PAXKDZ9J016_results.xml```
+- BLAST DataFrame File: ```msa_results/PAXKDZ9J016_results.csv```
+- BLAST FASTA File: ```msa_results/PAXKDZ9J016_blast.fasta```
 
 Results from Subunit B:
 
-- BLAST XML File: ```files/PAMZAJN8016_results.xml```
-- BLAST DataFrame File: ```files/PAMZAJN8016_results.csv```
-- BLAST FASTA File: ```files/PAMZAJN8016_blast.fasta```
+- BLAST XML File: ```msa_results/PAMZAJN8016_results.xml```
+- BLAST DataFrame File: ```msa_results/PAMZAJN8016_results.csv```
+- BLAST FASTA File: ```msa_results/PAMZAJN8016_blast.fasta```
 
 ## Activity 3: Multiple Sequence Alignment (MSA) and InterProScan
 
@@ -68,41 +68,41 @@ sudo apt-get install clustalo
 
 Results from Subunit A:
 
-- ```files/PAXKDZ9J016_msa_10_sequences.png``` (n sequences = 10, 25, 50, 75, 101)
+- ```msa_results/PAXKDZ9J016_msa_10_sequences.png``` (n sequences = 10, 25, 50, 75, 101)
 
 Results from Subunit A:
 
-- ```files/PAMZAJN8016_msa_10_sequences.png``` (n sequences = 10, 25, 50, 75, 101)
+- ```msa_results/PAMZAJN8016_msa_10_sequences.png``` (n sequences = 10, 25, 50, 75, 101)
 
 Additionally, we ran the InterProScan tool to identify conserved functional domains within DPA synthase. For this analysis, we queried our _B. subtilis_ subunit-A and subunit-B sequences separately, using the top 5 most homologous sequences retrieved from the previous BLAST searches as supplementary context for domain identification.
 
 Results from Subunit A:
 
-- ```files/SPY12701_1_uniprot_principal.png``` (Our query sequence)
+- ```msa_results/SPY12701_1_uniprot_principal.png``` (Our query sequence)
 
 For strictly reference-only:
 
-- ```files/WP_333517570_uniprot_second.png``` (Bacillus sp. 0102A)
-- ```files/WP_277780810_uniprot_third.png```(Bacillus atrophaeus)
+- ```msa_results/WP_333517570_uniprot_second.png``` (Bacillus sp. 0102A)
+- ```msa_results/WP_277780810_uniprot_third.png```(Bacillus atrophaeus)
 - fourth file was not exported properly (UniProt Status: Failure)
-- ```files/WP_243940340_uniprot_fifth.png``` (MULTISPECIES Bacillus)
+- ```msa_results/WP_243940340_uniprot_fifth.png``` (MULTISPECIES Bacillus)
 
 Results from Subunit B:
 
-- ```files/QRQ54142_1_uniprot_principal.png``` (Our query sequence)
+- ```msa_results/QRQ54142_1_uniprot_principal.png``` (Our query sequence)
 
 For strictly reference-only:
 
-- ```files/WP_187002230_uniprot_second.png``` (Bacillus subtilis)
-- ```files/WP_306012148_uniprot_third.png``` (Bacillus pumilus)
-- ```files/WP_309331194_uniprot_fourth.png``` (Bacillus atrophaeus)
-- ```files/WP_254003724_uniprot_fifth.png``` (Bacillus velezensis)
+- ```msa_results/WP_187002230_uniprot_second.png``` (Bacillus subtilis)
+- ```msa_results/WP_306012148_uniprot_third.png``` (Bacillus pumilus)
+- ```msa_results/WP_309331194_uniprot_fourth.png``` (Bacillus atrophaeus)
+- ```msa_results/WP_254003724_uniprot_fifth.png``` (Bacillus velezensis)
 
 These procedures were replicated on ```subunit_a_workflow.ipynb``` and ```subunit_b_workflow.ipynb```.
 
 ## Activity 4: Predict A-B Complex Structure using Structure Predictive Algorithms
 
-The selected sequences of subunit A (GenBank: SPY12701.1; ```files/SPY12701_1_result.xml```) and subunit B (GenBank: QRQ54142.1; ```files/QRQ54142_1_result.xml```) were submitted to predict the three-dimensional complex structure using several algorithms hosted on the Tamarind Bio Platform: AlphaFold, ESMFold, Chai‑1, and Boltz‑2. The resulting complex structure was intended to be used for predicting a potential ligand-binding pocket. However, none of the algorithms successfully identified a stable complex structure. The output files are listed below:
+The selected sequences of subunit A (GenBank: SPY12701.1; ```msa_results/SPY12701_1_result.xml```) and subunit B (GenBank: QRQ54142.1; ```msa_results/QRQ54142_1_result.xml```) were submitted to predict the three-dimensional complex structure using several algorithms hosted on the Tamarind Bio Platform: AlphaFold, ESMFold, Chai‑1, and Boltz‑2. The resulting complex structure was intended to be used for predicting a potential ligand-binding pocket. However, none of the algorithms successfully identified a stable complex structure. The output files are listed below:
 
 AlphaFold:
 - ```tamarind_results/complex_alphafold.zip``` (Overall files)
@@ -140,17 +140,52 @@ Subunit B:
 - ```tamarind_results/subunit_b_alphafold_metrics.csv```
 - ```tamarind_results/subunit_b_alphafold_model.pdb```
 
-To identify a potential binding pocket, the SMILES structure of the precursor of DPA, (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate (HTPA) was retrieved. The predicted structures were separately added to different algorithms along with the SMILES of ligand: Boltz-2, DiffDock, and Autodock Vina. TODO: Write briefly our findings. The output files are listed below:
+To identify a potential binding pocket, the SMILES structure of the precursor of DPA, (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate (HTPA) was retrieved. The predicted structures were separately added to different algorithms along with the SMILES of ligand: Boltz-2, DiffDock, and Autodock Vina. The output files are listed below:
 
-Autodock Vina 
+Here are the corrected file names for each docking algorithm:
+
+**Autodock Vina**
 
 (Subunit A):
-- ```tamarind_results/subunit_a_autodock_vina.zip``` (Overall files)
-- ```tamarind_results/subunit_a_autodock_vina_log.txt``` (Log report)
-- ```tamarind_results/subunit_a_complex_autodock_vina.pdb``` (Complex file)
-- ```subunit_a_ligand_autodock_vina.pdbqt``` (ligand PDBQT file, also found in SDF)
+- `tamarind_results/subunit_a_autodock_vina.zip` (Overall files)
+- `tamarind_results/subunit_a_autodock_vina_log.txt` (Log report)
+- `tamarind_results/subunit_a_complex_autodock_vina.pdb` (Complex PDB file)
+- `subunit_a_ligand_autodock_vina.sdf` (Ligand file)
 
 (Subunit B):
+- `tamarind_results/subunit_b_autodock_vina.zip`
+- `tamarind_results/subunit_b_autodock_vina_log.txt`
+- `tamarind_results/subunit_b_complex_autodock_vina.pdb`
+- `subunit_b_ligand_autodock_vina.sdf`
 
+**DiffDock**
+
+(Subunit A):
+- `tamarind_results/subunit_a_diffdock.zip`
+- `tamarind_results/subunit_a_diffdock_log.log`
+- `tamarind_results/subunit_a_complex_diffdock.pdb`
+- `subunit_a_ligand_diffdock.sdf`
+
+(Subunit B):
+- `tamarind_results/subunit_b_diffdock.zip`
+- `tamarind_results/subunit_b_diffdock_log.txt`
+- `tamarind_results/subunit_b_complex_diffdock.pdb`
+- `subunit_b_ligand_diffdock.sdf`
+
+**Boltz-2** (Ligand files were retrieved from complex PDB file)
+
+(Subunit A):
+- `tamarind_results/subunit_a_boltz.zip`
+- `tamarind_results/subunit_a_boltz_log.log`
+- `tamarind_results/subunit_a_complex_boltz.pdb`
+- `subunit_a_ligand_boltz.sdf`
+
+(Subunit B):
+- `tamarind_results/subunit_b_boltz.zip`
+- `tamarind_results/subunit_b_boltz_log.txt`
+- `tamarind_results/subunit_b_complex_boltz.pdb`
+- `subunit_b_ligand_boltz.sdf`
+
+The binding poses from all docking algorithms (Autodock Vina, DiffDock, and Boltz) for both subunits were analyzed using the ProLIF (Protein-Ligand Interaction Fingerprints) Python Library to retrieve detailed molecular interaction data.The output results of interactions were stored in `interaction_results/`.
 
 ## END
